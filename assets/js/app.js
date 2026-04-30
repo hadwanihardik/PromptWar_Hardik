@@ -152,6 +152,8 @@ const App = (() => {
       return `
         <div class="badge-item ${earned ? 'badge-item--earned' : 'badge-item--locked'}" title="${badgeName}${earned ? ' ✅' : ' 🔒'}">
           ${badge.icon}
+        </div>
+      `;
     }).join('');
   }
 
