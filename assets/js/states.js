@@ -182,7 +182,11 @@ const States = (() => {
       content.innerHTML = `
         <div class="members-grid">
           ${stateMembers.map(m => `
-            <div class="member-card" ${m.house === 'lokSabha' ? `onclick="States.showMemberDetails(${m.id}, '${m.house}')" style="cursor:pointer;" title="Click for details"` : ''}>
+            <div class="member-card" 
+              ${m.house === 'lokSabha' ? `
+                onclick="States.showMemberDetails(${m.id}, '${m.house}')" 
+                onmouseenter="States.prefetchDetails(${m.id})"
+                style="cursor:pointer;" title="Click for details"` : ''}>
               <div class="member-card__photo" style="background-image: url('${m.photo ? 'https://wsrv.nl/?url=' + encodeURIComponent(m.photo) : 'https://wsrv.nl/?url=sansad.in/images/default_photo.jpg'}')"></div>
               <div class="member-card__info">
                 <h4 class="member-card__name">${m.name}</h4>
@@ -204,6 +208,23 @@ const States = (() => {
     if (chart && currentView === 'map') chart.setSelection([]); // clear selection
   }
 
+  const detailsCache = {}; // In-memory cache for the current session
+
+  async function prefetchDetails(mpCode) {
+    // If already cached or prefetching, skip
+    if (detailsCache[mpCode] || localStorage.getItem(`vw-mp-${mpCode}`)) return;
+    
+    // Low priority fetch in background
+    try {
+      const response = await fetch(`https://sansad.in/api_ls/member/${mpCode}?locale=en`);
+      if (response.ok) {
+        const data = await response.json();
+        detailsCache[mpCode] = data;
+        localStorage.setItem(`vw-mp-${mpCode}`, JSON.stringify(data));
+      }
+    } catch (e) { /* ignore prefetch errors */ }
+  }
+
   async function showMemberDetails(mpCode, house) {
     if (house !== 'lokSabha') return;
     
@@ -215,12 +236,28 @@ const States = (() => {
     const title = document.getElementById('members-modal-title');
     const content = document.getElementById('members-modal-content');
 
+    // 1. Check in-memory cache first
+    if (detailsCache[mpCode]) {
+      renderDetails(detailsCache[mpCode], m);
+      return;
+    }
+
+    // 2. Check localStorage cache for persistence
+    const savedData = localStorage.getItem(`vw-mp-${mpCode}`);
+    if (savedData) {
+      try {
+        const parsed = JSON.parse(savedData);
+        detailsCache[mpCode] = parsed;
+        renderDetails(parsed, m);
+        return;
+      } catch (e) { localStorage.removeItem(`vw-mp-${mpCode}`); }
+    }
+
     // Show loading state
     title.innerHTML = `<button onclick="States.showMembers('${m.state}')" style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:1rem;margin-right:8px;">← Back</button> Member Details`;
     content.innerHTML = `<div style="text-align:center; padding:40px; color:var(--text-secondary);"><div class="spinner"></div><br>Loading details from sansad.in...</div>`;
     
     try {
-      // First try direct fetch
       let data = null;
       try {
         const response = await fetch(`https://sansad.in/api_ls/member/${mpCode}?locale=en`);
@@ -236,8 +273,29 @@ const States = (() => {
 
       if (!data) throw new Error("No data returned");
 
-      // Format emails removing anti-spam brackets
-      let emailStr = (data.email || '').replace(/\[at\]/g, '@').replace(/\[dot\]/g, '.').replace(/<br>/g, ', ');
+      // Save to cache
+      detailsCache[mpCode] = data;
+      localStorage.setItem(`vw-mp-${mpCode}`, JSON.stringify(data));
+
+      renderDetails(data, m);
+    } catch (err) {
+      content.innerHTML = `
+        <div style="text-align:center; padding:40px;">
+          <p style="color:var(--red-light); margin-bottom:16px;">❌ Could not load details.</p>
+          <button class="btn btn--secondary" onclick="States.showMemberDetails(${mpCode}, '${house}')">Retry</button>
+        </div>
+      `;
+    }
+  }
+
+  function renderDetails(data, m) {
+    const title = document.getElementById('members-modal-title');
+    const content = document.getElementById('members-modal-content');
+
+    title.innerHTML = `<button onclick="States.showMembers('${m.state}')" style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:1rem;margin-right:8px;">← Back</button> Member Details`;
+
+    // Format emails removing anti-spam brackets
+    let emailStr = (data.email || '').replace(/\[at\]/g, '@').replace(/\[dot\]/g, '.').replace(/<br>/g, ', ');
 
       content.innerHTML = `
         <div class="member-detail">
@@ -333,5 +391,5 @@ const States = (() => {
     }
   });
 
-  return { init, setHouse, setView, showMembers, closeMembers, showMemberDetails };
+  return { init, setHouse, setView, showMembers, closeMembers, showMemberDetails, prefetchDetails };
 })();
