@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AI-powered interactive election process education assistant. Learn about voting, registration, and civic participation through quizzes and guided journeys.">
+  <title>🗳️ Election Process Education Assistant</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Background Decoration -->
+  <div class="bg-decoration">
+    <div class="bg-orb bg-orb--1"></div>
+    <div class="bg-orb bg-orb--2"></div>
+    <div class="bg-orb bg-orb--3"></div>
+  </div>
+
+  <div class="app">
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+      <a href="#" class="navbar__logo" onclick="App.navigate('home')">
+        <span class="navbar__logo-icon">🗳️</span>
+        <span>VoteWise</span>
+      </a>
+      <div class="navbar__nav">
+        <button class="navbar__link navbar__link--active" data-page="home" onclick="App.navigate('home')" id="nav-home">Home</button>
+        <button class="navbar__link" data-page="quiz" onclick="App.navigate('quiz')" id="nav-quiz">Quiz</button>
+        <button class="navbar__link" data-page="journey" onclick="App.navigate('journey')" id="nav-journey">Journey</button>
+        <button class="navbar__link" data-page="assistant" onclick="App.navigate('assistant')" id="nav-assistant">Assistant</button>
+        <button class="navbar__link" data-page="dashboard" onclick="App.navigate('dashboard')" id="nav-dashboard">Progress</button>
+      </div>
+      <div class="navbar__xp" id="xp-display">⭐ <span id="xp-value">0</span> XP</div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main">
+
+      <!-- HOME PAGE -->
+      <section class="page page--active" id="page-home">
+        <div class="hero">
+          <div class="hero__badge">🚀 AI-Powered Civic Education</div>
+          <h1 class="hero__title">Master the <span>Election Process</span></h1>
+          <p class="hero__subtitle">Your personal civic tutor — learn through interactive quizzes, guided journeys, and an AI assistant that adapts to you.</p>
+        </div>
+        <div class="mode-grid">
+          <div class="mode-card" onclick="App.navigate('quiz')" id="card-quiz">
+            <div class="mode-card__icon mode-card__icon--quiz">🎮</div>
+            <h3 class="mode-card__title">Interactive Quiz</h3>
+            <p class="mode-card__desc">Test your knowledge with adaptive questions that get harder as you improve. Earn XP and badges!</p>
+          </div>
+          <div class="mode-card" onclick="App.navigate('journey')" id="card-journey">
+            <div class="mode-card__icon mode-card__icon--journey">🗺️</div>
+            <h3 class="mode-card__title">Election Journey</h3>
+            <p class="mode-card__desc">Walk through the complete election process step-by-step — from registration to casting your vote.</p>
+          </div>
+          <div class="mode-card" onclick="App.navigate('assistant')" id="card-assistant">
+            <div class="mode-card__icon mode-card__icon--assistant">🤖</div>
+            <h3 class="mode-card__title">Ask the Assistant</h3>
+            <p class="mode-card__desc">Got questions? Our AI-powered assistant explains complex election concepts in simple language.</p>
+          </div>
+        </div>
+        <div class="stats-bar" id="home-stats">
+          <div class="stat">
+            <div class="stat__value stat__value--accent" id="stat-quizzes">0</div>
+            <div class="stat__label">Quizzes Taken</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value stat__value--amber" id="stat-xp">0</div>
+            <div class="stat__label">XP Earned</div>
+          </div>
+          <div class="stat">
+            <div class="stat__value stat__value--green" id="stat-accuracy">0%</div>
+            <div class="stat__label">Accuracy</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- QUIZ PAGE -->
+      <section class="page" id="page-quiz">
+        <div class="quiz-header">
+          <h2 style="font-size:1.2rem;">📝 Quiz Mode</h2>
+          <div class="quiz-progress">
+            <div class="quiz-progress__bar"><div class="quiz-progress__fill" id="quiz-progress-fill" style="width:0%"></div></div>
+            <div class="quiz-progress__text" id="quiz-progress-text">Question 1 of 10</div>
+          </div>
+          <div class="quiz-score" id="quiz-score-display">⭐ 0 pts</div>
+        </div>
+        <div id="quiz-container">
+          <!-- Dynamically filled by quiz.js -->
+        </div>
+      </section>
+
+      <!-- JOURNEY PAGE -->
+      <section class="page" id="page-journey">
+        <h2 style="text-align:center; margin-bottom:8px;">🗺️ Your Election Journey</h2>
+        <p style="text-align:center; color:var(--text-secondary); margin-bottom:32px;">Follow these steps to become a confident voter</p>
+        <div class="journey-stepper" id="journey-stepper">
+          <!-- Dynamically filled by journey.js -->
+        </div>
+        <div id="journey-content-area">
+          <!-- Dynamically filled by journey.js -->
+        </div>
+      </section>
+
+      <!-- ASSISTANT PAGE -->
+      <section class="page" id="page-assistant">
+        <div class="chat" id="chat-container">
+          <div class="chat__messages" id="chat-messages">
+            <!-- Dynamically filled by assistant.js -->
+          </div>
+          <div class="chat__chips" id="chat-chips">
+            <button class="chat-chip" onclick="Assistant.sendChip(this)">What documents do I need to vote?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)">How do I register as a voter?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)">What is NOTA?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)">Explain the EVM process</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)">What are my rights as a voter?</button>
+          </div>
+          <div class="chat__input-bar">
+            <input type="text" class="chat__input" id="chat-input" placeholder="Ask anything about elections..." onkeydown="if(event.key==='Enter')Assistant.send()">
+            <button class="chat__send" onclick="Assistant.send()" id="chat-send-btn">➤</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- DASHBOARD PAGE -->
+      <section class="page" id="page-dashboard">
+        <h2 style="text-align:center; margin-bottom:8px;">📊 Your Progress</h2>
+        <p style="text-align:center; color:var(--text-secondary); margin-bottom:32px;">Track your learning journey</p>
+        <div class="dashboard-grid">
+          <div class="dash-card">
+            <div class="dash-card__icon">⭐</div>
+            <div class="dash-card__value stat__value--amber" id="dash-xp">0</div>
+            <div class="dash-card__label">Total XP</div>
+          </div>
+          <div class="dash-card">
+            <div class="dash-card__icon">📝</div>
+            <div class="dash-card__value stat__value--accent" id="dash-quizzes">0</div>
+            <div class="dash-card__label">Quizzes Completed</div>
+          </div>
+          <div class="dash-card">
+            <div class="dash-card__icon">🎯</div>
+            <div class="dash-card__value stat__value--green" id="dash-accuracy">0%</div>
+            <div class="dash-card__label">Accuracy</div>
+          </div>
+          <div class="dash-card">
+            <div class="dash-card__icon">🔥</div>
+            <div class="dash-card__value stat__value--accent" id="dash-streak">0</div>
+            <div class="dash-card__label">Best Streak</div>
+          </div>
+        </div>
+        <h3 style="text-align:center; margin-bottom:16px;">🏆 Badges</h3>
+        <div class="badges-grid" id="badges-container">
+          <!-- Dynamically filled -->
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/data/questions.js"></script>
+  <script src="assets/js/gemini.js"></script>
+  <script src="assets/js/quiz.js"></script>
+  <script src="assets/js/journey.js"></script>
+  <script src="assets/js/assistant.js"></script>
+  <script src="assets/js/maps.js"></script>
+  <script src="assets/js/calendar.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
