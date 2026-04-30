@@ -11,7 +11,7 @@ const Assistant = (() => {
     conversationHistory = [];
     const messages = document.getElementById('chat-messages');
     messages.innerHTML = '';
-    addBotMessage('👋 Hello! I\'m **VoteWise**, your AI election education assistant.\n\nI can help you with:\n• 📋 Voter registration\n• 📄 Required documents\n• 🗳️ Voting process & EVMs\n• ✋ Your rights as a voter\n• 📍 Finding polling stations\n\nAsk me anything about elections!');
+    addBotMessage('👋 Hello! I\'m **VoteWise**, your AI election education assistant.\n\nI can help you with:\n• 📋 Voter registration\n• 📄 Required documents\n• 🗳️ Voting process & EVMs\n• ✋ Your rights as a voter\n• 📍 Finding polling stations\n• 🏛️ Parliament leaders\n\nAsk me anything about elections!');
   }
 
   function send() {

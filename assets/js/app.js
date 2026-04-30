@@ -19,9 +19,16 @@ const App = (() => {
   let state = {};
 
   function init() {
-    loadState();
+    state = loadState();
+    Theme.init();
+    I18n.init();
     updateUI();
-    navigate('home');
+    
+    // Check if URL has a page hash
+    const hash = window.location.hash.replace('#', '');
+    if (hash) navigate(hash);
+    else navigate('home');
+    
     console.log('🗳️ VoteWise Election Education Assistant loaded!');
   }
 
@@ -29,6 +36,7 @@ const App = (() => {
     try {
       const saved = localStorage.getItem(STATE_KEY);
       state = saved ? { ...defaultState, ...JSON.parse(saved) } : { ...defaultState };
+      return state;
     } catch {
       state = { ...defaultState };
     }
@@ -61,6 +69,8 @@ const App = (() => {
     switch (page) {
       case 'quiz': Quiz.start(); break;
       case 'journey': Journey.init(); break;
+      case 'leaders': Leaders.init(); break;
+      case 'states': States.init(); break;
       case 'assistant': Assistant.init(); break;
       case 'dashboard': renderDashboard(); break;
       case 'home': updateUI(); break;
@@ -76,7 +86,7 @@ const App = (() => {
       : 0;
 
     // XP displays
-    const xpEls = ['xp-value', 'stat-xp', 'dash-xp'];
+    const xpEls = ['xp-value', 'xp-value-sidebar', 'stat-xp', 'dash-xp'];
     xpEls.forEach(id => {
       const el = document.getElementById(id);
       if (el) el.textContent = state.totalXP || 0;

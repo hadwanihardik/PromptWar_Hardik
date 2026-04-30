@@ -62,6 +62,42 @@ const Journey = (() => {
       `,
       actions: [
         { label: '🔍 Check Electoral Roll', type: 'link', url: 'https://electoralsearch.eci.gov.in' },
+        { label: 'Next: Model Code of Conduct →', type: 'next' }
+      ]
+    },
+    {
+      title: 'Model Code of Conduct & cVIGIL',
+      icon: '🛡️',
+      content: `
+        <p>Before elections, a set of guidelines called the <strong>Model Code of Conduct (MCC)</strong> comes into force to ensure free and fair elections.</p>
+        <ul>
+          <li>Politicians cannot announce new financial grants or make promises that influence voters.</li>
+          <li>Use of official government machinery for campaigning is strictly prohibited.</li>
+          <li>No campaigning is allowed based on caste or religion.</li>
+        </ul>
+        <p style="margin-top:16px;"><strong>Empowering Citizens:</strong></p>
+        <p>You can report MCC violations anonymously using the Election Commission's <strong>cVIGIL app</strong>. Take a photo or 2-minute video of illegal money distribution, hate speech, or liquor distribution, and authorities will respond within 100 minutes!</p>
+        <p style="margin-top:16px; color:var(--accent-light);">💡 <strong>Tip:</strong> The cVIGIL app empowers every citizen to act as an election observer.</p>
+      `,
+      actions: [
+        { label: '📱 Get cVIGIL App', type: 'link', url: 'https://cvigil.eci.gov.in/' },
+        { label: 'Next: EVM & VVPAT →', type: 'next' }
+      ]
+    },
+    {
+      title: 'Understanding EVM & VVPAT',
+      icon: '📠',
+      content: `
+        <p>India uses Electronic Voting Machines (EVMs) to record votes. It has two main components at the booth:</p>
+        <ul>
+          <li><strong>Ballot Unit (BU):</strong> Contains the names and symbols of candidates. You press the blue button next to your choice.</li>
+          <li><strong>VVPAT:</strong> Voter Verifiable Paper Audit Trail. A transparent machine that prints a paper slip of your vote.</li>
+        </ul>
+        <p style="margin-top:16px;"><strong>How to verify your vote:</strong></p>
+        <p>When you press the button, the VVPAT will print a slip showing the serial number, name, and symbol of your chosen candidate. This slip is visible through a glass window for <strong>7 seconds</strong> before it drops into a sealed drop-box.</p>
+        <p style="margin-top:16px; color:var(--amber-light);">⚠️ <strong>NOTA:</strong> If you don't want to vote for any candidate, press the "None of the Above" (NOTA) button at the bottom of the list.</p>
+      `,
+      actions: [
         { label: 'Next: Find Polling Station →', type: 'next' }
       ]
     },
