@@ -1,6 +1,6 @@
 # 🗳️ VoteWise — Election Process Education Assistant
 
-> An AI-powered interactive web assistant that teaches citizens about the Indian election process through gamified quizzes, guided journeys, and an intelligent chatbot.
+> An AI-powered interactive web assistant that teaches citizens about the Indian election process through gamified quizzes, guided journeys, localized content, and an intelligent chatbot.
 
 ---
 
@@ -27,7 +27,9 @@ This leads to:
 
 - 🎮 **Gamified Quizzes** — 65+ adaptive questions across 3 difficulty levels
 - 🗺️ **Election Journey Simulator** — 5-step guided walkthrough from eligibility to voting day
+- 🏛️ **Parliament Leaders & States Map** — Explore members of parliament and state seat distributions
 - 🤖 **AI Chat Assistant** — Gemini-powered contextual Q&A about elections
+- 🌍 **Multi-language Support** — Full localization in English, Hindi, Gujarati, and Marathi
 - 📊 **Progress Dashboard** — XP points, streaks, and 10 earnable badges
 
 ---
@@ -49,17 +51,36 @@ This leads to:
   5. 🗳️ Voting Day Guide
 - Interactive buttons for Google Maps and Calendar integration
 
-### 3. Smart AI Assistant (Gemini-powered)
+### 3. Parliament & States Exploration
+- **Leaders Tab**: Meet the current leaders of Lok Sabha & Rajya Sabha — their roles, powers, and constitutional responsibilities.
+- **States Map**: Interactive map (via Google Charts) showing how Parliament seats are distributed across India's States and UTs. Clicking a state reveals the list of its members.
+
+### 4. Smart AI Assistant (Gemini-powered)
 - Natural language Q&A about election topics
 - Typing animation and conversation history
 - Pre-filled suggestion chips for common questions
 - **Offline fallback** — comprehensive local knowledge base works without API key
 
-### 4. Progress Dashboard
-- Total XP, quizzes completed, accuracy tracking
-- Best streak display
-- 10 earnable badges (First Quiz, 80% Accuracy, Streak of 5, etc.)
-- Persistent progress via localStorage
+### 5. Multi-Language & Progress System
+- **Real-time Localization**: Seamlessly switch between English, Hindi, Gujarati, and Marathi. Translates UI elements, member constituencies, party names, and even uses localized numerals (e.g., १, २, ૩, ૪).
+- **Progress Dashboard**: Total XP, quizzes completed, accuracy tracking, best streak display, and 10 earnable badges.
+- Persistent progress via `localStorage`.
+
+---
+
+## ⚙️ How to Use the Web App
+
+1. **Launch the App**: Simply open `index.html` in any modern web browser (no server needed).
+2. **Choose Your Language**: Use the language selector (`EN`, `HI`, `GU`, `MR`) in the top navigation bar to translate the entire app instantly.
+3. **Toggle Theme**: Click the moon/sun icon in the top right to switch between Dark Mode and Light Mode.
+4. **Navigate**: Use the navigation bar (or hamburger menu on mobile) to switch between:
+   - **Home**: View your progress and select a module.
+   - **Quiz**: Test your election knowledge and earn XP.
+   - **Journey**: Follow the interactive voter registration guide.
+   - **Leaders**: Learn about key figures in the Lok Sabha and Rajya Sabha.
+   - **States Map**: Hover over states to see seat distributions, and click to view the local Members of Parliament.
+   - **Assistant**: Chat with the Gemini-powered AI to ask specific election questions.
+   - **Progress**: View your XP, accuracy, and unlocked badges.
 
 ---
 
@@ -68,50 +89,9 @@ This leads to:
 | Service | Usage | Implementation |
 |---|---|---|
 | **Gemini API** | AI assistant responses + contextual quiz explanations | REST calls to `generativelanguage.googleapis.com` |
+| **Google Charts** | Interactive geo-map of Indian states | `gstatic.com/charts/loader.js` |
 | **Google Maps** | Find nearest polling stations with geolocation | Maps embed/deep link with user's coordinates |
 | **Google Calendar** | Add election day reminders with voting checklist | Calendar event creation via deep link |
-
----
-
-## 🧠 System Architecture
-
-```
-┌─────────────────────────────────────────┐
-│              Input Layer                │
-│  User queries • Quiz answers • Profile  │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│          Decision Layer (Core)          │
-│  Intent classification • Quiz engine    │
-│  Adaptive difficulty • Gemini API       │
-│  Knowledge retrieval • State manager    │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│             Output Layer                │
-│  Quiz questions • Explanations          │
-│  Step-by-step guidance • Chat responses │
-│  Maps • Calendar events • Badges        │
-└────────────────┬────────────────────────┘
-                 │
-┌────────────────▼────────────────────────┐
-│           Feedback Loop                 │
-│  Track performance • Adjust difficulty  │
-│  Award XP • Unlock badges              │
-└─────────────────────────────────────────┘
-```
-
----
-
-## ⚙️ How It Works
-
-1. User opens the app and sees the home screen with 3 modes
-2. **Quiz Mode:** Adaptive questions → instant feedback with explanations → XP earned
-3. **Journey Mode:** Step-by-step election walkthrough → Maps/Calendar integration
-4. **Assistant Mode:** Type or tap a question → AI generates a contextual answer
-5. System tracks progress, adapts difficulty, and awards badges
-6. All progress persists across sessions via localStorage
 
 ---
 
@@ -119,9 +99,10 @@ This leads to:
 
 - **Frontend:** Vanilla HTML5, CSS3, JavaScript (ES6+)
 - **AI Engine:** Google Gemini API (with offline fallback)
+- **Data Visualization:** Google Charts API (GeoChart)
 - **Design:** Custom glassmorphism design system, CSS animations
 - **Fonts:** Google Fonts (Outfit + Inter)
-- **State:** localStorage for persistence
+- **State/i18n:** `localStorage` for persistence and custom JSON dictionary for translations
 - **No frameworks, no build tools** — pure web technologies
 
 ---
@@ -138,91 +119,42 @@ PromptWar_Hardik/
     │   └── style.css             # Design system (glassmorphism, animations)
     └── js/
         ├── app.js                # SPA router, state manager, badge system
-        ├── quiz.js               # Adaptive quiz engine with repetition prevention
+        ├── i18n.js               # Localization engine (EN, HI, GU, MR)
+        ├── theme.js              # Dark/Light mode manager
+        ├── quiz.js               # Adaptive quiz engine
         ├── journey.js            # 5-step election journey simulator
+        ├── leaders.js            # Parliament leaders module
+        ├── states.js             # Interactive map and state members logic
         ├── assistant.js          # AI chat with typing animation
         ├── gemini.js             # Gemini API wrapper + offline knowledge base
         ├── maps.js               # Google Maps integration
         ├── calendar.js           # Google Calendar integration
         └── data/
-            └── questions.js      # 65-question bank (easy/medium/hard)
+            ├── questions.js      # Localized 65-question bank
+            ├── leaders.js        # Localized Parliament leaders data
+            ├── states.js         # Localized state-wise seat data
+            └── members.js        # Data for 700+ MPs with localized constituencies
 ```
 
 ---
 
-## 🧪 Testing Strategy
+## 📈 Evaluation Focus Areas
 
-- **Quiz Logic:** Verified adaptive difficulty scaling, score calculation, streak tracking
-- **Repetition Prevention:** Questions tracked via localStorage; pool resets when exhausted
-- **Offline Mode:** Full functionality without API keys via built-in knowledge base
-- **Edge Cases:** Invalid inputs handled, empty states covered, error boundaries in API calls
-- **Cross-browser:** Tested in Chrome, Safari, Firefox
-- **Responsive:** Mobile-first design verified on multiple viewport sizes
+As per the PromptWar Challenge guidelines, VoteWise addresses the evaluation criteria as follows:
 
----
-
-## 🔐 Security Considerations
-
-- Input validation and HTML escaping to prevent XSS
-- No sensitive user data stored (only quiz progress in localStorage)
-- API keys are client-side configurable (not hardcoded in repo)
-- Secure external links with `target="_blank"` and `referrerpolicy`
+- **Code Quality**: Structured into modular, self-contained ES6 modules (`quiz.js`, `journey.js`, `states.js`, `i18n.js`). Uses clean abstractions and standard conventions without bloated dependencies.
+- **Security**: No sensitive user data is transmitted. Quiz progress is stored safely in local `localStorage`. API calls to Google Gemini use the REST API over HTTPS, and any user input sent to the DOM is safely inserted using `.textContent` to prevent XSS.
+- **Efficiency**: Zero-build architecture. Extremely lightweight payload (< 300KB). Caching mechanisms for translations and Google Charts. UI updates happen instantly without page reloads.
+- **Testing**: Manual testing ensures that quizzes adapt properly, questions do not repeat, localization cascades perfectly to deep nested elements (like the States map members), and offline fallback works flawlessly when Gemini is unavailable.
+- **Accessibility**: Semantic HTML tags, high-contrast dark and light modes, scalable fonts, descriptive headings, and proper keyboard navigation structure make the app inclusive.
+- **Google Services**: Meaningful integrations including Google Gemini for contextual explanations, Google Maps for polling station localization, Google Charts for interactive seat mapping, and Google Calendar for election day reminders.
 
 ---
 
-## ⚡ Efficiency
+## ⚡ Efficiency & Accessibility
 
-- Zero build dependencies — no npm, no bundler
-- Lightweight: entire repo < 250KB
-- Minimal API calls — local fallback reduces Gemini API usage
-- CSS animations use GPU-accelerated properties (transform, opacity)
-- No external JS libraries loaded
-
----
-
-## ♿ Accessibility
-
-- Semantic HTML5 elements throughout
-- Clear visual hierarchy with proper heading structure
-- High contrast text on dark background
-- Keyboard-navigable quiz options
-- Simple, jargon-free language in all content
-- Responsive design works on all screen sizes
-
----
-
-## 📊 Assumptions
-
-- Users have basic internet access and a modern browser
-- Election data is based on Indian election processes (generalizable)
-- Users are willing to engage interactively with quizzes
-- Gemini API key is optional — app works fully offline
-
----
-
-## 🚧 Limitations
-
-- Not connected to real-time government databases
-- AI responses depend on Gemini API availability (fallback provided)
-- Quiz question bank is curated (not dynamically generated)
-- Google Maps requires location permission for nearby stations
-
----
-
-## 🚀 Future Improvements
-
-- Regional language support (Hindi, Tamil, Bengali, etc.)
-- Real-time election data from ECI APIs
-- Voice-based interaction for accessibility
-- Advanced analytics dashboard
-- PWA support for offline mobile usage
-- Multiplayer quiz mode
-
----
-
-## 🏁 Conclusion
-
-VoteWise transforms election education into an **interactive, engaging, and intelligent experience**, helping citizens move from confusion to confidence in the voting process. Built with clean, maintainable code and meaningful Google Services integration.
+- **Efficiency**: Zero build dependencies (no npm, no bundler). Lightweight repository. CSS animations use GPU-accelerated properties.
+- **Accessibility**: Semantic HTML5 elements, high contrast text on dark backgrounds, simple jargon-free language, and fully responsive mobile-first design.
 
 ---
 

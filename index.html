@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="AI-powered interactive election process education assistant. Learn about voting, registration, and civic participation through quizzes and guided journeys.">
+  <meta name="description"
+    content="AI-powered interactive election process education assistant. Learn about voting, registration, and civic participation through quizzes and guided journeys.">
   <meta name="referrer" content="no-referrer">
   <title>🗳️ Election Process Education Assistant</title>
   <!-- Google Charts API (Loaded dynamically in states.js, but preconnect to domain) -->
@@ -13,6 +15,7 @@
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/i18n.js"></script>
 </head>
+
 <body>
   <!-- Background Decoration -->
   <div class="bg-decoration">
@@ -25,8 +28,10 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
       <div class="navbar__top-row">
-        <button class="navbar__menu-toggle is-visible" id="menu-toggle" onclick="Sidebar.toggle()" title="Toggle Menu">☰</button>
-        <button class="navbar__back-btn" id="nav-back-btn" onclick="App.navigate('home')" title="Back to Home">←</button>
+        <button class="navbar__menu-toggle is-visible" id="menu-toggle" onclick="Sidebar.toggle()"
+          title="Toggle Menu">☰</button>
+        <button class="navbar__back-btn" id="nav-back-btn" onclick="App.navigate('home')"
+          title="Back to Home">←</button>
         <a href="#" class="navbar__logo" onclick="App.navigate('home')">
           <span class="navbar__logo-icon">🗳️</span>
           <span>VoteWise</span>
@@ -34,9 +39,9 @@
         <div class="navbar__controls">
           <div class="lang-selector">
             <button class="lang-btn" onclick="I18n.setLanguage('en')" data-lang="en">EN</button>
-            <button class="lang-btn" onclick="I18n.setLanguage('hi')" data-lang="hi">HI</button>
-            <button class="lang-btn" onclick="I18n.setLanguage('gu')" data-lang="gu">GU</button>
-            <button class="lang-btn" onclick="I18n.setLanguage('mr')" data-lang="mr">MR</button>
+            <button class="lang-btn" onclick="I18n.setLanguage('hi')" data-lang="hi">हिं</button>
+            <button class="lang-btn" onclick="I18n.setLanguage('gu')" data-lang="gu">ગુ</button>
+            <button class="lang-btn" onclick="I18n.setLanguage('mr')" data-lang="mr">म</button>
           </div>
           <button class="theme-toggle" onclick="Theme.toggle()" title="Toggle Theme">
             <span class="theme-toggle__icon">🌙</span>
@@ -44,13 +49,20 @@
         </div>
       </div>
       <div class="navbar__nav">
-        <button class="navbar__link navbar__link--active" data-page="home" onclick="App.navigate('home')" id="nav-home" data-i18n="nav_home">Home</button>
-        <button class="navbar__link" data-page="quiz" onclick="App.navigate('quiz')" id="nav-quiz" data-i18n="nav_quiz">Quiz</button>
-        <button class="navbar__link" data-page="journey" onclick="App.navigate('journey')" id="nav-journey" data-i18n="nav_journey">Journey</button>
-        <button class="navbar__link" data-page="leaders" onclick="App.navigate('leaders')" id="nav-leaders" data-i18n="nav_leaders">Leaders</button>
-        <button class="navbar__link" data-page="states" onclick="App.navigate('states')" id="nav-states" data-i18n="nav_states">States Map</button>
-        <button class="navbar__link" data-page="assistant" onclick="App.navigate('assistant')" id="nav-assistant" data-i18n="nav_assistant">Assistant</button>
-        <button class="navbar__link" data-page="dashboard" onclick="App.navigate('dashboard')" id="nav-dashboard" data-i18n="nav_dashboard">Progress</button>
+        <button class="navbar__link navbar__link--active" data-page="home" onclick="App.navigate('home')" id="nav-home"
+          data-i18n="nav_home">Home</button>
+        <button class="navbar__link" data-page="quiz" onclick="App.navigate('quiz')" id="nav-quiz"
+          data-i18n="nav_quiz">Quiz</button>
+        <button class="navbar__link" data-page="journey" onclick="App.navigate('journey')" id="nav-journey"
+          data-i18n="nav_journey">Journey</button>
+        <button class="navbar__link" data-page="leaders" onclick="App.navigate('leaders')" id="nav-leaders"
+          data-i18n="nav_leaders">Leaders</button>
+        <button class="navbar__link" data-page="states" onclick="App.navigate('states')" id="nav-states"
+          data-i18n="nav_states">States Map</button>
+        <button class="navbar__link" data-page="assistant" onclick="App.navigate('assistant')" id="nav-assistant"
+          data-i18n="nav_assistant">Assistant</button>
+        <button class="navbar__link" data-page="dashboard" onclick="App.navigate('dashboard')" id="nav-dashboard"
+          data-i18n="nav_dashboard">Progress</button>
       </div>
     </nav>
 
@@ -64,22 +76,16 @@
         </div>
         <button class="sidebar__close" onclick="Sidebar.close()">✕</button>
       </div>
-      <div class="sidebar__lang-box">
-        <div class="lang-selector">
-          <button class="lang-btn" onclick="I18n.setLanguage('en')" data-lang="en">EN</button>
-          <button class="lang-btn" onclick="I18n.setLanguage('hi')" data-lang="hi">HI</button>
-          <button class="lang-btn" onclick="I18n.setLanguage('gu')" data-lang="gu">GU</button>
-          <button class="lang-btn" onclick="I18n.setLanguage('mr')" data-lang="mr">MR</button>
-        </div>
-      </div>
       <div class="sidebar__nav">
         <button class="sidebar__link" onclick="Sidebar.navigate('home')" data-i18n="nav_home">Home</button>
         <button class="sidebar__link" onclick="Sidebar.navigate('quiz')" data-i18n="nav_quiz">Quiz</button>
         <button class="sidebar__link" onclick="Sidebar.navigate('journey')" data-i18n="nav_journey">Journey</button>
         <button class="sidebar__link" onclick="Sidebar.navigate('leaders')" data-i18n="nav_leaders">Leaders</button>
         <button class="sidebar__link" onclick="Sidebar.navigate('states')" data-i18n="nav_states">States Map</button>
-        <button class="sidebar__link" onclick="Sidebar.navigate('assistant')" data-i18n="nav_assistant">Assistant</button>
-        <button class="sidebar__link" onclick="Sidebar.navigate('dashboard')" data-i18n="nav_dashboard">Progress</button>
+        <button class="sidebar__link" onclick="Sidebar.navigate('assistant')"
+          data-i18n="nav_assistant">Assistant</button>
+        <button class="sidebar__link" onclick="Sidebar.navigate('dashboard')"
+          data-i18n="nav_dashboard">Progress</button>
       </div>
       <div class="sidebar__footer">
         <div class="navbar__xp">⭐ <span id="xp-value-sidebar">0</span> XP</div>
@@ -94,8 +100,10 @@
       <section class="page page--active" id="page-home">
         <div class="hero">
           <div class="hero__badge" data-i18n="hero_badge">🗳️ 2024 Election Guide</div>
-          <h1 class="hero__title"><span data-i18n-html="hero_title_1">Master India's </span><span data-i18n-html="hero_title_span">Election Process</span></h1>
-          <p class="hero__subtitle" data-i18n="hero_subtitle">Your interactive roadmap to becoming an informed voter. Learn every step from registration to the polling booth.</p>
+          <h1 class="hero__title"><span data-i18n-html="hero_title_1">Master India's </span><span
+              data-i18n-html="hero_title_span">Election Process</span></h1>
+          <p class="hero__subtitle" data-i18n="hero_subtitle">Your interactive roadmap to becoming an informed voter.
+            Learn every step from registration to the polling booth.</p>
         </div>
 
         <!-- NEW: Quick Process Overview -->
@@ -125,27 +133,32 @@
             <div class="mode-card__badge" data-i18n="start_here">START HERE</div>
             <div class="mode-card__icon mode-card__icon--journey">🗺️</div>
             <h3 class="mode-card__title" data-i18n="journey_title">Interactive Voter Journey</h3>
-            <p class="mode-card__desc" data-i18n="journey_desc">A step-by-step masterclass on India's election process. Registration, EVM training, and your rights.</p>
+            <p class="mode-card__desc" data-i18n="journey_desc">A step-by-step masterclass on India's election process.
+              Registration, EVM training, and your rights.</p>
           </div>
           <div class="mode-card" onclick="App.navigate('quiz')" id="card-quiz">
             <div class="mode-card__icon mode-card__icon--quiz">🎮</div>
             <h3 class="mode-card__title" data-i18n="quiz_title">Knowledge Check</h3>
-            <p class="mode-card__desc" data-i18n="quiz_desc">Challenge yourself with quizzes on the electoral system. Earn XP as you master the rules of democracy.</p>
+            <p class="mode-card__desc" data-i18n="quiz_desc">Challenge yourself with quizzes on the electoral system.
+              Earn XP as you master the rules of democracy.</p>
           </div>
           <div class="mode-card" onclick="App.navigate('leaders')" id="card-leaders">
             <div class="mode-card__icon mode-card__icon--leaders">🏛️</div>
             <h3 class="mode-card__title" data-i18n="leaders_title">Parliament Leaders</h3>
-            <p class="mode-card__desc" data-i18n="leaders_desc">Meet the current leaders of Lok Sabha &amp; Rajya Sabha — their roles, powers, and constitutional responsibilities.</p>
+            <p class="mode-card__desc" data-i18n="leaders_desc">Meet the current leaders of Lok Sabha &amp; Rajya Sabha
+              — their roles, powers, and constitutional responsibilities.</p>
           </div>
           <div class="mode-card" onclick="App.navigate('states')" id="card-states">
             <div class="mode-card__icon mode-card__icon--states">🗺️</div>
             <h3 class="mode-card__title" data-i18n="states_title">States Distribution</h3>
-            <p class="mode-card__desc" data-i18n="states_desc">Explore how Parliament seats are distributed across India's States and Union Territories on an interactive map.</p>
+            <p class="mode-card__desc" data-i18n="states_desc">Explore how Parliament seats are distributed across
+              India's States and Union Territories on an interactive map.</p>
           </div>
           <div class="mode-card" onclick="App.navigate('assistant')" id="card-assistant">
             <div class="mode-card__icon mode-card__icon--assistant">🤖</div>
             <h3 class="mode-card__title" data-i18n="assistant_title">Ask the Assistant</h3>
-            <p class="mode-card__desc" data-i18n="assistant_desc">Got questions? Our AI-powered assistant explains complex election concepts in simple language.</p>
+            <p class="mode-card__desc" data-i18n="assistant_desc">Got questions? Our AI-powered assistant explains
+              complex election concepts in simple language.</p>
           </div>
         </div>
         <div class="stats-bar" id="home-stats">
@@ -169,7 +182,9 @@
         <div class="quiz-header">
           <h2 style="font-size:1.2rem;" data-i18n="quiz_mode">📝 Quiz Mode</h2>
           <div class="quiz-progress">
-            <div class="quiz-progress__bar"><div class="quiz-progress__fill" id="quiz-progress-fill" style="width:0%"></div></div>
+            <div class="quiz-progress__bar">
+              <div class="quiz-progress__fill" id="quiz-progress-fill" style="width:0%"></div>
+            </div>
             <div class="quiz-progress__text" id="quiz-progress-text">Question 1 of 10</div>
           </div>
           <div class="quiz-score" id="quiz-score-display">⭐ 0 pts</div>
@@ -196,15 +211,21 @@
             <!-- Dynamically filled by assistant.js -->
           </div>
           <div class="chat__chips" id="chat-chips">
-            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_docs">What documents do I need to vote?</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_register">How do I register as a voter?</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_leaders">Who are the Parliament leaders?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_docs">What documents do I need
+              to vote?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_register">How do I register as
+              a voter?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_leaders">Who are the Parliament
+              leaders?</button>
             <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_nota">What is NOTA?</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_evm">Explain the EVM process</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_rights">What are my rights as a voter?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_evm">Explain the EVM
+              process</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_rights">What are my rights as a
+              voter?</button>
           </div>
           <div class="chat__input-bar">
-            <input type="text" class="chat__input" id="chat-input" data-i18n="chat_placeholder" placeholder="Ask anything about elections..." onkeydown="if(event.key==='Enter')Assistant.send()">
+            <input type="text" class="chat__input" id="chat-input" data-i18n="chat_placeholder"
+              placeholder="Ask anything about elections..." onkeydown="if(event.key==='Enter')Assistant.send()">
             <button class="chat__send" onclick="Assistant.send()" id="chat-send-btn">➤</button>
           </div>
         </div>
@@ -213,7 +234,8 @@
       <!-- DASHBOARD PAGE -->
       <section class="page" id="page-dashboard">
         <h2 style="text-align:center; margin-bottom:8px;" data-i18n="progress_title">📊 Your Progress</h2>
-        <p style="text-align:center; color:var(--text-secondary); margin-bottom:32px;" data-i18n="progress_subtitle">Track your learning journey</p>
+        <p style="text-align:center; color:var(--text-secondary); margin-bottom:32px;" data-i18n="progress_subtitle">
+          Track your learning journey</p>
         <div class="dashboard-grid">
           <div class="dash-card">
             <div class="dash-card__icon">⭐</div>
@@ -285,4 +307,5 @@
   <script src="assets/js/sidebar.js"></script>
   <script src="assets/js/app.js"></script>
 </body>
+
 </html>
