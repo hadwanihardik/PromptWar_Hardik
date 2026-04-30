@@ -93,6 +93,10 @@ h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 700; line-h
   display: none; background: none; border: none; color: var(--text-primary);
   font-size: 1.5rem; cursor: pointer; padding: 4px;
 }
+.navbar__back-btn {
+  display: none; background: none; border: none; color: var(--text-primary);
+  font-size: 1.5rem; cursor: pointer; padding: 4px;
+}
 .navbar__logo {
   display: flex; align-items: center; gap: 10px;
   font-family: 'Outfit', sans-serif; font-size: 1.3rem; font-weight: 700; color: var(--text-primary);
@@ -428,7 +432,8 @@ h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 700; line-h
   .navbar { padding: 12px 16px; }
   .navbar__nav { display: none; }
   .navbar__menu-toggle { display: block; }
-  .lang-selector { display: none; } /* Show in sidebar if needed, but let's keep it simple for now */
+  .navbar__back-btn { display: none; } /* Shown dynamically via JS */
+  .lang-selector { display: none; } 
   .main { padding: 20px 16px; }
   .hero { padding: 30px 0 20px; }
   .hero__title { font-size: 1.8rem; }
@@ -457,6 +462,13 @@ h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 700; line-h
 .sidebar__header {
   padding: 24px; border-bottom: 1px solid var(--border);
   display: flex; align-items: center; justify-content: space-between;
+}
+.sidebar__lang-box {
+  padding: 20px 24px; border-bottom: 1px solid var(--border);
+}
+.sidebar__lang-box .lang-selector {
+  display: flex !important; /* Force visible in sidebar */
+  width: 100%; justify-content: space-between;
 }
 .sidebar__close {
   background: none; border: none; color: var(--text-muted); font-size: 1.2rem; cursor: pointer;

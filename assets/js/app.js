@@ -65,6 +65,19 @@ const App = (() => {
       link.classList.toggle('navbar__link--active', link.dataset.page === page);
     });
 
+    // Handle Mobile Back Button vs Menu Toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    const backBtn = document.getElementById('nav-back-btn');
+    if (menuToggle && backBtn) {
+      if (page === 'home') {
+        menuToggle.style.display = '';
+        backBtn.style.display = 'none';
+      } else {
+        menuToggle.style.display = 'none';
+        backBtn.style.display = 'block';
+      }
+    }
+
     // Initialize page-specific content
     switch (page) {
       case 'quiz': Quiz.start(); break;
