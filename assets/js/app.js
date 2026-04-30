@@ -70,11 +70,11 @@ const App = (() => {
     const backBtn = document.getElementById('nav-back-btn');
     if (menuToggle && backBtn) {
       if (page === 'home') {
-        menuToggle.style.display = '';
-        backBtn.style.display = 'none';
+        menuToggle.classList.add('is-visible');
+        backBtn.classList.remove('is-visible');
       } else {
-        menuToggle.style.display = 'none';
-        backBtn.style.display = 'block';
+        menuToggle.classList.remove('is-visible');
+        backBtn.classList.add('is-visible');
       }
     }
 
@@ -102,26 +102,26 @@ const App = (() => {
     const xpEls = ['xp-value', 'xp-value-sidebar', 'stat-xp', 'dash-xp'];
     xpEls.forEach(id => {
       const el = document.getElementById(id);
-      if (el) el.textContent = state.totalXP || 0;
+      if (el) el.textContent = I18n.num(state.totalXP || 0);
     });
 
     // Quiz count
     const quizEls = ['stat-quizzes', 'dash-quizzes'];
     quizEls.forEach(id => {
       const el = document.getElementById(id);
-      if (el) el.textContent = state.quizzesCompleted || 0;
+      if (el) el.textContent = I18n.num(state.quizzesCompleted || 0);
     });
 
     // Accuracy
     const accEls = ['stat-accuracy', 'dash-accuracy'];
     accEls.forEach(id => {
       const el = document.getElementById(id);
-      if (el) el.textContent = accuracy + '%';
+      if (el) el.textContent = I18n.num(accuracy) + '%';
     });
 
     // Streak
     const streakEl = document.getElementById('dash-streak');
-    if (streakEl) streakEl.textContent = state.bestStreak || 0;
+    if (streakEl) streakEl.textContent = I18n.num(state.bestStreak || 0);
   }
 
   function renderDashboard() {
@@ -134,27 +134,32 @@ const App = (() => {
     if (!container) return;
 
     const BADGES = [
-      { icon: '🌱', name: 'First Quiz', condition: (s) => s.quizzesCompleted >= 1 },
-      { icon: '🎯', name: '80% Accuracy', condition: (s) => s.totalQuestions > 0 && (s.totalCorrect / s.totalQuestions) >= 0.8 },
-      { icon: '🔥', name: 'Streak of 5', condition: (s) => s.bestStreak >= 5 },
-      { icon: '⭐', name: '100 XP', condition: (s) => s.totalXP >= 100 },
-      { icon: '🏆', name: '500 XP', condition: (s) => s.totalXP >= 500 },
-      { icon: '🗺️', name: 'Journey Started', condition: (s) => s.journeyStep >= 1 },
-      { icon: '🗳️', name: 'Journey Complete', condition: (s) => s.journeyStep >= 4 },
-      { icon: '🤖', name: 'Asked 5 Questions', condition: (s) => s.questionsAsked >= 5 },
-      { icon: '📚', name: '5 Quizzes Done', condition: (s) => s.quizzesCompleted >= 5 },
-      { icon: '💎', name: '1000 XP', condition: (s) => s.totalXP >= 1000 },
+      { icon: '🌱', key: 'badge_first_quiz', condition: (s) => s.quizzesCompleted >= 1 },
+      { icon: '🎯', key: 'badge_accuracy', condition: (s) => s.totalQuestions > 0 && (s.totalCorrect / s.totalQuestions) >= 0.8 },
+      { icon: '🔥', key: 'badge_streak', condition: (s) => s.bestStreak >= 5 },
+      { icon: '⭐', key: 'badge_100xp', condition: (s) => s.totalXP >= 100 },
+      { icon: '🏆', key: 'badge_500xp', condition: (s) => s.totalXP >= 500 },
+      { icon: '🗺️', key: 'badge_journey_start', condition: (s) => s.journeyStep >= 1 },
+      { icon: '🗳️', key: 'badge_journey_end', condition: (s) => s.journeyStep >= 4 },
+      { icon: '🤖', key: 'badge_ai_questions', condition: (s) => s.questionsAsked >= 5 },
+      { icon: '📚', key: 'badge_5quizzes', condition: (s) => s.quizzesCompleted >= 5 },
+      { icon: '💎', key: 'badge_1000xp', condition: (s) => s.totalXP >= 1000 },
     ];
 
     container.innerHTML = BADGES.map(badge => {
       const earned = badge.condition(state);
+      const badgeName = I18n.get(badge.key);
       return `
-        <div class="badge-item ${earned ? 'badge-item--earned' : 'badge-item--locked'}" title="${badge.name}${earned ? ' ✅' : ' 🔒'}">
+        <div class="badge-item ${earned ? 'badge-item--earned' : 'badge-item--locked'}" title="${badgeName}${earned ? ' ✅' : ' 🔒'}">
           ${badge.icon}
-        </div>
-      `;
     }).join('');
   }
+
+  // Listen to language changes to update UI instantly
+  window.addEventListener('langChanged', () => {
+    updateUI();
+    renderBadges();
+  });
 
   // Initialize on DOM ready
   document.addEventListener('DOMContentLoaded', init);

@@ -29,7 +29,6 @@ const Quiz = (() => {
   function filterFresh(pool) {
     const recent = getRecentIds();
     const fresh = pool.filter(q => !recent.has(q.id));
-    // If too few fresh questions, reset history
     if (fresh.length < 3) {
       localStorage.removeItem(RECENT_KEY);
       return pool;
@@ -40,7 +39,6 @@ const Quiz = (() => {
   function markUsed(questions) {
     const recent = getRecentIds();
     questions.forEach(q => recent.add(q.id));
-    // Keep only last 40 IDs so older questions rotate back in
     const arr = [...recent];
     saveRecentIds(arr.length > 40 ? arr.slice(arr.length - 40) : arr);
   }
@@ -57,15 +55,30 @@ const Quiz = (() => {
   }
 
   function selectQuestions() {
+    const lang = I18n.currentLang();
+    
+    // Prioritize translated questions if not English
+    const hasTranslation = q => q[`question_${lang}`] !== undefined;
+    
     const easy = filterFresh(QUESTION_BANK.filter(q => q.difficulty === 'easy'));
     const medium = filterFresh(QUESTION_BANK.filter(q => q.difficulty === 'medium'));
     const hard = filterFresh(QUESTION_BANK.filter(q => q.difficulty === 'hard'));
 
-    // Shuffle each pool
-    shuffle(easy); shuffle(medium); shuffle(hard);
+    // Sort to put translated ones first (within each difficulty)
+    if (lang !== 'en') {
+      easy.sort((a, b) => (hasTranslation(b) ? 1 : 0) - (hasTranslation(a) ? 1 : 0));
+      medium.sort((a, b) => (hasTranslation(b) ? 1 : 0) - (hasTranslation(a) ? 1 : 0));
+      hard.sort((a, b) => (hasTranslation(b) ? 1 : 0) - (hasTranslation(a) ? 1 : 0));
+    } else {
+      shuffle(easy); shuffle(medium); shuffle(hard);
+    }
 
-    // Start with 4 easy, 4 medium, 2 hard — then adapt
-    const selected = [...easy.slice(0, 4), ...medium.slice(0, 4), ...hard.slice(0, 2)];
+    // Still shuffle the top slice to keep it fresh
+    const easySelection = easy.slice(0, 8); shuffle(easySelection);
+    const mediumSelection = medium.slice(0, 8); shuffle(mediumSelection);
+    const hardSelection = hard.slice(0, 4); shuffle(hardSelection);
+
+    const selected = [...easySelection.slice(0, 4), ...mediumSelection.slice(0, 4), ...hardSelection.slice(0, 2)];
     shuffle(selected);
     return selected.slice(0, TOTAL_QUESTIONS);
   }
@@ -87,20 +100,32 @@ const Quiz = (() => {
     const q = currentQuestions[currentIndex];
     answered = false;
 
+    const lang = I18n.currentLang();
+    const questionText = q[`question_${lang}`] || q.question;
+    const optionsText = q[`options_${lang}`] || q.options;
+
     // Update progress
     const pct = ((currentIndex) / TOTAL_QUESTIONS) * 100;
     document.getElementById('quiz-progress-fill').style.width = pct + '%';
-    document.getElementById('quiz-progress-text').textContent = `Question ${currentIndex + 1} of ${TOTAL_QUESTIONS}`;
-    document.getElementById('quiz-score-display').textContent = `⭐ ${score} pts`;
+    
+    const qLabel = I18n.get('quiz_question_label') || 'Question';
+    const ofLabel = I18n.get('quiz_of_label') || 'of';
+    document.getElementById('quiz-progress-text').textContent = `${qLabel} ${I18n.num(currentIndex + 1)} ${ofLabel} ${I18n.num(TOTAL_QUESTIONS)}`;
+    document.getElementById('quiz-score-display').textContent = `⭐ ${I18n.num(score)} ${I18n.get('score')}`;
 
-    const letters = ['A', 'B', 'C', 'D'];
+    let letters = ['A', 'B', 'C', 'D'];
+    if (lang === 'hi' || lang === 'mr') {
+      letters = ['अ', 'ब', 'क', 'ड'];
+    } else if (lang === 'gu') {
+      letters = ['અ', 'બ', 'ક', 'ડ'];
+    }
     const container = document.getElementById('quiz-container');
     container.innerHTML = `
       <div class="quiz-card">
-        <span class="quiz-card__difficulty quiz-card__difficulty--${q.difficulty}">${q.difficulty}</span>
-        <div class="quiz-card__question">${q.question}</div>
+        <span class="quiz-card__difficulty quiz-card__difficulty--${q.difficulty}">${I18n.get(q.difficulty)}</span>
+        <div class="quiz-card__question">${questionText}</div>
         <div class="quiz-options">
-          ${q.options.map((opt, i) => `
+          ${optionsText.map((opt, i) => `
             <button class="quiz-option" id="quiz-opt-${i}" onclick="Quiz.answer(${i})">
               <span class="quiz-option__letter">${letters[i]}</span>
               <span>${opt}</span>
@@ -118,7 +143,9 @@ const Quiz = (() => {
     const q = currentQuestions[currentIndex];
     const isCorrect = selectedIndex === q.correct;
 
-    // Highlight correct/wrong
+    const lang = I18n.currentLang();
+    const explanationText = q[`explanation_${lang}`] || q.explanation;
+
     document.getElementById(`quiz-opt-${q.correct}`).classList.add('quiz-option--correct');
     if (!isCorrect) {
       document.getElementById(`quiz-opt-${selectedIndex}`).classList.add('quiz-option--wrong');
@@ -127,31 +154,29 @@ const Quiz = (() => {
       score += q.difficulty === 'easy' ? 10 : q.difficulty === 'medium' ? 20 : 30;
       streak++;
       if (streak > bestStreak) bestStreak = streak;
-      // Bonus for streaks
       if (streak >= 3) score += 5;
     }
 
-    document.getElementById('quiz-score-display').textContent = `⭐ ${score} pts`;
-
-    // Adapt difficulty
+    document.getElementById('quiz-score-display').textContent = `⭐ ${I18n.num(score)} ${I18n.get('score')}`;
     adaptDifficulty(isCorrect);
 
-    // Show explanation
     const card = document.querySelector('.quiz-card');
     const explanationDiv = document.createElement('div');
     explanationDiv.className = 'quiz-explanation';
-    explanationDiv.innerHTML = `<strong>${isCorrect ? '✅ Correct!' : '❌ Incorrect.'}</strong> ${q.explanation}`;
+    
+    const statusText = isCorrect ? I18n.get('correct') : I18n.get('wrong');
+    explanationDiv.innerHTML = `<strong>${statusText}!</strong> ${explanationText}`;
     card.appendChild(explanationDiv);
 
-    // Show next button
     const nextBtn = document.createElement('button');
     nextBtn.className = 'quiz-next-btn';
-    nextBtn.innerHTML = currentIndex < TOTAL_QUESTIONS - 1 ? 'Next Question →' : 'See Results 🏆';
+    nextBtn.innerHTML = currentIndex < TOTAL_QUESTIONS - 1 ? `${I18n.get('btn_next')} →` : `${I18n.get('btn_finish')} 🏆`;
     nextBtn.onclick = () => { currentIndex++; renderQuestion(); };
     card.appendChild(nextBtn);
   }
 
   function adaptDifficulty(wasCorrect) {
+    const lang = I18n.currentLang();
     if (wasCorrect && streak >= 2) {
       if (difficultyLevel === 'easy') difficultyLevel = 'medium';
       else if (difficultyLevel === 'medium') difficultyLevel = 'hard';
@@ -160,10 +185,17 @@ const Quiz = (() => {
       else if (difficultyLevel === 'medium') difficultyLevel = 'easy';
     }
 
-    // Replace upcoming questions with new difficulty if possible
     if (currentIndex + 1 < currentQuestions.length) {
       const pool = QUESTION_BANK.filter(q => q.difficulty === difficultyLevel && !currentQuestions.includes(q));
       if (pool.length > 0) {
+        // Prioritize translated ones if possible
+        if (lang !== 'en') {
+           const translatedPool = pool.filter(q => q[`question_${lang}`] !== undefined);
+           if (translatedPool.length > 0) {
+             currentQuestions[currentIndex + 1] = translatedPool[Math.floor(Math.random() * translatedPool.length)];
+             return;
+           }
+        }
         const replacement = pool[Math.floor(Math.random() * pool.length)];
         currentQuestions[currentIndex + 1] = replacement;
       }
@@ -171,38 +203,31 @@ const Quiz = (() => {
   }
 
   function renderComplete() {
-    const maxScore = TOTAL_QUESTIONS * 20; // average expected
+    const maxScore = TOTAL_QUESTIONS * 20;
     const pct = Math.min(Math.round((score / maxScore) * 100), 100);
     const accuracy = Math.round((score / (TOTAL_QUESTIONS * 30)) * 100);
 
     document.getElementById('quiz-progress-fill').style.width = '100%';
-    document.getElementById('quiz-progress-text').textContent = 'Complete!';
+    document.getElementById('quiz-progress-text').textContent = I18n.get('btn_finish');
 
-    let message = '';
-    let icon = '';
-    if (pct >= 80) { message = 'Outstanding! You\'re a civic champion! 🏆'; icon = '🎉'; }
-    else if (pct >= 60) { message = 'Great job! You\'re well-informed about elections!'; icon = '👏'; }
-    else if (pct >= 40) { message = 'Good effort! Keep learning to improve.'; icon = '💪'; }
-    else { message = 'Don\'t worry! Try again to learn more.'; icon = '📚'; }
+    let message = I18n.get('quiz_complete_msg') || 'Quiz Complete!';
+    let icon = '🎉';
 
     document.getElementById('quiz-container').innerHTML = `
       <div class="quiz-complete">
         <div class="quiz-complete__icon">${icon}</div>
-        <h2 class="quiz-complete__title">Quiz Complete!</h2>
-        <div class="quiz-complete__score">${score} pts</div>
-        <p class="quiz-complete__message">${message}<br>Best streak: ${bestStreak} 🔥</p>
+        <h2 class="quiz-complete__title">${I18n.get('quiz_finish_title')}</h2>
+        <div class="quiz-complete__score">${I18n.num(score)} ${I18n.get('score')}</div>
+        <p class="quiz-complete__message">${message}<br>${I18n.get('best_streak')}: ${I18n.num(bestStreak)} 🔥</p>
         <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-          <button class="btn btn--primary" onclick="Quiz.start()">Try Again 🔄</button>
-          <button class="btn btn--secondary" onclick="App.navigate('journey')">Start Journey 🗺️</button>
-          <button class="btn btn--secondary" onclick="App.navigate('dashboard')">View Progress 📊</button>
+          <button class="btn btn--primary" onclick="Quiz.start()">${I18n.get('btn_retry')} 🔄</button>
+          <button class="btn btn--secondary" onclick="App.navigate('journey')">${I18n.get('nav_journey')}</button>
+          <button class="btn btn--secondary" onclick="App.navigate('dashboard')">${I18n.get('nav_dashboard')}</button>
         </div>
       </div>
     `;
 
-    // Save stats
     saveStats(accuracy);
-
-    // Confetti!
     if (pct >= 60) fireConfetti();
   }
 
@@ -232,6 +257,13 @@ const Quiz = (() => {
       setTimeout(() => piece.remove(), 4000);
     }
   }
+
+  window.addEventListener('langChanged', () => {
+    if (document.getElementById('page-quiz')?.classList.contains('page--active')) {
+      if (currentIndex < currentQuestions.length) renderQuestion();
+      else renderComplete();
+    }
+  });
 
   return { start, answer };
 })();

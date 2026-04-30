@@ -9,6 +9,7 @@
   <!-- Google Charts API (Loaded dynamically in states.js, but preconnect to domain) -->
   <link rel="preconnect" href="https://www.gstatic.com">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://www.gstatic.com/charts/loader.js"></script>
   <script src="assets/js/theme.js"></script>
   <script src="assets/js/i18n.js"></script>
 </head>
@@ -24,7 +25,7 @@
     <!-- Navbar -->
     <nav class="navbar" id="navbar">
       <div class="navbar__top-row">
-        <button class="navbar__menu-toggle" id="menu-toggle" onclick="Sidebar.toggle()" title="Toggle Menu">☰</button>
+        <button class="navbar__menu-toggle is-visible" id="menu-toggle" onclick="Sidebar.toggle()" title="Toggle Menu">☰</button>
         <button class="navbar__back-btn" id="nav-back-btn" onclick="App.navigate('home')" title="Back to Home">←</button>
         <a href="#" class="navbar__logo" onclick="App.navigate('home')">
           <span class="navbar__logo-icon">🗳️</span>
@@ -100,22 +101,22 @@
         <!-- NEW: Quick Process Overview -->
         <div class="roadmap-overview">
           <div class="roadmap-step">
-            <span class="roadmap-step__num">1</span>
+            <span class="roadmap-step__num" data-i18n-num="1">1</span>
             <span class="roadmap-step__label" data-i18n="roadmap_register">Register</span>
           </div>
           <div class="roadmap-step__arrow">→</div>
           <div class="roadmap-step">
-            <span class="roadmap-step__num">2</span>
+            <span class="roadmap-step__num" data-i18n-num="2">2</span>
             <span class="roadmap-step__label" data-i18n="roadmap_verify">Verify</span>
           </div>
           <div class="roadmap-step__arrow">→</div>
           <div class="roadmap-step">
-            <span class="roadmap-step__num">3</span>
+            <span class="roadmap-step__num" data-i18n-num="3">3</span>
             <span class="roadmap-step__label" data-i18n="roadmap_learn">Learn</span>
           </div>
           <div class="roadmap-step__arrow">→</div>
           <div class="roadmap-step">
-            <span class="roadmap-step__num">4</span>
+            <span class="roadmap-step__num" data-i18n-num="4">4</span>
             <span class="roadmap-step__label" data-i18n="roadmap_vote">Vote</span>
           </div>
         </div>
@@ -150,15 +151,15 @@
         <div class="stats-bar" id="home-stats">
           <div class="stat">
             <div class="stat__value stat__value--accent" id="stat-quizzes">0</div>
-            <div class="stat__label">Quizzes Taken</div>
+            <div class="stat__label" data-i18n="stat_quizzes">Quizzes Taken</div>
           </div>
           <div class="stat">
             <div class="stat__value stat__value--amber" id="stat-xp">0</div>
-            <div class="stat__label">XP Earned</div>
+            <div class="stat__label" data-i18n="stat_xp">XP Earned</div>
           </div>
           <div class="stat">
             <div class="stat__value stat__value--green" id="stat-accuracy">0%</div>
-            <div class="stat__label">Accuracy</div>
+            <div class="stat__label" data-i18n="stat_accuracy">Accuracy</div>
           </div>
         </div>
       </section>
@@ -166,7 +167,7 @@
       <!-- QUIZ PAGE -->
       <section class="page" id="page-quiz">
         <div class="quiz-header">
-          <h2 style="font-size:1.2rem;">📝 Quiz Mode</h2>
+          <h2 style="font-size:1.2rem;" data-i18n="quiz_mode">📝 Quiz Mode</h2>
           <div class="quiz-progress">
             <div class="quiz-progress__bar"><div class="quiz-progress__fill" id="quiz-progress-fill" style="width:0%"></div></div>
             <div class="quiz-progress__text" id="quiz-progress-text">Question 1 of 10</div>
@@ -178,15 +179,13 @@
         </div>
       </section>
 
-      <!-- JOURNEY PAGE -->
       <section class="page" id="page-journey">
-        <h2 style="text-align:center; margin-bottom:8px;">🗺️ Your Election Journey</h2>
-        <p style="text-align:center; color:var(--text-secondary); margin-bottom:32px;">Follow these steps to become a confident voter</p>
-        <div class="journey-stepper" id="journey-stepper">
-          <!-- Dynamically filled by journey.js -->
-        </div>
-        <div id="journey-content-area">
-          <!-- Dynamically filled by journey.js -->
+        <div class="container">
+          <div style="margin-bottom:24px;">
+            <button class="btn btn--secondary" onclick="App.navigate('home')" data-i18n="btn_back">← Back</button>
+          </div>
+          <div id="journey-header"></div>
+          <div id="journey-container"></div>
         </div>
       </section>
 
@@ -197,15 +196,15 @@
             <!-- Dynamically filled by assistant.js -->
           </div>
           <div class="chat__chips" id="chat-chips">
-            <button class="chat-chip" onclick="Assistant.sendChip(this)">What documents do I need to vote?</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)">How do I register as a voter?</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)">Who are the Parliament leaders?</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)">What is NOTA?</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)">Explain the EVM process</button>
-            <button class="chat-chip" onclick="Assistant.sendChip(this)">What are my rights as a voter?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_docs">What documents do I need to vote?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_register">How do I register as a voter?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_leaders">Who are the Parliament leaders?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_nota">What is NOTA?</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_evm">Explain the EVM process</button>
+            <button class="chat-chip" onclick="Assistant.sendChip(this)" data-i18n="chip_rights">What are my rights as a voter?</button>
           </div>
           <div class="chat__input-bar">
-            <input type="text" class="chat__input" id="chat-input" placeholder="Ask anything about elections..." onkeydown="if(event.key==='Enter')Assistant.send()">
+            <input type="text" class="chat__input" id="chat-input" data-i18n="chat_placeholder" placeholder="Ask anything about elections..." onkeydown="if(event.key==='Enter')Assistant.send()">
             <button class="chat__send" onclick="Assistant.send()" id="chat-send-btn">➤</button>
           </div>
         </div>
@@ -213,31 +212,31 @@
 
       <!-- DASHBOARD PAGE -->
       <section class="page" id="page-dashboard">
-        <h2 style="text-align:center; margin-bottom:8px;">📊 Your Progress</h2>
-        <p style="text-align:center; color:var(--text-secondary); margin-bottom:32px;">Track your learning journey</p>
+        <h2 style="text-align:center; margin-bottom:8px;" data-i18n="progress_title">📊 Your Progress</h2>
+        <p style="text-align:center; color:var(--text-secondary); margin-bottom:32px;" data-i18n="progress_subtitle">Track your learning journey</p>
         <div class="dashboard-grid">
           <div class="dash-card">
             <div class="dash-card__icon">⭐</div>
             <div class="dash-card__value stat__value--amber" id="dash-xp">0</div>
-            <div class="dash-card__label">Total XP</div>
+            <div class="dash-card__label" data-i18n="total_xp">Total XP</div>
           </div>
           <div class="dash-card">
             <div class="dash-card__icon">📝</div>
             <div class="dash-card__value stat__value--accent" id="dash-quizzes">0</div>
-            <div class="dash-card__label">Quizzes Completed</div>
+            <div class="dash-card__label" data-i18n="quizzes_completed">Quizzes Completed</div>
           </div>
           <div class="dash-card">
             <div class="dash-card__icon">🎯</div>
             <div class="dash-card__value stat__value--green" id="dash-accuracy">0%</div>
-            <div class="dash-card__label">Accuracy</div>
+            <div class="dash-card__label" data-i18n="accuracy">Accuracy</div>
           </div>
           <div class="dash-card">
             <div class="dash-card__icon">🔥</div>
             <div class="dash-card__value stat__value--accent" id="dash-streak">0</div>
-            <div class="dash-card__label">Best Streak</div>
+            <div class="dash-card__label" data-i18n="best_streak">Best Streak</div>
           </div>
         </div>
-        <h3 style="text-align:center; margin-bottom:16px;">🏆 Badges</h3>
+        <h3 style="text-align:center; margin-bottom:16px;" data-i18n="badges_title">🏆 Badges</h3>
         <div class="badges-grid" id="badges-container">
           <!-- Dynamically filled -->
         </div>
@@ -257,6 +256,20 @@
   </div>
 
   <!-- Scripts -->
+  <!-- Members Modal -->
+  <div class="members-modal" id="members-modal">
+    <div class="members-modal__backdrop" onclick="States.closeMembers()"></div>
+    <div class="members-modal__container">
+      <div class="members-modal__header">
+        <h3 id="members-modal-title" data-i18n="members">Members</h3>
+        <button class="members-modal__close" onclick="States.closeMembers()">✕</button>
+      </div>
+      <div class="members-modal__content" id="members-modal-content">
+        <!-- Filled dynamically -->
+      </div>
+    </div>
+  </div>
+
   <script src="assets/js/data/questions.js"></script>
   <script src="assets/js/data/leaders.js"></script>
   <script src="assets/js/data/states.js"></script>

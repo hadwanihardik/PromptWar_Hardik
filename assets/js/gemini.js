@@ -56,14 +56,28 @@ RAJYA SABHA:
 
   function findFallbackAnswer(query) {
     const q = query.toLowerCase();
-    if (q.includes('document') || q.includes('id') || q.includes('card') || q.includes('proof')) return FALLBACK_KB['document'];
-    if (q.includes('register') || q.includes('enroll') || q.includes('form 6') || q.includes('nvsp')) return FALLBACK_KB['register'];
-    if (q.includes('nota') || q.includes('none of the above') || q.includes('reject')) return FALLBACK_KB['nota'];
-    if (q.includes('evm') || q.includes('machine') || q.includes('vvpat') || q.includes('electronic')) return FALLBACK_KB['evm'];
-    if (q.includes('right') || q.includes('entitle') || q.includes('privilege')) return FALLBACK_KB['rights'];
-    if (q.includes('polling') || q.includes('station') || q.includes('booth') || q.includes('where')) return FALLBACK_KB['polling'];
-    if (q.includes('leader') || q.includes('speaker') || q.includes('lok sabha') || q.includes('rajya sabha') || q.includes('parliament') || q.includes('om birla') || q.includes('rahul') || q.includes('kharge') || q.includes('nadda') || q.includes('modi') || q.includes('chairman') || q.includes('opposition')) return FALLBACK_KB['leaders'];
-    return FALLBACK_KB['default'];
+    const lang = I18n.currentLang();
+
+    // Keywords in different languages
+    const keywords = {
+      document: ['document', 'id', 'card', 'proof', 'दस्तावेज', 'पहचान', 'दस्ताવેજ', 'ઓળખ', 'कागदपत्रे'],
+      register: ['register', 'enroll', 'form 6', 'nvsp', 'पंजीकरण', 'नामंकन', 'नोंदणी', 'નોંધણી'],
+      nota: ['nota', 'reject', 'नोटा', 'अस्वीकार'],
+      evm: ['evm', 'machine', 'vvpat', 'ईवीएम', 'मशीन', 'મશીન'],
+      rights: ['right', 'entitle', 'अधिकार', 'हक्क'],
+      polling: ['polling', 'station', 'booth', 'where', 'केंद्र', 'मथક'],
+      leaders: ['leader', 'speaker', 'lok sabha', 'rajya sabha', 'parliament', 'नेता', 'अध्यक्ष', 'संसद', 'નેતા', 'સંસદ']
+    };
+
+    if (keywords.document.some(k => q.includes(k))) return I18n.get('kb_document');
+    if (keywords.register.some(k => q.includes(k))) return I18n.get('kb_register');
+    if (keywords.nota.some(k => q.includes(k))) return I18n.get('kb_nota');
+    if (keywords.evm.some(k => q.includes(k))) return I18n.get('kb_evm');
+    if (keywords.rights.some(k => q.includes(k))) return I18n.get('kb_rights');
+    if (keywords.polling.some(k => q.includes(k))) return I18n.get('kb_polling');
+    if (keywords.leaders.some(k => q.includes(k))) return I18n.get('kb_leaders');
+
+    return I18n.get('kb_default');
   }
 
   async function ask(userMessage, conversationHistory = []) {

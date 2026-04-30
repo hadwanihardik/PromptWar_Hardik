@@ -10,7 +10,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Dharmapuri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5814.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0927\u0930\u094d\u092e\u092a\u0941\u0930\u0940",
+    "constituency_gu": "\u0aa7\u0ab0\u0acd\u0aae\u0aaa\u0ac1\u0ab0\u0ac0",
+    "constituency_mr": "\u0927\u0930\u094d\u092e\u092a\u0941\u0930\u0940"
   },
   {
     "id": 344,
@@ -19,7 +22,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Nilgiris",
     "photo": "https://sansad.in/getFile/mpimage/photo/344.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0940\u0932\u0917\u093f\u0930\u0940",
+    "constituency_gu": "\u0aa8\u0ac0\u0ab2\u0a97\u0ac0\u0ab0\u0ac0",
+    "constituency_mr": "\u0928\u093f\u0932\u0917\u093f\u0930\u0940"
   },
   {
     "id": 5677,
@@ -28,7 +34,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Raipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5677.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092f\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab0\u0abe\u0aaf\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0930\u093e\u092f\u092a\u0942\u0930"
   },
   {
     "id": 5620,
@@ -37,7 +46,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhilwara",
     "photo": "https://sansad.in/getFile/mpimage/photo/5620.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0940\u0932\u0935\u093e\u0921\u093c\u093e",
+    "constituency_gu": "\u0aad\u0ac0\u0ab2\u0ab5\u0abe\u0aa1\u0abe",
+    "constituency_mr": "\u092d\u093f\u0932\u0935\u093e\u0921\u093e"
   },
   {
     "id": 5782,
@@ -46,7 +58,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Jalaun",
     "photo": "https://sansad.in/getFile/mpimage/photo/5782.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u093e\u0932\u094c\u0928",
+    "constituency_gu": "\u0a9c\u0abe\u0ab2\u0acc\u0aa8",
+    "constituency_mr": "\u091c\u093e\u0932\u094c\u0928"
   },
   {
     "id": 5781,
@@ -55,7 +70,10 @@ const MEMBERS_DATA = [
     "party": "J&KNC",
     "constituency": "Anantnag-Rajouri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5781.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0928\u0902\u0924\u0928\u093e\u0917-\u0930\u093e\u091c\u094c\u0930\u0940",
+    "constituency_gu": "\u0a85\u0aa8\u0a82\u0aa4\u0aa8\u0abe\u0a97-\u0ab0\u0abe\u0a9c\u0acc\u0ab0\u0ac0",
+    "constituency_mr": "\u0905\u0928\u0902\u0924\u0928\u093e\u0917-\u0930\u093e\u091c\u094c\u0930\u0940"
   },
   {
     "id": 4944,
@@ -64,7 +82,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Uluberia",
     "photo": "https://sansad.in/getFile/mpimage/photo/4944.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0932\u0942\u092c\u0947\u0930\u093f\u092f\u093e",
+    "constituency_gu": "\u0a89\u0ab2\u0ac1\u0aac\u0ac7\u0ab0\u0abf\u0aaf\u0abe",
+    "constituency_mr": "\u0909\u0932\u0941\u092c\u0947\u0930\u093f\u092f\u093e"
   },
   {
     "id": 5788,
@@ -73,7 +94,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Inner Manipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5788.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0940\u0924\u0930\u0940 \u092e\u0923\u093f\u092a\u0941\u0930",
+    "constituency_gu": "\u0a86\u0a82\u0aa4\u0ab0\u0abf\u0a95 \u0aae\u0aa3\u0abf\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0906\u0924\u0940\u0932 \u092e\u0923\u093f\u092a\u0942\u0930"
   },
   {
     "id": 3464,
@@ -82,7 +106,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Sheohar",
     "photo": "https://sansad.in/getFile/mpimage/photo/3464.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093f\u0935\u0939\u0930",
+    "constituency_gu": "\u0ab6\u0ac7\u0a93\u0ab9\u0ab0",
+    "constituency_mr": "\u0936\u0947\u0913\u0939\u0930"
   },
   {
     "id": 5528,
@@ -91,7 +118,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Vellore",
     "photo": "https://sansad.in/getFile/mpimage/photo/5528.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u0947\u0932\u094d\u0932\u094b\u0930",
+    "constituency_gu": "\u0ab5\u0ac7\u0ab2\u0acd\u0ab2\u0acb\u0ab0",
+    "constituency_mr": "\u0935\u0947\u0932\u094d\u0932\u094b\u0930"
   },
   {
     "id": 4969,
@@ -100,7 +130,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Tiruvannamalai",
     "photo": "https://sansad.in/getFile/mpimage/photo/4969.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093f\u0930\u0941\u0935\u0928\u094d\u0928\u093e\u092e\u0932\u093e\u0908",
+    "constituency_gu": "\u0aa4\u0abf\u0ab0\u0ac1\u0ab5\u0aa8\u0acd\u0aa8\u0abe\u0aae\u0ab2\u0abe\u0a88",
+    "constituency_mr": "\u0924\u093f\u0930\u0941\u0935\u0928\u094d\u0928\u092e\u0932\u093e\u0908"
   },
   {
     "id": 4170,
@@ -109,7 +142,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Ghazipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4170.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u093e\u091c\u0940\u092a\u0941\u0930",
+    "constituency_gu": "\u0a97\u0abe\u0a9d\u0ac0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0917\u093e\u091d\u0940\u092a\u0942\u0930"
   },
   {
     "id": 4571,
@@ -118,7 +154,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Pathanamthitta",
     "photo": "https://sansad.in/getFile/mpimage/photo/4571.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0925\u093e\u0928\u093e\u092e\u0925\u093f\u091f\u094d\u091f\u093e",
+    "constituency_gu": "\u0aaa\u0aa5\u0aa8\u0aae\u0aa5\u0abf\u0a9f\u0acd\u0a9f\u0abe",
+    "constituency_mr": "\u092a\u0920\u093e\u0923\u092e\u0925\u093f\u091f\u094d\u091f\u093e"
   },
   {
     "id": 2664,
@@ -127,7 +166,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Katihar",
     "photo": "https://sansad.in/getFile/mpimage/photo/2664.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u091f\u093f\u0939\u093e\u0930",
+    "constituency_gu": "\u0a95\u0a9f\u0abf\u0ab9\u0abe\u0ab0",
+    "constituency_mr": "\u0915\u091f\u093f\u0939\u093e\u0930"
   },
   {
     "id": 5582,
@@ -136,7 +178,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Outer Manipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5582.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0939\u0930\u0940 \u092e\u0923\u093f\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0abe\u0ab9\u0acd\u0aaf \u0aae\u0aa3\u0abf\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092c\u093e\u0939\u094d\u092f \u092e\u0923\u093f\u092a\u0942\u0930"
   },
   {
     "id": 5703,
@@ -145,7 +190,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mahbubnagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5703.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0939\u092c\u0942\u092c\u0928\u0917\u0930",
+    "constituency_gu": "\u0aae\u0ab9\u0aac\u0ac2\u0aac\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u092e\u0939\u092c\u0942\u092c\u0928\u0917\u0930"
   },
   {
     "id": 5684,
@@ -154,7 +202,10 @@ const MEMBERS_DATA = [
     "party": "SS",
     "constituency": "Aurangabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5684.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0914\u0930\u0902\u0917\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a94\u0ab0\u0a82\u0a97\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0914\u0930\u0902\u0917\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4940,
@@ -163,7 +214,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Amritsar",
     "photo": "https://sansad.in/getFile/mpimage/photo/4940.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u092e\u0943\u0924\u0938\u0930",
+    "constituency_gu": "\u0a85\u0aae\u0ac3\u0aa4\u0ab8\u0ab0",
+    "constituency_mr": "\u0905\u092e\u0943\u0924\u0938\u0930"
   },
   {
     "id": 5608,
@@ -172,7 +226,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kanpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5608.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0928\u092a\u0941\u0930",
+    "constituency_gu": "\u0a95\u0abe\u0aa8\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0915\u093e\u0928\u092a\u0942\u0930"
   },
   {
     "id": 4552,
@@ -181,7 +238,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Virudhunagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/4552.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093f\u0930\u0941\u0927\u0941\u0928\u0917\u0930",
+    "constituency_gu": "\u0ab5\u0abf\u0ab0\u0ac1\u0aa7\u0ac1\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0935\u093f\u0930\u0941\u0927\u0941\u0928\u0917\u0930"
   },
   {
     "id": 26,
@@ -190,7 +250,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Sriperumbudur",
     "photo": "https://sansad.in/getFile/mpimage/photo/26.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u094d\u0930\u0940\u092a\u0947\u0930\u0941\u092e\u092c\u0941\u0926\u0941\u0930",
+    "constituency_gu": "\u0ab6\u0acd\u0ab0\u0ac0\u0aaa\u0ac7\u0ab0\u0ac1\u0aae\u0acd\u0aac\u0ac1\u0aa6\u0ac1\u0ab0",
+    "constituency_mr": "\u0936\u094d\u0930\u0940\u092a\u0947\u0930\u0902\u092c\u0941\u0926\u0941\u0930"
   },
   {
     "id": 5655,
@@ -199,7 +262,10 @@ const MEMBERS_DATA = [
     "party": "JD(S)",
     "constituency": "Kolar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5655.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0932\u093e\u0930",
+    "constituency_gu": "\u0a95\u0acb\u0ab2\u0abe\u0ab0",
+    "constituency_mr": "\u0915\u094b\u0932\u093e\u0930"
   },
   {
     "id": 5714,
@@ -208,7 +274,10 @@ const MEMBERS_DATA = [
     "party": "Ind.",
     "constituency": "Daman and Diu",
     "photo": "https://sansad.in/getFile/mpimage/photo/5714.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u092e\u0928 \u0914\u0930 \u0926\u0940\u0935",
+    "constituency_gu": "\u0aa6\u0aae\u0aa3 \u0a85\u0aa8\u0ac7 \u0aa6\u0ac0\u0ab5",
+    "constituency_mr": "\u0926\u092e\u0923 \u0906\u0923\u093f \u0926\u0940\u0935"
   },
   {
     "id": 4433,
@@ -217,7 +286,10 @@ const MEMBERS_DATA = [
     "party": "SAD",
     "constituency": "Bathinda",
     "photo": "https://sansad.in/getFile/mpimage/photo/4433.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0920\u093f\u0902\u0921\u093e",
+    "constituency_gu": "\u0aad\u0a9f\u0abf\u0a82\u0aa1\u0abe",
+    "constituency_mr": "\u092d\u091f\u093f\u0902\u0921\u093e"
   },
   {
     "id": 31,
@@ -226,7 +298,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Agra",
     "photo": "https://sansad.in/getFile/mpimage/photo/31.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0917\u0930\u093e",
+    "constituency_gu": "\u0a86\u0a97\u0acd\u0ab0\u0abe",
+    "constituency_mr": "\u0906\u0917\u094d\u0930\u093e"
   },
   {
     "id": 5007,
@@ -235,7 +310,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Durg",
     "photo": "https://sansad.in/getFile/mpimage/photo/5007.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0941\u0930\u094d\u0917",
+    "constituency_gu": "\u0aa6\u0ac1\u0ab0\u0acd\u0a97",
+    "constituency_mr": "\u0926\u0941\u0930\u094d\u0917"
   },
   {
     "id": 5722,
@@ -244,7 +322,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Amalapuram",
     "photo": "https://sansad.in/getFile/mpimage/photo/5722.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u092e\u0932\u093e\u092a\u0941\u0930\u092e",
+    "constituency_gu": "\u0a85\u0aae\u0ab2\u0abe\u0aaa\u0ac1\u0ab0\u0aae",
+    "constituency_mr": "\u0905\u092e\u0932\u093e\u092a\u0941\u0930\u092e"
   },
   {
     "id": 5557,
@@ -253,7 +334,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Garhwal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5557.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0922\u093c\u0935\u093e\u0932",
+    "constituency_gu": "\u0a97\u0aa2\u0ab5\u0abe\u0ab2",
+    "constituency_mr": "\u0917\u0922\u0935\u093e\u0932"
   },
   {
     "id": 5739,
@@ -262,7 +346,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Nanded",
     "photo": "https://sansad.in/getFile/mpimage/photo/5739.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0902\u0926\u0947\u0921\u093c",
+    "constituency_gu": "\u0aa8\u0abe\u0a82\u0aa6\u0ac7\u0aa1",
+    "constituency_mr": "\u0928\u093e\u0902\u0926\u0947\u0921"
   },
   {
     "id": 5614,
@@ -271,7 +358,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhavnagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5614.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u093e\u0935\u0928\u0917\u0930",
+    "constituency_gu": "\u0aad\u0abe\u0ab5\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u092d\u093e\u0935\u0928\u0917\u0930"
   },
   {
     "id": 38,
@@ -280,7 +370,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Kolkata Uttar",
     "photo": "https://sansad.in/getFile/mpimage/photo/38.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0932\u0915\u093e\u0924\u093e \u0909\u0924\u094d\u0924\u0930",
+    "constituency_gu": "\u0a95\u0acb\u0ab2\u0a95\u0abe\u0aa4\u0abe \u0a89\u0aa4\u0acd\u0aa4\u0ab0",
+    "constituency_mr": "\u0915\u094b\u0932\u0915\u093e\u0924\u093e \u0909\u0924\u094d\u0924\u0930"
   },
   {
     "id": 4843,
@@ -289,7 +382,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Diamond Harbour",
     "photo": "https://sansad.in/getFile/mpimage/photo/4843.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0921\u093e\u092f\u092e\u0902\u0921 \u0939\u093e\u0930\u094d\u092c\u0930",
+    "constituency_gu": "\u0aa1\u0abe\u0aaf\u0aae\u0a82\u0aa1 \u0ab9\u0abe\u0ab0\u0acd\u0aac\u0ab0",
+    "constituency_mr": "\u0921\u093e\u092f\u092e\u0902\u0921 \u0939\u093e\u0930\u094d\u092c\u0930"
   },
   {
     "id": 4498,
@@ -298,7 +394,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Sreerampur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4498.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0947\u0930\u092e\u092a\u0941\u0930 \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0ab6\u0acd\u0ab0\u0ac0\u0ab0\u0abe\u0aae\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0936\u094d\u0930\u0940\u0930\u093e\u092e\u092a\u0942\u0930"
   },
   {
     "id": 4583,
@@ -307,7 +406,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Howrah",
     "photo": "https://sansad.in/getFile/mpimage/photo/4583.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093e\u0935\u0921\u093c\u093e",
+    "constituency_gu": "\u0ab9\u0abe\u0ab5\u0aa1\u0abe",
+    "constituency_mr": "\u0939\u093e\u0935\u0921\u093e"
   },
   {
     "id": 5638,
@@ -316,7 +418,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Hooghly",
     "photo": "https://sansad.in/getFile/mpimage/photo/5638.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u0941\u0917\u0932\u0940",
+    "constituency_gu": "\u0ab9\u0ac1\u0a97\u0ab2\u0ac0",
+    "constituency_mr": "\u0939\u0941\u0917\u0933\u0940"
   },
   {
     "id": 5640,
@@ -325,7 +430,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Hingoli",
     "photo": "https://sansad.in/getFile/mpimage/photo/5640.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093f\u0902\u0917\u094b\u0932\u0940",
+    "constituency_gu": "\u0ab9\u0abf\u0a82\u0a97\u0acb\u0ab2\u0ac0",
+    "constituency_mr": "\u0939\u093f\u0902\u0917\u094b\u0932\u0940"
   },
   {
     "id": 5611,
@@ -334,7 +442,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Sabarkantha",
     "photo": "https://sansad.in/getFile/mpimage/photo/5611.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093e\u092c\u0930\u0915\u093e\u0902\u0920\u093e",
+    "constituency_gu": "\u0ab8\u0abe\u0aac\u0ab0\u0a95\u0abe\u0a82\u0aa0\u0abe",
+    "constituency_mr": "\u0938\u093e\u092c\u0930\u0915\u093e\u0902\u0920\u093e"
   },
   {
     "id": 4781,
@@ -343,7 +454,10 @@ const MEMBERS_DATA = [
     "party": "SS",
     "constituency": "Maval",
     "photo": "https://sansad.in/getFile/mpimage/photo/4781.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093e\u0935\u0932",
+    "constituency_gu": "\u0aae\u0abe\u0ab5\u0ab2",
+    "constituency_mr": "\u092e\u093e\u0935\u0933"
   },
   {
     "id": 4937,
@@ -352,7 +466,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Lakhimpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4937.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u0916\u0940\u092e\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab2\u0a96\u0ac0\u0aae\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0932\u0916\u0940\u092e\u092a\u0942\u0930"
   },
   {
     "id": 5736,
@@ -361,7 +478,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Ramtek",
     "photo": "https://sansad.in/getFile/mpimage/photo/5736.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092e\u091f\u0947\u0915",
+    "constituency_gu": "\u0ab0\u0abe\u0aae\u0a9f\u0ac7\u0a95",
+    "constituency_mr": "\u0930\u093e\u092e\u091f\u0947\u0915"
   },
   {
     "id": 4561,
@@ -370,7 +490,10 @@ const MEMBERS_DATA = [
     "party": "IUML",
     "constituency": "Malappuram",
     "photo": "https://sansad.in/getFile/mpimage/photo/4561.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0932\u092a\u094d\u092a\u0941\u0930\u092e",
+    "constituency_gu": "\u0aae\u0ab2\u0aaa\u0acd\u0aaa\u0ac1\u0ab0\u0aae",
+    "constituency_mr": "\u092e\u0932\u092a\u094d\u092a\u0941\u0930\u092e"
   },
   {
     "id": 5548,
@@ -379,7 +502,10 @@ const MEMBERS_DATA = [
     "party": "UPPL",
     "constituency": "Kokrajhar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5548.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0915\u0930\u093e\u091d\u093e\u0930",
+    "constituency_gu": "\u0a95\u0acb\u0a95\u0ab0\u0abe\u0a9d\u0abe\u0ab0",
+    "constituency_mr": "\u0915\u094b\u0915\u094d\u0930\u093e\u091d\u093e\u0930"
   },
   {
     "id": 5833,
@@ -388,7 +514,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Coochbehar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5833.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0942\u091a\u092c\u093f\u0939\u093e\u0930",
+    "constituency_gu": "\u0a95\u0ac2\u0a9a\u0aac\u0abf\u0ab9\u0abe\u0ab0",
+    "constituency_mr": "\u0915\u0942\u091a\u092c\u093f\u0939\u093e\u0930"
   },
   {
     "id": 5124,
@@ -397,7 +526,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Chalakudy",
     "photo": "https://sansad.in/getFile/mpimage/photo/5124.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0932\u093e\u0915\u0941\u0921\u0940",
+    "constituency_gu": "\u0a9a\u0abe\u0ab2\u0a95\u0ac1\u0aa1\u0ac0",
+    "constituency_mr": "\u091a\u093e\u0932\u0915\u0941\u0921\u0940"
   },
   {
     "id": 5595,
@@ -406,7 +538,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jajpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5595.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u093e\u091c\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0abe\u0a9c\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u093e\u091c\u092a\u0942\u0930"
   },
   {
     "id": 5205,
@@ -415,7 +550,10 @@ const MEMBERS_DATA = [
     "party": "RLP",
     "constituency": "Nagaur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5205.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0917\u094c\u0930",
+    "constituency_gu": "\u0aa8\u0abe\u0a97\u0acc\u0ab0",
+    "constituency_mr": "\u0928\u093e\u0917\u094c\u0930"
   },
   {
     "id": 5762,
@@ -424,7 +562,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Barmer",
     "photo": "https://sansad.in/getFile/mpimage/photo/5762.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0921\u093c\u092e\u0947\u0930",
+    "constituency_gu": "\u0aac\u0abe\u0aa1\u0aae\u0ac7\u0ab0",
+    "constituency_mr": "\u092c\u093e\u0930\u092e\u0947\u0930"
   },
   {
     "id": 4857,
@@ -433,7 +574,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dahod",
     "photo": "https://sansad.in/getFile/mpimage/photo/4857.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u093e\u0939\u094b\u0926",
+    "constituency_gu": "\u0aa6\u0abe\u0ab9\u0acb\u0aa6",
+    "constituency_mr": "\u0926\u093e\u0939\u094b\u0926"
   },
   {
     "id": 5815,
@@ -442,7 +586,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Dhaurahra",
     "photo": "https://sansad.in/getFile/mpimage/photo/5815.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0927\u094c\u0930\u0939\u0930\u093e",
+    "constituency_gu": "\u0aa7\u0acc\u0ab0\u0ab9\u0ab0\u0abe",
+    "constituency_mr": "\u0927\u094c\u0930\u0939\u0930\u093e"
   },
   {
     "id": 5741,
@@ -451,7 +598,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Dindori",
     "photo": "https://sansad.in/getFile/mpimage/photo/5741.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0921\u093f\u0902\u0921\u094b\u0930\u0940",
+    "constituency_gu": "\u0aa1\u0ac0\u0a82\u0aa1\u0acb\u0ab0\u0ac0",
+    "constituency_mr": "\u0926\u093f\u0902\u0921\u094b\u0930\u0940"
   },
   {
     "id": 5742,
@@ -460,7 +610,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Lohardaga",
     "photo": "https://sansad.in/getFile/mpimage/photo/5742.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u094b\u0939\u0930\u0926\u0917\u093e",
+    "constituency_gu": "\u0ab2\u0acb\u0ab9\u0ab0\u0aa6\u0a97\u0abe",
+    "constituency_mr": "\u0932\u094b\u0939\u0930\u0926\u0917\u093e"
   },
   {
     "id": 5695,
@@ -469,7 +622,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kangra",
     "photo": "https://sansad.in/getFile/mpimage/photo/5695.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0902\u0917\u0921\u093c\u093e",
+    "constituency_gu": "\u0a95\u0abe\u0a82\u0a97\u0aa1\u0abe",
+    "constituency_mr": "\u0915\u093e\u0902\u0917\u0921\u093e"
   },
   {
     "id": 5740,
@@ -478,7 +634,10 @@ const MEMBERS_DATA = [
     "party": "LJSP(RV)",
     "constituency": "Jamui",
     "photo": "https://sansad.in/getFile/mpimage/photo/5740.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u092e\u0941\u0908",
+    "constituency_gu": "\u0a9c\u0aae\u0ac1\u0a88",
+    "constituency_mr": "\u091c\u092e\u0941\u0908"
   },
   {
     "id": 5824,
@@ -487,7 +646,10 @@ const MEMBERS_DATA = [
     "party": "RJD",
     "constituency": "Pataliputra",
     "photo": "https://sansad.in/getFile/mpimage/photo/5824.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u093e\u091f\u0932\u093f\u092a\u0941\u0924\u094d\u0930",
+    "constituency_gu": "\u0aaa\u0abe\u0a9f\u0ab2\u0ac0\u0aaa\u0ac1\u0aa4\u0acd\u0ab0",
+    "constituency_mr": "\u092a\u093e\u091f\u0932\u0940\u092a\u0941\u0924\u094d\u0930"
   },
   {
     "id": 5003,
@@ -496,7 +658,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Nainital-Udhamsingh Nagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5003.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0948\u0928\u0940\u0924\u093e\u0932-\u0909\u0927\u092e\u0938\u093f\u0902\u0939 \u0928\u0917\u0930",
+    "constituency_gu": "\u0aa8\u0ac8\u0aa8\u0ac0\u0aa4\u0abe\u0ab2-\u0a89\u0aa7\u0aae\u0ab8\u0abf\u0a82\u0ab9 \u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0928\u0948\u0928\u093f\u0924\u093e\u0932-\u0909\u0927\u092e\u0938\u093f\u0902\u0917 \u0928\u0917\u0930"
   },
   {
     "id": 4389,
@@ -505,7 +670,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Satara",
     "photo": "https://sansad.in/getFile/mpimage/photo/4389.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0924\u093e\u0930\u093e",
+    "constituency_gu": "\u0ab8\u0aa4\u0abe\u0ab0\u0abe",
+    "constituency_mr": "\u0938\u093e\u0924\u093e\u0930\u093e"
   },
   {
     "id": 5660,
@@ -514,7 +682,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Barrackpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5660.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0930\u094d\u0930\u0915\u094d\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0ac7\u0ab0\u0a95\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092c\u0930\u093e\u0915\u092a\u0942\u0930"
   },
   {
     "id": 5745,
@@ -523,7 +694,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Narsapuram",
     "photo": "https://sansad.in/getFile/mpimage/photo/5745.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0930\u0938\u093e\u092a\u0941\u0930\u092e",
+    "constituency_gu": "\u0aa8\u0ab0\u0ab8\u0abe\u0aaa\u0ac1\u0ab0\u0aae",
+    "constituency_mr": "\u0928\u0930\u0938\u093e\u092a\u0941\u0930\u092e"
   },
   {
     "id": 5543,
@@ -532,7 +706,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "South Delhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5543.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0915\u094d\u0937\u093f\u0923\u0940 \u0926\u093f\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3 \u0aa6\u0abf\u0ab2\u0acd\u0ab9\u0ac0",
+    "constituency_mr": "\u0926\u0915\u094d\u0937\u093f\u0923 \u0926\u093f\u0932\u094d\u0932\u0940"
   },
   {
     "id": 5607,
@@ -541,7 +718,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhadohi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5607.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0926\u094b\u0939\u0940",
+    "constituency_gu": "\u0aad\u0aa6\u0acb\u0ab9\u0ac0",
+    "constituency_mr": "\u092d\u0926\u094b\u0939\u0940"
   },
   {
     "id": 4716,
@@ -550,7 +730,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kota",
     "photo": "https://sansad.in/getFile/mpimage/photo/4716.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u091f\u093e",
+    "constituency_gu": "\u0a95\u0acb\u0a9f\u0abe",
+    "constituency_mr": "\u0915\u094b\u091f\u093e"
   },
   {
     "id": 5042,
@@ -559,7 +742,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Darjeeling",
     "photo": "https://sansad.in/getFile/mpimage/photo/5042.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u093e\u0930\u094d\u091c\u093f\u0932\u093f\u0902\u0917",
+    "constituency_gu": "\u0aa6\u0abe\u0ab0\u0acd\u0a9c\u0abf\u0ab2\u0abf\u0a82\u0a97",
+    "constituency_mr": "\u0926\u093e\u0930\u094d\u091c\u093f\u0932\u093f\u0902\u0917"
   },
   {
     "id": 5561,
@@ -568,7 +754,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Haveri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5561.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093e\u0935\u0947\u0930\u0940",
+    "constituency_gu": "\u0ab9\u0abe\u0ab5\u0ac7\u0ab0\u0ac0",
+    "constituency_mr": "\u0939\u093e\u0935\u0947\u0930\u0940"
   },
   {
     "id": 5108,
@@ -577,7 +766,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Nagaon",
     "photo": "https://sansad.in/getFile/mpimage/photo/5108.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0917\u093e\u0902\u0935",
+    "constituency_gu": "\u0aa8\u0abe\u0a97\u0abe\u0a82\u0ab5",
+    "constituency_mr": "\u0928\u093e\u0917\u093e\u0935"
   },
   {
     "id": 5758,
@@ -586,7 +778,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Chamarajanagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5758.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093e\u092e\u0930\u093e\u091c\u0928\u0917\u0930",
+    "constituency_gu": "\u0a9a\u0abe\u0aae\u0ab0\u0abe\u0a9c\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u091a\u093e\u092e\u0930\u093e\u091c\u0928\u0917\u0930"
   },
   {
     "id": 5585,
@@ -595,7 +790,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Sonipat",
     "photo": "https://sansad.in/getFile/mpimage/photo/5585.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u094b\u0928\u0940\u092a\u0924",
+    "constituency_gu": "\u0ab8\u0acb\u0aa8\u0ac0\u0aaa\u0aa4",
+    "constituency_mr": "\u0938\u094b\u0928\u0940\u092a\u0924"
   },
   {
     "id": 5629,
@@ -604,7 +802,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Tirunelveli",
     "photo": "https://sansad.in/getFile/mpimage/photo/5629.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093f\u0930\u0941\u0928\u0947\u0932\u0935\u0947\u0932\u0940",
+    "constituency_gu": "\u0aa4\u0abf\u0ab0\u0ac1\u0aa8\u0ac7\u0ab2\u0ab5\u0ac7\u0ab2\u0ac0",
+    "constituency_mr": "\u0924\u093f\u0930\u0941\u0928\u0947\u0932\u0935\u0947\u0932\u0940"
   },
   {
     "id": 5779,
@@ -613,7 +814,10 @@ const MEMBERS_DATA = [
     "party": "AAP",
     "constituency": "Hoshiarpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5779.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u094b\u0936\u093f\u092f\u093e\u0930\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab9\u0acb\u0ab6\u0abf\u0aaf\u0abe\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0939\u094b\u0936\u093f\u092f\u093e\u0930\u092a\u0942\u0930"
   },
   {
     "id": 5142,
@@ -622,7 +826,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Fatehpur Sikri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5142.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u093c\u0924\u0947\u0939\u092a\u0941\u0930 \u0938\u0940\u0915\u0930\u0940",
+    "constituency_gu": "\u0aab\u0aa4\u0ac7\u0ab9\u0aaa\u0ac1\u0ab0 \u0ab8\u0ac0\u0a95\u0ab0\u0ac0",
+    "constituency_mr": "\u092b\u0924\u0947\u0939\u092a\u0942\u0930 \u0938\u093f\u0915\u094d\u0930\u0940"
   },
   {
     "id": 5778,
@@ -631,7 +838,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Bankura",
     "photo": "https://sansad.in/getFile/mpimage/photo/5778.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0902\u0915\u0941\u0921\u093c\u093e",
+    "constituency_gu": "\u0aac\u0abe\u0a82\u0a95\u0ac1\u0ab0\u0abe",
+    "constituency_mr": "\u092c\u093e\u0902\u0915\u0941\u0930\u093e"
   },
   {
     "id": 3984,
@@ -640,7 +850,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bagalkot",
     "photo": "https://sansad.in/getFile/mpimage/photo/3984.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0917\u0932\u0915\u094b\u091f",
+    "constituency_gu": "\u0aac\u0abe\u0a97\u0ab2\u0a95\u0acb\u0a9f",
+    "constituency_mr": "\u092c\u093e\u0917\u0932\u0915\u094b\u091f"
   },
   {
     "id": 5587,
@@ -649,7 +862,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "North West Delhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5587.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0924\u094d\u0924\u0930 \u092a\u0936\u094d\u091a\u093f\u092e \u0926\u093f\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0a89\u0aa4\u0acd\u0aa4\u0ab0 \u0aaa\u0ab6\u0acd\u0a9a\u0abf\u0aae \u0aa6\u0abf\u0ab2\u0acd\u0ab9\u0ac0",
+    "constituency_mr": "\u0909\u0924\u094d\u0924\u0930 \u092a\u0936\u094d\u091a\u093f\u092e \u0926\u093f\u0932\u094d\u0932\u0940"
   },
   {
     "id": 5750,
@@ -658,7 +874,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Jalandhar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5750.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u093e\u0932\u0902\u0927\u0930",
+    "constituency_gu": "\u0a9c\u0ab2\u0a82\u0aa7\u0ab0",
+    "constituency_mr": "\u091c\u093e\u0932\u0902\u0927\u0930"
   },
   {
     "id": 4597,
@@ -667,7 +886,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Pali",
     "photo": "https://sansad.in/getFile/mpimage/photo/4597.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u093e\u0932\u0940",
+    "constituency_gu": "\u0aaa\u0abe\u0ab2\u0ac0",
+    "constituency_mr": "\u092a\u093e\u0932\u0940"
   },
   {
     "id": 5803,
@@ -676,7 +898,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Mohanlalganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/5803.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u094b\u0939\u0928\u0932\u093e\u0932\u0917\u0902\u091c",
+    "constituency_gu": "\u0aae\u0acb\u0ab9\u0aa8\u0ab2\u0abe\u0ab2\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u092e\u094b\u0939\u0928\u0932\u093e\u0932\u0917\u0902\u091c"
   },
   {
     "id": 3261,
@@ -685,7 +910,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Basti",
     "photo": "https://sansad.in/getFile/mpimage/photo/3261.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0938\u094d\u0924\u0940",
+    "constituency_gu": "\u0aac\u0ab8\u0acd\u0aa4\u0ac0",
+    "constituency_mr": "\u092c\u0938\u094d\u0924\u0940"
   },
   {
     "id": 5545,
@@ -694,7 +922,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Ambala",
     "photo": "https://sansad.in/getFile/mpimage/photo/5545.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u092e\u094d\u092c\u093e\u0932\u093e",
+    "constituency_gu": "\u0a85\u0a82\u0aac\u0abe\u0ab2\u0abe",
+    "constituency_mr": "\u0905\u0902\u092c\u093e\u0932\u093e"
   },
   {
     "id": 5547,
@@ -703,7 +934,10 @@ const MEMBERS_DATA = [
     "party": "RLD",
     "constituency": "Bijnor",
     "photo": "https://sansad.in/getFile/mpimage/photo/5547.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093f\u091c\u0928\u094c\u0930",
+    "constituency_gu": "\u0aac\u0abf\u0a9c\u0aa8\u0acc\u0ab0",
+    "constituency_mr": "\u092c\u093f\u091c\u0928\u094c\u0930"
   },
   {
     "id": 4858,
@@ -712,7 +946,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kheda",
     "photo": "https://sansad.in/getFile/mpimage/photo/4858.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u0947\u0921\u093c\u093e",
+    "constituency_gu": "\u0a96\u0ac7\u0aa1\u0abe",
+    "constituency_mr": "\u0916\u0947\u0921\u093e"
   },
   {
     "id": 5766,
@@ -721,7 +958,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Kolhapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5766.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0932\u094d\u0939\u093e\u092a\u0941\u0930",
+    "constituency_gu": "\u0a95\u0acb\u0ab2\u0acd\u0ab9\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0915\u094b\u0932\u094d\u0939\u093e\u092a\u0942\u0930"
   },
   {
     "id": 4859,
@@ -730,7 +970,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Robertsganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/4859.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u094b\u092c\u0947\u0930\u094d\u0924\u094d\u0938\u094d\u0917\u0902\u091c",
+    "constituency_gu": "\u0ab0\u0acb\u0aac\u0ab0\u0acd\u0a9f\u0ab8\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0930\u0949\u092c\u0930\u094d\u091f\u0938\u0917\u0902\u091c"
   },
   {
     "id": 4967,
@@ -739,7 +982,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Sivaganga",
     "photo": "https://sansad.in/getFile/mpimage/photo/4967.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093f\u0935\u0917\u0902\u0917\u093e",
+    "constituency_gu": "\u0ab6\u0abf\u0ab5\u0a97\u0a82\u0a97\u0abe",
+    "constituency_mr": "\u0936\u093f\u0935\u0917\u0902\u0917\u093e"
   },
   {
     "id": 5568,
@@ -748,7 +994,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Muzaffarpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5568.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u091c\u092b\u094d\u092b\u0930\u092a\u0941\u0930",
+    "constituency_gu": "\u0aae\u0ac1\u0a9d\u0aab\u0acd\u0aab\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092e\u0941\u091d\u092b\u094d\u092b\u0930\u092a\u0942\u0930"
   },
   {
     "id": 5795,
@@ -757,7 +1006,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Kairana",
     "photo": "https://sansad.in/getFile/mpimage/photo/5795.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0948\u0930\u093e\u0928\u093e",
+    "constituency_gu": "\u0a95\u0ac8\u0ab0\u0abe\u0aa8\u0abe",
+    "constituency_mr": "\u0915\u0948\u0930\u093e\u0928\u093e"
   },
   {
     "id": 5203,
@@ -766,7 +1018,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ajmer",
     "photo": "https://sansad.in/getFile/mpimage/photo/5203.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u091c\u092e\u0947\u0930",
+    "constituency_gu": "\u0a85\u0a9c\u0aae\u0ac7\u0ab0",
+    "constituency_mr": "\u0905\u091c\u092e\u0947\u0930"
   },
   {
     "id": 5115,
@@ -775,7 +1030,10 @@ const MEMBERS_DATA = [
     "party": "AJSU",
     "constituency": "Giridih",
     "photo": "https://sansad.in/getFile/mpimage/photo/5115.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u093f\u0930\u093f\u0921\u0940\u0939",
+    "constituency_gu": "\u0a97\u0abf\u0ab0\u0abf\u0aa1\u0ac0\u0ab9",
+    "constituency_mr": "\u0917\u093f\u0930\u093f\u0921\u0940\u0939"
   },
   {
     "id": 5613,
@@ -784,7 +1042,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Hoshangabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5613.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u094b\u0936\u0902\u0917\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0ab9\u0acb\u0ab6\u0a82\u0a97\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0939\u094b\u0936\u0902\u0917\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5621,
@@ -793,7 +1054,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jalore",
     "photo": "https://sansad.in/getFile/mpimage/photo/5621.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u093e\u0932\u094c\u0930",
+    "constituency_gu": "\u0a9c\u0abe\u0ab2\u0acb\u0ab0",
+    "constituency_mr": "\u091c\u093e\u0932\u094b\u0930\u0947"
   },
   {
     "id": 3479,
@@ -802,7 +1066,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Maharajganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/3479.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0939\u093e\u0930\u093e\u091c\u0917\u0902\u091c",
+    "constituency_gu": "\u0aae\u0ab9\u0abe\u0ab0\u0abe\u0a9c\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u092e\u0939\u093e\u0930\u093e\u091c\u0917\u0902\u091c"
   },
   {
     "id": 5707,
@@ -811,7 +1078,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mahasamund",
     "photo": "https://sansad.in/getFile/mpimage/photo/5707.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0939\u093e\u0938\u092e\u0941\u0902\u0926",
+    "constituency_gu": "\u0aae\u0ab9\u0abe\u0ab8\u0aae\u0ac1\u0aa8\u0acd\u0aa6",
+    "constituency_mr": "\u092e\u0939\u093e\u0938\u092e\u0941\u0902\u0926"
   },
   {
     "id": 5834,
@@ -820,7 +1090,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Maldaha Dakshin",
     "photo": "https://sansad.in/getFile/mpimage/photo/5834.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093e\u0932\u0926\u093e \u0926\u0915\u094d\u0937\u093f\u0923",
+    "constituency_gu": "\u0aae\u0abe\u0ab2\u0aa6\u0ab9\u0abe \u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3",
+    "constituency_mr": "\u092e\u093e\u0932\u0926\u0939\u093e \u0926\u0915\u094d\u0937\u093f\u0923"
   },
   {
     "id": 5569,
@@ -829,7 +1102,10 @@ const MEMBERS_DATA = [
     "party": "AGP",
     "constituency": "Barpeta",
     "photo": "https://sansad.in/getFile/mpimage/photo/5569.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0930\u092a\u0947\u091f\u093e",
+    "constituency_gu": "\u0aac\u0ab0\u0aaa\u0ac7\u0a9f\u0abe",
+    "constituency_mr": "\u092c\u093e\u0930\u092a\u0947\u091f\u093e"
   },
   {
     "id": 96,
@@ -838,7 +1114,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Vidisha",
     "photo": "https://sansad.in/getFile/mpimage/photo/96.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093f\u0926\u093f\u0936\u093e",
+    "constituency_gu": "\u0ab5\u0abf\u0aa6\u0abf\u0ab6\u0abe",
+    "constituency_mr": "\u0935\u093f\u0926\u093f\u0936\u093e"
   },
   {
     "id": 5663,
@@ -847,7 +1126,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ratlam",
     "photo": "https://sansad.in/getFile/mpimage/photo/5663.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u0924\u0932\u093e\u092e",
+    "constituency_gu": "\u0ab0\u0aa4\u0ab2\u0abe\u0aae",
+    "constituency_mr": "\u0930\u0924\u0932\u093e\u092e"
   },
   {
     "id": 5627,
@@ -856,7 +1138,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dakshina Kannada",
     "photo": "https://sansad.in/getFile/mpimage/photo/5627.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0915\u094d\u0937\u093f\u0923 \u0915\u0928\u094d\u0928\u0921\u093c",
+    "constituency_gu": "\u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3 \u0a95\u0aa8\u0acd\u0aa8\u0aa1",
+    "constituency_mr": "\u0926\u0915\u094d\u0937\u093f\u0923 \u0915\u0928\u094d\u0928\u0921"
   },
   {
     "id": 4865,
@@ -865,7 +1150,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Junagadh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4865.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0942\u0928\u093e\u0917\u0922\u093c",
+    "constituency_gu": "\u0a9c\u0ac2\u0aa8\u0abe\u0a97\u0aa2",
+    "constituency_mr": "\u091c\u0941\u0928\u093e\u0917\u0921"
   },
   {
     "id": 5817,
@@ -874,7 +1162,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Kallakurichi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5817.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0932\u094d\u0932\u093e\u0915\u0941\u0930\u093f\u091a\u0940",
+    "constituency_gu": "\u0a95\u0ab2\u0acd\u0ab2\u0abe\u0a95\u0ac1\u0ab0\u0abf\u0a9a\u0ac0",
+    "constituency_mr": "\u0915\u0932\u094d\u0932\u093e\u0915\u0941\u0930\u0940\u091a\u0940"
   },
   {
     "id": 5024,
@@ -883,7 +1174,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Patan",
     "photo": "https://sansad.in/getFile/mpimage/photo/5024.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u093e\u091f\u0928",
+    "constituency_gu": "\u0aaa\u0abe\u0a9f\u0aa3",
+    "constituency_mr": "\u092a\u093e\u091f\u0923"
   },
   {
     "id": 5574,
@@ -892,7 +1186,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Surat",
     "photo": "https://sansad.in/getFile/mpimage/photo/5574.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0942\u0930\u0924",
+    "constituency_gu": "\u0ab8\u0ac1\u0ab0\u0aa4",
+    "constituency_mr": "\u0938\u0941\u0930\u0924"
   },
   {
     "id": 4489,
@@ -901,7 +1198,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Barasat",
     "photo": "https://sansad.in/getFile/mpimage/photo/4489.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0930\u093e\u0938\u093e\u0924",
+    "constituency_gu": "\u0aac\u0abe\u0ab0\u0abe\u0ab8\u0aa4",
+    "constituency_mr": "\u092c\u093e\u0930\u093e\u0938\u093e\u0924"
   },
   {
     "id": 5199,
@@ -910,7 +1210,10 @@ const MEMBERS_DATA = [
     "party": "NCP",
     "constituency": "Raigad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5199.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092f\u0917\u0922\u093c",
+    "constituency_gu": "\u0ab0\u0abe\u0aaf\u0a97\u0aa2",
+    "constituency_mr": "\u0930\u093e\u092f\u0917\u0921"
   },
   {
     "id": 5671,
@@ -919,7 +1222,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Tripura West",
     "photo": "https://sansad.in/getFile/mpimage/photo/5671.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u094d\u0930\u093f\u092a\u0941\u0930\u093e \u092a\u0936\u094d\u091a\u093f\u092e",
+    "constituency_gu": "\u0aa4\u0acd\u0ab0\u0abf\u0aaa\u0ac1\u0ab0\u0abe \u0aaa\u0ab6\u0acd\u0a9a\u0abf\u0aae",
+    "constituency_mr": "\u0924\u094d\u0930\u093f\u092a\u0941\u0930\u093e \u092a\u0936\u094d\u091a\u093f\u092e"
   },
   {
     "id": 5575,
@@ -928,7 +1234,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Tripura East",
     "photo": "https://sansad.in/getFile/mpimage/photo/5575.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u094d\u0930\u093f\u092a\u0941\u0930\u093e \u092a\u0942\u0930\u094d\u0935",
+    "constituency_gu": "\u0aa4\u0acd\u0ab0\u0abf\u0aaa\u0ac1\u0ab0\u0abe \u0aaa\u0ac2\u0ab0\u0acd\u0ab5",
+    "constituency_mr": "\u0924\u094d\u0930\u093f\u092a\u0941\u0930\u093e \u092a\u0942\u0930\u094d\u0935"
   },
   {
     "id": 426,
@@ -937,7 +1246,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bolangir",
     "photo": "https://sansad.in/getFile/mpimage/photo/426.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u094b\u0932\u0902\u0917\u0940\u0930",
+    "constituency_gu": "\u0aac\u0acb\u0ab2\u0abe\u0a82\u0a97\u0ac0\u0ab0",
+    "constituency_mr": "\u092c\u094b\u0932\u0902\u0917\u0940\u0930"
   },
   {
     "id": 5648,
@@ -946,7 +1258,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Mumbai South Central",
     "photo": "https://sansad.in/getFile/mpimage/photo/5648.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0902\u092c\u0908 \u0938\u093e\u0909\u0925 \u0938\u0947\u0902\u091f\u094d\u0930\u0932",
+    "constituency_gu": "\u0aae\u0ac1\u0a82\u0aac\u0a88 \u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3 \u0aae\u0aa7\u0acd\u0aaf",
+    "constituency_mr": "\u092e\u0941\u0902\u092c\u0908 \u0926\u0915\u094d\u0937\u093f\u0923 \u092e\u0927\u094d\u092f"
   },
   {
     "id": 5725,
@@ -955,7 +1270,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Yavatmal-Washim",
     "photo": "https://sansad.in/getFile/mpimage/photo/5725.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092f\u0935\u0924\u092e\u093e\u0932-\u0935\u093e\u0936\u093f\u092e",
+    "constituency_gu": "\u0aaf\u0ab5\u0aa4\u0aae\u0abe\u0ab2-\u0ab5\u0abe\u0ab6\u0abf\u0aae",
+    "constituency_mr": "\u092f\u0935\u0924\u092e\u093e\u0933-\u0935\u093e\u0936\u0940\u092e"
   },
   {
     "id": 4847,
@@ -964,7 +1282,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Ghatal",
     "photo": "https://sansad.in/getFile/mpimage/photo/4847.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0918\u093e\u091f\u0932",
+    "constituency_gu": "\u0a98\u0abe\u0a9f\u0ab2",
+    "constituency_mr": "\u0918\u093e\u091f\u093e\u0933"
   },
   {
     "id": 5096,
@@ -973,7 +1294,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Narasaraopet",
     "photo": "https://sansad.in/getFile/mpimage/photo/5096.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0930\u0938\u0930\u093e\u0935\u092a\u0947\u091f",
+    "constituency_gu": "\u0aa8\u0ab0\u0ab8\u0ab0\u0acb\u0aaa\u0ac7\u0a9f",
+    "constituency_mr": "\u0928\u0930\u0938\u0930\u093e\u0935\u092a\u0947\u0920"
   },
   {
     "id": 5116,
@@ -982,7 +1306,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kodarma",
     "photo": "https://sansad.in/getFile/mpimage/photo/5116.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0921\u0930\u092e\u093e",
+    "constituency_gu": "\u0a95\u0acb\u0aa1\u0ab0\u0aae\u0abe",
+    "constituency_mr": "\u0915\u094b\u0921\u0930\u092e\u093e"
   },
   {
     "id": 5624,
@@ -991,7 +1318,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kalahandi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5624.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0932\u093e\u0939\u093e\u0902\u0921\u0940",
+    "constituency_gu": "\u0a95\u0abe\u0ab2\u0abe\u0ab9\u0abe\u0a82\u0aa1\u0ac0",
+    "constituency_mr": "\u0915\u093e\u0932\u093e\u0939\u0902\u0921\u0940"
   },
   {
     "id": 5223,
@@ -1000,7 +1330,10 @@ const MEMBERS_DATA = [
     "party": "LJSP(RV)",
     "constituency": "Vaishali",
     "photo": "https://sansad.in/getFile/mpimage/photo/5223.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u0948\u0936\u093e\u0932\u0940",
+    "constituency_gu": "\u0ab5\u0ac8\u0ab6\u0abe\u0ab2\u0ac0",
+    "constituency_mr": "\u0935\u0948\u0936\u093e\u0932\u0940"
   },
   {
     "id": 5577,
@@ -1009,7 +1342,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Siwan",
     "photo": "https://sansad.in/getFile/mpimage/photo/5577.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093f\u0935\u093e\u0928",
+    "constituency_gu": "\u0ab8\u0abf\u0ab5\u0abe\u0aa8",
+    "constituency_mr": "\u0938\u093f\u0935\u093e\u0928"
   },
   {
     "id": 5082,
@@ -1018,7 +1354,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Nizamabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5082.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093f\u091c\u093e\u092e\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aa8\u0abf\u0a9d\u0abe\u0aae\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0928\u093f\u091c\u093e\u092e\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5562,
@@ -1027,7 +1366,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Akola",
     "photo": "https://sansad.in/getFile/mpimage/photo/5562.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0915\u094b\u0932\u093e",
+    "constituency_gu": "\u0a85\u0a95\u0acb\u0ab2\u0abe",
+    "constituency_mr": "\u0905\u0915\u094b\u0932\u093e"
   },
   {
     "id": 5773,
@@ -1036,7 +1378,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Dhule",
     "photo": "https://sansad.in/getFile/mpimage/photo/5773.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0927\u0941\u0932\u0947",
+    "constituency_gu": "\u0aa7\u0ac1\u0ab3\u0ac7",
+    "constituency_mr": "\u0927\u0941\u0933\u0947"
   },
   {
     "id": 5657,
@@ -1045,7 +1390,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Etawah",
     "photo": "https://sansad.in/getFile/mpimage/photo/5657.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0907\u091f\u093e\u0935\u093e",
+    "constituency_gu": "\u0a88\u0a9f\u0abe\u0ab5\u0abe",
+    "constituency_mr": "\u0907\u091f\u093e\u0935\u093e"
   },
   {
     "id": 4324,
@@ -1054,7 +1402,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Godda",
     "photo": "https://sansad.in/getFile/mpimage/photo/4324.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u094b\u0921\u094d\u0921\u093e",
+    "constituency_gu": "\u0a97\u0acb\u0aa1\u0acd\u0aa1\u0abe",
+    "constituency_mr": "\u0917\u094b\u0921\u094d\u0921\u093e"
   },
   {
     "id": 5699,
@@ -1063,7 +1414,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jabalpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5699.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u092c\u0932\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0aac\u0ab2\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u092c\u0932\u092a\u0942\u0930"
   },
   {
     "id": 5151,
@@ -1072,7 +1426,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kushi Nagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5151.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0941\u0936\u0940\u0928\u0917\u0930",
+    "constituency_gu": "\u0a95\u0ac1\u0ab6\u0ac0 \u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0915\u0941\u0936\u0940 \u0928\u0917\u0930"
   },
   {
     "id": 5606,
@@ -1081,7 +1438,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Sonitpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5606.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u094b\u0928\u093f\u0924\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0acb\u0aa8\u0abf\u0aa4\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u094b\u0928\u093f\u0924\u092a\u0942\u0930"
   },
   {
     "id": 5125,
@@ -1090,7 +1450,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Ernakulam",
     "photo": "https://sansad.in/getFile/mpimage/photo/5125.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u090f\u0930\u094d\u0928\u093e\u0915\u0941\u0932\u092e",
+    "constituency_gu": "\u0a8f\u0ab0\u0acd\u0aa8\u0abe\u0a95\u0ac1\u0ab2\u0aae",
+    "constituency_mr": "\u090f\u0930\u094d\u0928\u093e\u0915\u0941\u0932\u092e"
   },
   {
     "id": 5710,
@@ -1099,7 +1462,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "South Goa",
     "photo": "https://sansad.in/getFile/mpimage/photo/5710.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0915\u094d\u0937\u093f\u0923 \u0917\u094b\u0935\u093e",
+    "constituency_gu": "\u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3 \u0a97\u0acb\u0ab5\u0abe",
+    "constituency_mr": "\u0926\u0915\u094d\u0937\u093f\u0923 \u0917\u094b\u0935\u093e"
   },
   {
     "id": 5071,
@@ -1108,7 +1474,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ujjain",
     "photo": "https://sansad.in/getFile/mpimage/photo/5071.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u091c\u094d\u091c\u0948\u0928",
+    "constituency_gu": "\u0a89\u0a9c\u0acd\u0a9c\u0ac8\u0aa8",
+    "constituency_mr": "\u0909\u091c\u094d\u091c\u0948\u0928"
   },
   {
     "id": 4963,
@@ -1117,7 +1486,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Kancheepuram",
     "photo": "https://sansad.in/getFile/mpimage/photo/4963.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0902\u091a\u0940\u092a\u0941\u0930\u092e",
+    "constituency_gu": "\u0a95\u0abe\u0a82\u0a9a\u0ac0\u0aaa\u0ac1\u0ab0\u0aae",
+    "constituency_mr": "\u0915\u093e\u0902\u091a\u0940\u092a\u0941\u0930\u092e"
   },
   {
     "id": 5771,
@@ -1126,7 +1498,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Peddapalle",
     "photo": "https://sansad.in/getFile/mpimage/photo/5771.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0947\u0926\u094d\u0926\u093e\u092a\u0932\u094d\u0932\u0947",
+    "constituency_gu": "\u0aaa\u0ac7\u0aa6\u0acd\u0aa6\u0abe\u0aaa\u0ab2\u0acd\u0ab2\u0ac7",
+    "constituency_mr": "\u092a\u0947\u0921\u094d\u0921\u093e\u092a\u0932\u094d\u0932\u0947"
   },
   {
     "id": 4923,
@@ -1135,7 +1510,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Nagpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4923.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0917\u092a\u0941\u0930",
+    "constituency_gu": "\u0aa8\u0abe\u0a97\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0928\u093e\u0917\u092a\u0942\u0930"
   },
   {
     "id": 5754,
@@ -1144,7 +1522,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Mumbai North Central",
     "photo": "https://sansad.in/getFile/mpimage/photo/5754.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0902\u092c\u0908 \u0909\u0924\u094d\u0924\u0930 \u092e\u0927\u094d\u092f",
+    "constituency_gu": "\u0aae\u0ac1\u0a82\u0aac\u0a88 \u0a89\u0aa4\u0acd\u0aa4\u0ab0 \u0aae\u0aa7\u0acd\u0aaf",
+    "constituency_mr": "\u092e\u0941\u0902\u092c\u0908 \u0909\u0924\u094d\u0924\u0930 \u092e\u0927\u094d\u092f"
   },
   {
     "id": 4676,
@@ -1153,7 +1534,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Patiala",
     "photo": "https://sansad.in/getFile/mpimage/photo/4676.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u091f\u093f\u092f\u093e\u0932\u093e",
+    "constituency_gu": "\u0aaa\u0a9f\u0abf\u0aaf\u0abe\u0ab2\u0abe",
+    "constituency_mr": "\u092a\u091f\u093f\u092f\u093e\u0932\u093e"
   },
   {
     "id": 4074,
@@ -1162,7 +1546,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Rae Bareli",
     "photo": "https://sansad.in/getFile/mpimage/photo/4074.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092f\u092c\u0930\u0947\u0932\u0940",
+    "constituency_gu": "\u0ab0\u0abe\u0aaf\u0aac\u0ab0\u0ac7\u0ab2\u0ac0",
+    "constituency_mr": "\u0930\u093e\u092f\u092c\u0930\u0947\u0932\u0940"
   },
   {
     "id": 5591,
@@ -1171,7 +1558,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Tamluk",
     "photo": "https://sansad.in/getFile/mpimage/photo/5591.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093e\u092e\u0932\u0941\u0915",
+    "constituency_gu": "\u0aa4\u0aae\u0ab2\u0ac1\u0a95",
+    "constituency_mr": "\u0924\u093e\u092e\u0932\u0941\u0915"
   },
   {
     "id": 5566,
@@ -1180,7 +1570,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bareilly",
     "photo": "https://sansad.in/getFile/mpimage/photo/5566.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0930\u0947\u0932\u0940",
+    "constituency_gu": "\u0aac\u0ab0\u0ac7\u0ab2\u0ac0",
+    "constituency_mr": "\u092c\u0930\u0947\u0932\u0940"
   },
   {
     "id": 3973,
@@ -1189,7 +1582,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Arunachal East",
     "photo": "https://sansad.in/getFile/mpimage/photo/3973.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0930\u0941\u0923\u093e\u091a\u0932 \u092a\u0942\u0930\u094d\u0935",
+    "constituency_gu": "\u0a85\u0ab0\u0ac1\u0aa3\u0abe\u0a9a\u0ab2 \u0aaa\u0ac2\u0ab0\u0acd\u0ab5",
+    "constituency_mr": "\u0905\u0930\u0941\u0923\u093e\u091a\u0932 \u092a\u0942\u0930\u094d\u0935"
   },
   {
     "id": 5549,
@@ -1198,7 +1594,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ghaziabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5549.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u093e\u091c\u093f\u092f\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a97\u0abe\u0a9d\u0abf\u0aaf\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0917\u093e\u091d\u093f\u092f\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4603,
@@ -1207,7 +1606,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Aligarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4603.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0932\u0940\u0917\u0922",
+    "constituency_gu": "\u0a85\u0ab2\u0ac0\u0a97\u0aa2",
+    "constituency_mr": "\u0905\u0932\u0940\u0917\u0922"
   },
   {
     "id": 138,
@@ -1216,7 +1618,10 @@ const MEMBERS_DATA = [
     "party": "KEC",
     "constituency": "Kottayam",
     "photo": "https://sansad.in/getFile/mpimage/photo/138.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u091f\u094d\u091f\u093e\u092f\u092e",
+    "constituency_gu": "\u0a95\u0acb\u0a9f\u0acd\u0a9f\u0abe\u0aaf\u0aae",
+    "constituency_mr": "\u0915\u094b\u091f\u094d\u091f\u093e\u092f\u092e"
   },
   {
     "id": 5785,
@@ -1225,7 +1630,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Jadavpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5785.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u093e\u0926\u0935\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0abe\u0aa6\u0ab5\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u093e\u0927\u0935\u092a\u0942\u0930"
   },
   {
     "id": 4432,
@@ -1234,7 +1642,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Firozpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4432.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u093f\u0930\u094b\u091c\u092a\u0941\u0930",
+    "constituency_gu": "\u0aab\u0abf\u0ab0\u0acb\u0a9d\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092b\u093f\u0930\u094b\u091c\u092a\u0942\u0930"
   },
   {
     "id": 4788,
@@ -1243,7 +1654,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Jorhat",
     "photo": "https://sansad.in/getFile/mpimage/photo/4788.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u094b\u0930\u0939\u093e\u091f",
+    "constituency_gu": "\u0a9c\u0acb\u0ab0\u0ab9\u0abe\u0a9f",
+    "constituency_mr": "\u091c\u094b\u0930\u0939\u093e\u091f"
   },
   {
     "id": 5552,
@@ -1252,7 +1666,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Thrissur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5552.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u094d\u0930\u093f\u0936\u0942\u0930",
+    "constituency_gu": "\u0aa5\u0acd\u0ab0\u0abf\u0ab8\u0ac1\u0ab0",
+    "constituency_mr": "\u0924\u094d\u0930\u093f\u0936\u0942\u0930"
   },
   {
     "id": 5718,
@@ -1261,7 +1678,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Krishnagiri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5718.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0943\u0937\u094d\u0923\u093e\u0917\u093f\u0930\u0940",
+    "constituency_gu": "\u0a95\u0ac3\u0ab7\u0acd\u0aa3\u0a97\u0abf\u0ab0\u0ac0",
+    "constituency_mr": "\u0915\u0943\u0937\u094d\u0923\u0917\u093f\u0930\u0940"
   },
   {
     "id": 5564,
@@ -1270,7 +1690,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Meerut",
     "photo": "https://sansad.in/getFile/mpimage/photo/5564.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0947\u0930\u0920",
+    "constituency_gu": "\u0aae\u0ac7\u0ab0\u0aa0",
+    "constituency_mr": "\u092e\u0947\u0930\u0920"
   },
   {
     "id": 5551,
@@ -1279,7 +1702,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mumbai North",
     "photo": "https://sansad.in/getFile/mpimage/photo/5551.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0902\u092c\u0908 \u0909\u0924\u094d\u0924\u0930",
+    "constituency_gu": "\u0aae\u0ac1\u0a82\u0aac\u0a88 \u0a89\u0aa4\u0acd\u0aa4\u0ab0",
+    "constituency_mr": "\u092e\u0941\u0902\u092c\u0908 \u0909\u0924\u094d\u0924\u0930"
   },
   {
     "id": 4615,
@@ -1288,7 +1714,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mandsour",
     "photo": "https://sansad.in/getFile/mpimage/photo/4615.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0902\u0926\u0938\u094c\u0930",
+    "constituency_gu": "\u0aae\u0a82\u0aa6\u0ab8\u0acb\u0ab0",
+    "constituency_mr": "\u092e\u0902\u0926\u0938\u0942\u0930"
   },
   {
     "id": 4629,
@@ -1297,7 +1726,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Faridabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/4629.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u0930\u0940\u0926\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aab\u0ab0\u0ac0\u0aa6\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u092b\u0930\u0940\u0926\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5534,
@@ -1306,7 +1738,10 @@ const MEMBERS_DATA = [
     "party": "YSR Congress Party",
     "constituency": "Tirupati",
     "photo": "https://sansad.in/getFile/mpimage/photo/5534.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093f\u0930\u0941\u092a\u0924\u093f",
+    "constituency_gu": "\u0aa4\u0abf\u0ab0\u0ac1\u0aaa\u0aa4\u0abf",
+    "constituency_mr": "\u0924\u093f\u0930\u0941\u092a\u0924\u0940"
   },
   {
     "id": 5774,
@@ -1315,7 +1750,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Mathurapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5774.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0925\u0941\u0930\u093e\u092a\u0941\u0930",
+    "constituency_gu": "\u0aae\u0aa5\u0ac1\u0ab0\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092e\u0925\u0941\u0930\u093e\u092a\u0942\u0930"
   },
   {
     "id": 5808,
@@ -1324,7 +1762,10 @@ const MEMBERS_DATA = [
     "party": "Ind.",
     "constituency": "Ladakh",
     "photo": "https://sansad.in/getFile/mpimage/photo/5808.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u0926\u094d\u0926\u093e\u0916",
+    "constituency_gu": "\u0ab2\u0aa6\u0acd\u0aa6\u0abe\u0a96",
+    "constituency_mr": "\u0932\u0921\u093e\u0916"
   },
   {
     "id": 4866,
@@ -1333,7 +1774,10 @@ const MEMBERS_DATA = [
     "party": "JMM",
     "constituency": "Rajmahal",
     "photo": "https://sansad.in/getFile/mpimage/photo/4866.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u092e\u0939\u0932",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0aae\u0ab9\u0ac7\u0ab2",
+    "constituency_mr": "\u0930\u093e\u091c\u092e\u0939\u093e\u0932"
   },
   {
     "id": 5829,
@@ -1342,7 +1786,10 @@ const MEMBERS_DATA = [
     "party": "AAP",
     "constituency": "Sangrur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5829.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "Sangrur",
+    "constituency_gu": "\u0ab8\u0a82\u0a97\u0ab0\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u0902\u0917\u0930\u0942\u0930"
   },
   {
     "id": 5719,
@@ -1351,7 +1798,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Koppal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5719.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u092a\u094d\u092a\u0932",
+    "constituency_gu": "\u0a95\u0acb\u0aaa\u0ab2",
+    "constituency_mr": "\u0915\u094b\u092a\u094d\u092a\u0932"
   },
   {
     "id": 4207,
@@ -1360,7 +1810,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Rohtak",
     "photo": "https://sansad.in/getFile/mpimage/photo/4207.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u094b\u0939\u0924\u0915",
+    "constituency_gu": "\u0ab0\u0acb\u0ab9\u0aa4\u0a95",
+    "constituency_mr": "\u0930\u094b\u0939\u0924\u0915"
   },
   {
     "id": 5724,
@@ -1369,7 +1822,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Dhubri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5724.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0927\u0941\u092c\u0930\u0940",
+    "constituency_gu": "\u0aa7\u0ac1\u0aac\u0ab0\u0ac0",
+    "constituency_mr": "\u0927\u0941\u092c\u0930\u0940"
   },
   {
     "id": 5730,
@@ -1378,7 +1834,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Ganganagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5730.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0902\u0917\u093e\u0928\u0917\u0930",
+    "constituency_gu": "\u0a97\u0a82\u0a97\u0abe\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0917\u0902\u0917\u093e\u0928\u0917\u0930"
   },
   {
     "id": 4490,
@@ -1387,7 +1846,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Basirhat",
     "photo": "https://sansad.in/getFile/mpimage/photo/4490.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0936\u0940\u0930\u0939\u093e\u091f",
+    "constituency_gu": "\u0aac\u0ab8\u0ac0\u0ab0\u0ab9\u0abe\u0a9f",
+    "constituency_mr": "\u092c\u0938\u0940\u0930\u0939\u093e\u091f"
   },
   {
     "id": 5571,
@@ -1396,7 +1858,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Panchmahal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5571.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0902\u091a\u092e\u0939\u0932",
+    "constituency_gu": "\u0aaa\u0a82\u0a9a\u0aae\u0ab9\u0abe\u0ab2",
+    "constituency_mr": "\u092a\u0902\u091a\u092e\u0939\u093e\u0932"
   },
   {
     "id": 4373,
@@ -1405,7 +1870,10 @@ const MEMBERS_DATA = [
     "party": "SS",
     "constituency": "Buldhana",
     "photo": "https://sansad.in/getFile/mpimage/photo/4373.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0941\u0932\u0922\u093e\u0928\u093e",
+    "constituency_gu": "\u0aac\u0ac1\u0ab2\u0aa2\u0abe\u0aa3\u0abe",
+    "constituency_mr": "\u092c\u0941\u0932\u0922\u093e\u0923\u093e"
   },
   {
     "id": 4735,
@@ -1414,7 +1882,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Parbhani",
     "photo": "https://sansad.in/getFile/mpimage/photo/4735.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0930\u092d\u0928\u0940",
+    "constituency_gu": "\u0aaa\u0ab0\u0aad\u0aa3\u0ac0",
+    "constituency_mr": "\u092a\u0930\u092d\u0923\u0940"
   },
   {
     "id": 157,
@@ -1423,7 +1894,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Arakkonam",
     "photo": "https://sansad.in/getFile/mpimage/photo/157.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0930\u093e\u0915\u094b\u0923\u092e",
+    "constituency_gu": "\u0a85\u0ab0\u0a95\u0acd\u0a95\u0acb\u0aa8\u0aae",
+    "constituency_mr": "\u0905\u0930\u0915\u094d\u0915\u094b\u0928\u092e"
   },
   {
     "id": 4455,
@@ -1432,7 +1906,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Paschim Champaran",
     "photo": "https://sansad.in/getFile/mpimage/photo/4455.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0936\u094d\u091a\u093f\u092e \u091a\u0902\u092a\u093e\u0930\u0923",
+    "constituency_gu": "\u0aaa\u0ab6\u0acd\u0a9a\u0abf\u0aae \u0a9a\u0a82\u0aaa\u0abe\u0ab0\u0aa3",
+    "constituency_mr": "\u092a\u0936\u094d\u091a\u093f\u092e \u091a\u0902\u092a\u093e\u0930\u0923"
   },
   {
     "id": 5673,
@@ -1441,7 +1918,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Hazaribagh",
     "photo": "https://sansad.in/getFile/mpimage/photo/5673.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u091c\u093e\u0930\u0940\u092c\u093e\u0917",
+    "constituency_gu": "\u0ab9\u0a9c\u0abe\u0ab0\u0ac0\u0aac\u0abe\u0a97",
+    "constituency_mr": "\u0939\u091c\u093e\u0930\u0940\u092c\u093e\u0917"
   },
   {
     "id": 5567,
@@ -1450,7 +1930,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Nagaland",
     "photo": "https://sansad.in/getFile/mpimage/photo/5567.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0917\u093e\u0932\u0948\u0902\u0921",
+    "constituency_gu": "\u0aa8\u0abe\u0a97\u0abe\u0ab2\u0ac7\u0aa8\u0acd\u0aa1",
+    "constituency_mr": "\u0928\u093e\u0917\u093e\u0932\u0901\u0921"
   },
   {
     "id": 5709,
@@ -1459,7 +1942,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Janjgir-Champa",
     "photo": "https://sansad.in/getFile/mpimage/photo/5709.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u093e\u0902\u091c\u0917\u0940\u0930-\u091a\u0902\u092a\u093e",
+    "constituency_gu": "\u0a9c\u0abe\u0a82\u0a9c\u0a97\u0ac0\u0ab0-\u0a9a\u0abe\u0a82\u0aaa\u0abe",
+    "constituency_mr": "\u091c\u0902\u091c\u0917\u0940\u0930-\u091a\u093e\u0902\u092a\u093e"
   },
   {
     "id": 5831,
@@ -1468,7 +1954,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Chikkodi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5831.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093f\u0915\u094d\u0915\u094b\u0921\u0940",
+    "constituency_gu": "\u0a9a\u0abf\u0a95\u0acd\u0a95\u0acb\u0aa1\u0ac0",
+    "constituency_mr": "\u091a\u093f\u0915\u094d\u0915\u094b\u0921\u0940"
   },
   {
     "id": 5734,
@@ -1477,7 +1966,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Karauli-Dholpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5734.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0930\u094c\u0932\u0940-\u0927\u094c\u0932\u092a\u0941\u0930",
+    "constituency_gu": "\u0a95\u0ab0\u0acc\u0ab2\u0ac0-\u0aa7\u0acb\u0ab2\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0915\u0930\u094c\u0932\u0940-\u0927\u094b\u0932\u092a\u0942\u0930"
   },
   {
     "id": 5690,
@@ -1486,7 +1978,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Bharatpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5690.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0930\u0924\u092a\u0941\u0930",
+    "constituency_gu": "\u0aad\u0ab0\u0aa4\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092d\u0930\u0924\u092a\u0942\u0930"
   },
   {
     "id": 5216,
@@ -1495,7 +1990,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Kishanganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/5216.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093f\u0936\u0928\u0917\u0902\u091c",
+    "constituency_gu": "\u0a95\u0abf\u0ab6\u0aa8\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0915\u093f\u0936\u0928\u0917\u0902\u091c"
   },
   {
     "id": 25,
@@ -1504,7 +2002,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Bardhaman-Durgapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/25.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0930\u094d\u0927\u092e\u093e\u0928-\u0926\u0941\u0930\u094d\u0917\u093e\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0ab0\u0acd\u0aa7\u0aae\u0abe\u0aa8-\u0aa6\u0ac1\u0ab0\u0acd\u0a97\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0935\u0930\u094d\u0927\u092e\u093e\u0928-\u0926\u0941\u0930\u094d\u0917\u093e\u092a\u0942\u0930"
   },
   {
     "id": 170,
@@ -1513,7 +2014,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bijapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/170.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0940\u091c\u093e\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0ac0\u0a9c\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0935\u093f\u091c\u093e\u092a\u0942\u0930"
   },
   {
     "id": 4041,
@@ -1522,7 +2026,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kurukshetra",
     "photo": "https://sansad.in/getFile/mpimage/photo/4041.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0941\u0930\u0942\u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0a95\u0ac1\u0ab0\u0ac1\u0a95\u0acd\u0ab7\u0ac7\u0aa4\u0acd\u0ab0",
+    "constituency_mr": "\u0915\u0941\u0930\u0941\u0915\u094d\u0937\u0947\u0924\u094d\u0930"
   },
   {
     "id": 5570,
@@ -1531,7 +2038,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Vadodara",
     "photo": "https://sansad.in/getFile/mpimage/photo/5570.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u0921\u094b\u0926\u0930\u093e",
+    "constituency_gu": "\u0ab5\u0aa1\u0acb\u0aa6\u0ab0\u0abe",
+    "constituency_mr": "\u0935\u0921\u094b\u0926\u0930\u093e"
   },
   {
     "id": 4671,
@@ -1540,7 +2050,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chittorgarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4671.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093f\u0924\u094d\u0924\u094c\u0921\u093c\u0917\u0922\u093c",
+    "constituency_gu": "\u0a9a\u0abf\u0aa4\u0acd\u0aa4\u0acb\u0aa1\u0a97\u0aa2",
+    "constituency_mr": "\u091a\u093f\u0924\u094d\u0924\u094b\u0921\u0917\u0921"
   },
   {
     "id": 3982,
@@ -1549,7 +2062,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dharwad",
     "photo": "https://sansad.in/getFile/mpimage/photo/3982.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0927\u093e\u0930\u0935\u093e\u0921\u093c",
+    "constituency_gu": "\u0aa7\u0abe\u0ab0\u0ab5\u0abe\u0aa1",
+    "constituency_mr": "\u0927\u093e\u0930\u0935\u093e\u0921"
   },
   {
     "id": 4981,
@@ -1558,7 +2074,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Karur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4981.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0930\u0942\u0930",
+    "constituency_gu": "\u0a95\u0ab0\u0ac1\u0ab0",
+    "constituency_mr": "\u0915\u0930\u0942\u0930"
   },
   {
     "id": 5806,
@@ -1567,7 +2086,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Pollachi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5806.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u094b\u0932\u093e\u091a\u0940",
+    "constituency_gu": "\u0aaa\u0acb\u0ab2\u0abe\u0a9a\u0ac0",
+    "constituency_mr": "\u092a\u094b\u0932\u094d\u0932\u093e\u091a\u0940"
   },
   {
     "id": 4962,
@@ -1576,7 +2098,10 @@ const MEMBERS_DATA = [
     "party": "IUML",
     "constituency": "Ramanathapuram",
     "photo": "https://sansad.in/getFile/mpimage/photo/4962.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092e\u0928\u093e\u0925\u092a\u0941\u0930\u092e",
+    "constituency_gu": "\u0ab0\u0abe\u0aae\u0aa8\u0abe\u0aa5\u0aaa\u0ac1\u0ab0\u0aae",
+    "constituency_mr": "\u0930\u093e\u092e\u0928\u093e\u0925\u092a\u0941\u0930\u092e"
   },
   {
     "id": 4086,
@@ -1585,7 +2110,10 @@ const MEMBERS_DATA = [
     "party": "CPI",
     "constituency": "Tiruppur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4086.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093f\u0930\u0941\u092a\u0942\u0930",
+    "constituency_gu": "\u0aa4\u0abf\u0ab0\u0ac1\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0924\u093f\u0930\u0941\u092a\u0942\u0930"
   },
   {
     "id": 5554,
@@ -1594,7 +2122,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Uttara Kannada",
     "photo": "https://sansad.in/getFile/mpimage/photo/5554.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0924\u094d\u0924\u0930 \u0915\u0928\u094d\u0928\u0921\u093c",
+    "constituency_gu": "\u0a89\u0aa4\u0acd\u0aa4\u0ab0 \u0a95\u0aa8\u0acd\u0aa8\u0aa1",
+    "constituency_mr": "\u0909\u0924\u094d\u0924\u0930\u093e \u0915\u0928\u094d\u0928\u0921"
   },
   {
     "id": 5767,
@@ -1603,7 +2134,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Jalna",
     "photo": "https://sansad.in/getFile/mpimage/photo/5767.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0932\u0928\u093e",
+    "constituency_gu": "\u0a9c\u0abe\u0ab2\u0aa8\u0abe",
+    "constituency_mr": "\u091c\u093e\u0932\u0928\u093e"
   },
   {
     "id": 5820,
@@ -1612,7 +2146,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Wardha",
     "photo": "https://sansad.in/getFile/mpimage/photo/5820.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u0930\u094d\u0927\u093e",
+    "constituency_gu": "\u0ab5\u0ab0\u0acd\u0aa7\u0abe",
+    "constituency_mr": "\u0935\u0930\u094d\u0927\u093e"
   },
   {
     "id": 5746,
@@ -1621,7 +2158,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Latur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5746.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u093e\u0924\u0942\u0930",
+    "constituency_gu": "\u0ab2\u0abe\u0aa4\u0ac1\u0ab0",
+    "constituency_mr": "\u0932\u093e\u0924\u0942\u0930"
   },
   {
     "id": 5697,
@@ -1630,7 +2170,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Vizianagaram",
     "photo": "https://sansad.in/getFile/mpimage/photo/5697.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093f\u091c\u092f\u0928\u0917\u0930\u092e",
+    "constituency_gu": "\u0ab5\u0abf\u0a9d\u0abf\u0aaf\u0abe\u0aa8\u0a97\u0ab0\u0aae",
+    "constituency_mr": "\u0935\u093f\u091c\u092f\u0928\u0917\u0930\u092e"
   },
   {
     "id": 5222,
@@ -1639,7 +2182,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Supaul",
     "photo": "https://sansad.in/getFile/mpimage/photo/5222.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0941\u092a\u094c\u0932",
+    "constituency_gu": "\u0ab8\u0ac1\u0aaa\u0acc\u0ab2",
+    "constituency_mr": "\u0938\u0941\u092a\u094c\u0932"
   },
   {
     "id": 5721,
@@ -1648,7 +2194,10 @@ const MEMBERS_DATA = [
     "party": "AAP",
     "constituency": "Anandpur Sahib",
     "photo": "https://sansad.in/getFile/mpimage/photo/5721.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0928\u0902\u0926\u092a\u0941\u0930 \u0938\u093e\u0939\u093f\u092c",
+    "constituency_gu": "\u0a86\u0aa8\u0a82\u0aa6\u0aaa\u0ac1\u0ab0 \u0ab8\u0abe\u0ab9\u0abf\u0aac",
+    "constituency_mr": "\u0906\u0928\u0902\u0926\u092a\u0942\u0930 \u0938\u093e\u0939\u093f\u092c"
   },
   {
     "id": 4616,
@@ -1657,7 +2206,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bangalore North",
     "photo": "https://sansad.in/getFile/mpimage/photo/4616.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0902\u0917\u0932\u0941\u0930\u0941 \u0909\u0924\u094d\u0924\u0930",
+    "constituency_gu": "\u0aac\u0ac7\u0a82\u0a97\u0ab2\u0acb\u0ab0 \u0a89\u0aa4\u0acd\u0aa4\u0ab0",
+    "constituency_mr": "\u092c\u0902\u0917\u0932\u094b\u0930 \u0909\u0924\u094d\u0924\u0930"
   },
   {
     "id": 5559,
@@ -1666,7 +2218,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chitradurga",
     "photo": "https://sansad.in/getFile/mpimage/photo/5559.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093f\u0924\u094d\u0930\u0926\u0941\u0930\u094d\u0917",
+    "constituency_gu": "\u0a9a\u0abf\u0aa4\u0acd\u0ab0\u0aa6\u0ac1\u0ab0\u0acd\u0a97\u0abe",
+    "constituency_mr": "\u091a\u093f\u0924\u094d\u0930\u0926\u0941\u0930\u094d\u0917"
   },
   {
     "id": 4960,
@@ -1675,7 +2230,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Thoothukkudi",
     "photo": "https://sansad.in/getFile/mpimage/photo/4960.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "Thoothukudi",
+    "constituency_gu": "\u0aa5\u0ac2\u0aa5\u0ac1\u0a95\u0acd\u0a95\u0ac1\u0aa1\u0ac0",
+    "constituency_mr": "\u0925\u0941\u0925\u0941\u0915\u094d\u0915\u0941\u0921\u0940"
   },
   {
     "id": 5626,
@@ -1684,7 +2242,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bastar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5626.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0938\u094d\u0924\u0930",
+    "constituency_gu": "\u0aac\u0ab8\u0acd\u0aa4\u0ab0",
+    "constituency_mr": "\u092c\u0938\u094d\u0924\u0930"
   },
   {
     "id": 5113,
@@ -1693,7 +2254,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Shimla",
     "photo": "https://sansad.in/getFile/mpimage/photo/5113.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093f\u092e\u0932\u093e",
+    "constituency_gu": "\u0ab6\u0abf\u0aae\u0ab2\u0abe",
+    "constituency_mr": "\u0936\u093f\u092e\u0932\u093e"
   },
   {
     "id": 4654,
@@ -1702,7 +2266,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Churu",
     "photo": "https://sansad.in/getFile/mpimage/photo/4654.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0941\u0930\u0942",
+    "constituency_gu": "\u0a9a\u0ac1\u0ab0\u0ac1",
+    "constituency_mr": "\u091a\u0941\u0930\u0942"
   },
   {
     "id": 5783,
@@ -1711,7 +2278,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Warangal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5783.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093e\u0930\u0902\u0917\u0932",
+    "constituency_gu": "\u0ab5\u0abe\u0ab0\u0a82\u0a97\u0ab2",
+    "constituency_mr": "\u0935\u0930\u0902\u0917\u0932"
   },
   {
     "id": 4722,
@@ -1720,7 +2290,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Raver",
     "photo": "https://sansad.in/getFile/mpimage/photo/4722.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u0935\u0947\u0930",
+    "constituency_gu": "\u0ab0\u0abe\u0ab5\u0ab0",
+    "constituency_mr": "\u0930\u093e\u0935\u0947\u0930"
   },
   {
     "id": 5738,
@@ -1729,7 +2302,10 @@ const MEMBERS_DATA = [
     "party": "Ind.",
     "constituency": "Faridkot",
     "photo": "https://sansad.in/getFile/mpimage/photo/5738.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u0930\u0940\u0926\u0915\u094b\u091f",
+    "constituency_gu": "\u0aab\u0ab0\u0ac0\u0aa6\u0a95\u0acb\u0a9f",
+    "constituency_mr": "\u092b\u0930\u0940\u0926\u0915\u094b\u091f"
   },
   {
     "id": 5052,
@@ -1738,7 +2314,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Murshidabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5052.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0930\u094d\u0936\u093f\u0926\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aae\u0ac1\u0ab0\u0acd\u0ab6\u0abf\u0aa6\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u092e\u0941\u0930\u094d\u0936\u093f\u0926\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4875,
@@ -1747,7 +2326,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bishnupur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4875.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093f\u0936\u094d\u0928\u0941\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0abf\u0ab7\u0acd\u0aa3\u0ac1\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092c\u093f\u0937\u094d\u0923\u0941\u092a\u0942\u0930"
   },
   {
     "id": 5661,
@@ -1756,7 +2338,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chandni Chowk",
     "photo": "https://sansad.in/getFile/mpimage/photo/5661.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093e\u0902\u0926\u0928\u0940 \u091a\u094b\u0915",
+    "constituency_gu": "\u0a9a\u0abe\u0a82\u0aa6\u0aa8\u0ac0 \u0a9a\u0acb\u0a95",
+    "constituency_mr": "\u091a\u093e\u0902\u0926\u0923\u0940 \u091a\u094c\u0915"
   },
   {
     "id": 5791,
@@ -1765,7 +2350,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Bidar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5791.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0940\u0926\u0930",
+    "constituency_gu": "\u0aac\u0abf\u0aa6\u0ab0",
+    "constituency_mr": "\u092c\u093f\u0926\u0930"
   },
   {
     "id": 5825,
@@ -1774,7 +2362,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Jhargram",
     "photo": "https://sansad.in/getFile/mpimage/photo/5825.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091d\u093e\u0930\u0917\u094d\u0930\u093e\u092e",
+    "constituency_gu": "\u0a9d\u0abe\u0ab0\u0a97\u0acd\u0ab0\u0abe\u0aae",
+    "constituency_mr": "\u091d\u093e\u0930\u0917\u094d\u0930\u093e\u092e"
   },
   {
     "id": 5144,
@@ -1783,7 +2374,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Gorakhpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5144.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u094b\u0930\u0916\u092a\u0941\u0930",
+    "constituency_gu": "\u0a97\u0acb\u0ab0\u0a96\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0917\u094b\u0930\u0916\u092a\u0942\u0930"
   },
   {
     "id": 4720,
@@ -1792,7 +2386,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jammu",
     "photo": "https://sansad.in/getFile/mpimage/photo/4720.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u092e\u094d\u092e\u0942",
+    "constituency_gu": "\u0a9c\u0aae\u0acd\u0aae\u0ac1",
+    "constituency_mr": "\u091c\u092e\u094d\u092e\u0942"
   },
   {
     "id": 5185,
@@ -1801,7 +2398,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Shirur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5185.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093f\u0930\u0941\u0930",
+    "constituency_gu": "\u0ab6\u0abf\u0ab0\u0ac1\u0ab0",
+    "constituency_mr": "\u0936\u093f\u0930\u0942\u0930"
   },
   {
     "id": 207,
@@ -1810,7 +2410,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mandla",
     "photo": "https://sansad.in/getFile/mpimage/photo/207.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0902\u0921\u0932\u093e",
+    "constituency_gu": "\u0aae\u0a82\u0aa1\u0ab2\u0abe",
+    "constituency_mr": "\u092e\u093e\u0902\u0921\u0932\u093e"
   },
   {
     "id": 5612,
@@ -1819,7 +2422,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bahraich",
     "photo": "https://sansad.in/getFile/mpimage/photo/5612.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0939\u0930\u093e\u0908\u091a",
+    "constituency_gu": "\u0aac\u0ab9\u0ab0\u0abe\u0a88\u0a9a",
+    "constituency_mr": "\u092c\u0939\u0930\u093e\u0907\u091a"
   },
   {
     "id": 4972,
@@ -1828,7 +2434,10 @@ const MEMBERS_DATA = [
     "party": "VCK",
     "constituency": "Viluppuram",
     "photo": "https://sansad.in/getFile/mpimage/photo/4972.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093f\u0932\u0941\u092a\u094d\u092a\u0941\u0930\u092e",
+    "constituency_gu": "\u0ab5\u0abf\u0ab2\u0ac1\u0aaa\u0ac1\u0ab0\u0aae",
+    "constituency_mr": "\u0935\u093f\u0932\u0941\u092a\u0941\u0930\u092e"
   },
   {
     "id": 515,
@@ -1837,7 +2446,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Tikamgarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/515.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091f\u0940\u0915\u092e\u0917\u0922\u093c",
+    "constituency_gu": "\u0a9f\u0ac0\u0a95\u0aae\u0a97\u0aa2",
+    "constituency_mr": "\u091f\u093f\u0915\u092e\u0917\u0921"
   },
   {
     "id": 5076,
@@ -1846,7 +2458,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Karimnagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5076.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0930\u0940\u092e\u0928\u0917\u0930",
+    "constituency_gu": "\u0a95\u0ab0\u0ac0\u0aae\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0915\u0930\u0940\u092e\u0928\u0917\u0930"
   },
   {
     "id": 4467,
@@ -1855,7 +2470,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Nalanda",
     "photo": "https://sansad.in/getFile/mpimage/photo/4467.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0932\u0928\u094d\u0926\u093e",
+    "constituency_gu": "\u0aa8\u0abe\u0ab2\u0a82\u0aa6\u0abe",
+    "constituency_mr": "\u0928\u093e\u0932\u0902\u0926\u093e"
   },
   {
     "id": 5578,
@@ -1864,7 +2482,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Sasaram",
     "photo": "https://sansad.in/getFile/mpimage/photo/5578.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093e\u0938\u093e\u0930\u093e\u092e",
+    "constituency_gu": "\u0ab8\u0abe\u0ab8\u0abe\u0ab0\u0abe\u0aae",
+    "constituency_mr": "\u0938\u093e\u0938\u093e\u0930\u093e\u092e"
   },
   {
     "id": 5726,
@@ -1873,7 +2494,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Eluru",
     "photo": "https://sansad.in/getFile/mpimage/photo/5726.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u090f\u0932\u0941\u0930\u0941",
+    "constituency_gu": "\u0a8f\u0ab2\u0ac1\u0ab0\u0ac1",
+    "constituency_mr": "\u090f\u0932\u0941\u0930\u0941"
   },
   {
     "id": 5530,
@@ -1882,7 +2506,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Valmiki Nagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5530.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093e\u0932\u094d\u092e\u093f\u0915\u0940\u0928\u0917\u0930",
+    "constituency_gu": "\u0ab5\u0abe\u0ab2\u0acd\u0aae\u0ac0\u0a95\u0abf \u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0935\u093e\u0932\u094d\u092e\u093f\u0915\u0940 \u0928\u0917\u0930"
   },
   {
     "id": 3711,
@@ -1891,7 +2518,10 @@ const MEMBERS_DATA = [
     "party": "JD(S)",
     "constituency": "Mandya",
     "photo": "https://sansad.in/getFile/mpimage/photo/3711.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0902\u0921\u094d\u092f\u093e",
+    "constituency_gu": "\u0aae\u0a82\u0aa1\u0acd\u0aaf\u0abe",
+    "constituency_mr": "\u092e\u093e\u0902\u0921\u094d\u092f\u093e"
   },
   {
     "id": 3589,
@@ -1900,7 +2530,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Sirsa",
     "photo": "https://sansad.in/getFile/mpimage/photo/3589.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093f\u0930\u0938\u093e",
+    "constituency_gu": "\u0ab8\u0abf\u0ab0\u0ab8\u0abe",
+    "constituency_mr": "\u0938\u093f\u0930\u0938\u093e"
   },
   {
     "id": 5126,
@@ -1909,7 +2542,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Idukki",
     "photo": "https://sansad.in/getFile/mpimage/photo/5126.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0907\u0921\u0941\u0915\u094d\u0915\u0940",
+    "constituency_gu": "\u0a87\u0aa1\u0ac1\u0a95\u0acd\u0a95\u0ac0",
+    "constituency_mr": "\u0907\u0921\u0941\u0915\u094d\u0915\u0940"
   },
   {
     "id": 5609,
@@ -1918,7 +2554,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Gwalior",
     "photo": "https://sansad.in/getFile/mpimage/photo/5609.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u094d\u0935\u093e\u0932\u093f\u092f\u0930",
+    "constituency_gu": "\u0a97\u0acd\u0ab5\u0abe\u0ab2\u0abf\u0aaf\u0ab0",
+    "constituency_mr": "\u0917\u094d\u0935\u093e\u0932\u094d\u0939\u0947\u0930"
   },
   {
     "id": 5635,
@@ -1927,7 +2566,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Jaunpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5635.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u094c\u0928\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0acc\u0aa8\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u094c\u0928\u092a\u0942\u0930"
   },
   {
     "id": 4741,
@@ -1936,7 +2578,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kachchh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4741.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u091a\u094d\u091b",
+    "constituency_gu": "\u0a95\u0a9a\u0acd\u0a9b",
+    "constituency_mr": "\u0915\u091a\u094d\u091b"
   },
   {
     "id": 5584,
@@ -1945,7 +2590,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Anantapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5584.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0928\u0902\u0924\u092a\u0941\u0930",
+    "constituency_gu": "\u0a85\u0aa8\u0a82\u0aa4\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0905\u0928\u0902\u0924\u092a\u0942\u0930"
   },
   {
     "id": 5546,
@@ -1954,7 +2602,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Amethi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5546.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u092e\u0947\u0920\u0940",
+    "constituency_gu": "\u0a85\u0aae\u0ac7\u0aa0\u0ac0",
+    "constituency_mr": "\u0905\u092e\u0947\u0920\u0940"
   },
   {
     "id": 5792,
@@ -1963,7 +2614,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Karnal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5792.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0930\u0928\u093e\u0932",
+    "constituency_gu": "\u0a95\u0ab0\u0aa8\u0abe\u0ab2",
+    "constituency_mr": "\u0915\u0930\u094d\u0928\u093e\u0932"
   },
   {
     "id": 5065,
@@ -1972,7 +2626,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Indore",
     "photo": "https://sansad.in/getFile/mpimage/photo/5065.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0907\u0902\u0926\u094c\u0930",
+    "constituency_gu": "\u0a88\u0aa8\u0acd\u0aa6\u0acb\u0ab0",
+    "constituency_mr": "\u0907\u0902\u0926\u0942\u0930"
   },
   {
     "id": 5821,
@@ -1981,7 +2638,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Ahmednagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5821.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0939\u092e\u0926\u0928\u0917\u0930",
+    "constituency_gu": "\u0a85\u0ab9\u0aae\u0aa6\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0905\u0939\u092e\u0926\u0928\u0917\u0930"
   },
   {
     "id": 5784,
@@ -1990,7 +2650,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Hamirpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5784.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u092e\u0940\u0930\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab9\u0aae\u0ac0\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0939\u092e\u0940\u0930\u092a\u0942\u0930"
   },
   {
     "id": 5689,
@@ -1999,7 +2662,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Damoh",
     "photo": "https://sansad.in/getFile/mpimage/photo/5689.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u092e\u094b\u0939",
+    "constituency_gu": "\u0aa6\u0abe\u0aae\u0acb\u0ab9",
+    "constituency_mr": "\u0926\u092e\u094b\u0939"
   },
   {
     "id": 5819,
@@ -2008,7 +2674,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Arani",
     "photo": "https://sansad.in/getFile/mpimage/photo/5819.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0930\u0923\u093f",
+    "constituency_gu": "\u0a85\u0ab0\u0aa3\u0ac0",
+    "constituency_mr": "\u0905\u0930\u0923\u0940"
   },
   {
     "id": 4751,
@@ -2017,7 +2686,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jamnagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/4751.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u093e\u092e\u0928\u0917\u0930",
+    "constituency_gu": "\u0a9c\u0abe\u0aae\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u091c\u093e\u092e\u0928\u0917\u0930"
   },
   {
     "id": 5809,
@@ -2026,7 +2698,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Kheri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5809.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u0947\u0930\u0940",
+    "constituency_gu": "\u0a96\u0ac7\u0ab0\u0ac0",
+    "constituency_mr": "\u0916\u0947\u0930\u0940"
   },
   {
     "id": 5011,
@@ -2035,7 +2710,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Korba",
     "photo": "https://sansad.in/getFile/mpimage/photo/5011.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0930\u092c\u093e",
+    "constituency_gu": "\u0a95\u0acb\u0ab0\u0aac\u0abe",
+    "constituency_mr": "\u0915\u094b\u0930\u092c\u093e"
   },
   {
     "id": 5702,
@@ -2044,7 +2722,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Surguja",
     "photo": "https://sansad.in/getFile/mpimage/photo/5702.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0930\u0917\u0941\u091c\u093e",
+    "constituency_gu": "\u0ab8\u0ac1\u0ab0\u0a97\u0ac1\u0a9c\u0abe",
+    "constituency_mr": "\u0938\u0941\u0930\u0917\u0941\u091c\u093e"
   },
   {
     "id": 4705,
@@ -2053,7 +2734,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jamshedpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4705.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u092e\u0936\u0947\u0926\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0aae\u0ab6\u0ac7\u0aa6\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u092e\u0936\u0947\u0926\u092a\u0942\u0930"
   },
   {
     "id": 5664,
@@ -2062,7 +2746,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dhanbad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5664.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0927\u0928\u092c\u093e\u0926",
+    "constituency_gu": "\u0aa7\u0aa8\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0927\u0928\u092c\u093e\u0926"
   },
   {
     "id": 5053,
@@ -2071,7 +2758,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Purulia",
     "photo": "https://sansad.in/getFile/mpimage/photo/5053.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0941\u0930\u0941\u0932\u093f\u092f\u093e",
+    "constituency_gu": "\u0aaa\u0ac1\u0ab0\u0ac1\u0ab2\u0abf\u0aaf\u0abe",
+    "constituency_mr": "\u092a\u0941\u0930\u0941\u0932\u093f\u092f\u093e"
   },
   {
     "id": 225,
@@ -2080,7 +2770,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Cuttack",
     "photo": "https://sansad.in/getFile/mpimage/photo/225.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u091f\u0915",
+    "constituency_gu": "\u0a95\u0a9f\u0a95",
+    "constituency_mr": "\u0915\u091f\u0915"
   },
   {
     "id": 4796,
@@ -2089,7 +2782,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Nabarangpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4796.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u092c\u0930\u0902\u0917\u092a\u0941\u0930",
+    "constituency_gu": "\u0aa8\u0aac\u0ab0\u0a82\u0a97\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0928\u092c\u0930\u0902\u0917\u092a\u0942\u0930"
   },
   {
     "id": 5672,
@@ -2098,7 +2794,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mayurbhanj",
     "photo": "https://sansad.in/getFile/mpimage/photo/5672.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u092f\u0942\u0930\u092d\u0902\u091c",
+    "constituency_gu": "\u0aae\u0aaf\u0ac1\u0ab0\u0aad\u0a82\u0a9c",
+    "constituency_mr": "\u092e\u092f\u0942\u0930\u092d\u0902\u091c"
   },
   {
     "id": 5827,
@@ -2107,7 +2806,10 @@ const MEMBERS_DATA = [
     "party": "JMM",
     "constituency": "Singhbhum",
     "photo": "https://sansad.in/getFile/mpimage/photo/5827.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093f\u0902\u0939\u092d\u0942\u092e",
+    "constituency_gu": "\u0ab8\u0abf\u0a82\u0a98\u0aad\u0ac1\u0aae",
+    "constituency_mr": "\u0938\u093f\u0902\u0917\u092d\u0942\u092e"
   },
   {
     "id": 5035,
@@ -2116,7 +2818,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Balurghat",
     "photo": "https://sansad.in/getFile/mpimage/photo/5035.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0932\u0942\u0930\u0918\u093e\u091f",
+    "constituency_gu": "\u0aac\u0abe\u0ab2\u0ac1\u0ab0\u0a98\u0abe\u0a9f",
+    "constituency_mr": "\u092c\u093e\u0932\u0942\u0930\u0918\u093e\u091f"
   },
   {
     "id": 5694,
@@ -2125,7 +2830,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ahmedabad West",
     "photo": "https://sansad.in/getFile/mpimage/photo/5694.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0939\u092e\u0926\u093e\u092c\u093e\u0926 \u092a\u0936\u094d\u091a\u093f\u092e",
+    "constituency_gu": "\u0a85\u0aae\u0aa6\u0abe\u0ab5\u0abe\u0aa6 \u0aaa\u0ab6\u0acd\u0a9a\u0abf\u0aae",
+    "constituency_mr": "\u0905\u0939\u092e\u0926\u093e\u092c\u093e\u0926 \u092a\u0936\u094d\u091a\u093f\u092e"
   },
   {
     "id": 5040,
@@ -2134,7 +2842,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Bolpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5040.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u094b\u0932\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0acb\u0ab2\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092c\u094b\u0932\u092a\u0942\u0930"
   },
   {
     "id": 5563,
@@ -2143,7 +2854,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "East Delhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5563.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0942\u0930\u094d\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0aaa\u0ac2\u0ab0\u0acd\u0ab5 \u0aa6\u0abf\u0ab2\u0acd\u0ab9\u0ac0",
+    "constituency_mr": "\u092a\u0942\u0930\u094d\u0935 \u0926\u093f\u0932\u094d\u0932\u0940"
   },
   {
     "id": 5816,
@@ -2152,7 +2866,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Medinipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5816.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0947\u0926\u093f\u0928\u0940\u092a\u0941\u0930",
+    "constituency_gu": "\u0aae\u0ac7\u0aa6\u0abf\u0aa8\u0ac0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092e\u0947\u0926\u093f\u0928\u0940\u092a\u0942\u0930"
   },
   {
     "id": 5631,
@@ -2161,7 +2878,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Muzaffarnagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5631.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u091c\u092b\u094d\u092b\u0930\u0928\u0917\u0930",
+    "constituency_gu": "\u0aae\u0ac1\u0a9d\u0aab\u0acd\u0aab\u0ab0\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u092e\u0941\u091d\u092b\u094d\u092b\u0930\u0928\u0917\u0930"
   },
   {
     "id": 4619,
@@ -2170,7 +2890,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mathura",
     "photo": "https://sansad.in/getFile/mpimage/photo/4619.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0925\u0941\u0930\u093e",
+    "constituency_gu": "\u0aae\u0aa5\u0ac1\u0ab0\u0abe",
+    "constituency_mr": "\u092e\u0925\u0941\u0930\u093e"
   },
   {
     "id": 5106,
@@ -2179,7 +2902,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Karimganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/5106.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0930\u0940\u092e\u0917\u0902\u091c",
+    "constituency_gu": "\u0a95\u0ab0\u0ac0\u0aae\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0915\u0930\u0940\u092e\u0917\u0902\u091c"
   },
   {
     "id": 5753,
@@ -2188,7 +2914,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Davanagere",
     "photo": "https://sansad.in/getFile/mpimage/photo/5753.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u093e\u0935\u0928\u0917\u0947\u0930\u0947",
+    "constituency_gu": "\u0aa6\u0abe\u0ab5\u0aa3\u0a97\u0ac7\u0ab0\u0ac7",
+    "constituency_mr": "\u0926\u093e\u0935\u0923\u0917\u0947\u0930\u0947"
   },
   {
     "id": 5170,
@@ -2197,7 +2926,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Bhagalpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5170.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u093e\u0917\u0932\u092a\u0941\u0930",
+    "constituency_gu": "\u0aad\u0abe\u0a97\u0ab2\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092d\u093e\u0917\u0932\u092a\u0942\u0930"
   },
   {
     "id": 5214,
@@ -2206,7 +2938,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Jhanjharpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5214.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091d\u0902\u091d\u093e\u0930\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9d\u0abe\u0a82\u0a9d\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091d\u093e\u0902\u091d\u093e\u0930\u092a\u0942\u0930"
   },
   {
     "id": 5555,
@@ -2215,7 +2950,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Porbandar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5555.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u094b\u0930\u092c\u0902\u0926\u0930",
+    "constituency_gu": "\u0aaa\u0acb\u0ab0\u0aac\u0a82\u0aa6\u0ab0",
+    "constituency_mr": "\u092a\u094b\u0930\u092c\u0902\u0926\u0930"
   },
   {
     "id": 5187,
@@ -2224,7 +2962,10 @@ const MEMBERS_DATA = [
     "party": "SS",
     "constituency": "Hatkanangle",
     "photo": "https://sansad.in/getFile/mpimage/photo/5187.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093e\u0924\u0915\u0923\u0902\u0917\u0932\u0947 \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0ab9\u0abe\u0aa5\u0a95\u0aa3\u0a82\u0a97\u0ab2\u0ac7",
+    "constituency_mr": "\u0939\u093e\u0924\u0915\u0923\u0902\u0917\u0932\u0947"
   },
   {
     "id": 5688,
@@ -2233,7 +2974,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Deoria",
     "photo": "https://sansad.in/getFile/mpimage/photo/5688.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0947\u0935\u0930\u093f\u092f\u093e",
+    "constituency_gu": "\u0aa6\u0ac7\u0ab5\u0ab0\u0ac0\u0aaf\u0abe",
+    "constituency_mr": "\u0926\u0947\u0935\u0930\u093f\u092f\u093e"
   },
   {
     "id": 5558,
@@ -2242,7 +2986,10 @@ const MEMBERS_DATA = [
     "party": "HAM (S)",
     "constituency": "Gaya",
     "photo": "https://sansad.in/getFile/mpimage/photo/5558.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u092f\u093e",
+    "constituency_gu": "\u0a97\u0aaf\u0abe",
+    "constituency_mr": "\u0917\u092f\u093e"
   },
   {
     "id": 5590,
@@ -2251,7 +2998,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bangalore Rural",
     "photo": "https://sansad.in/getFile/mpimage/photo/5590.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0902\u0917\u0932\u0941\u0930\u0941 \u0917\u094d\u0930\u093e\u092e\u0940\u0923",
+    "constituency_gu": "\u0aac\u0ac7\u0a82\u0a97\u0acd\u0ab2\u0acb\u0ab0 \u0a97\u0acd\u0ab0\u0abe\u0aae\u0ac0\u0aa3",
+    "constituency_mr": "\u092c\u0902\u0917\u0932\u094b\u0930 \u0917\u094d\u0930\u093e\u092e\u0940\u0923"
   },
   {
     "id": 4144,
@@ -2260,7 +3010,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Chennai Central",
     "photo": "https://sansad.in/getFile/mpimage/photo/4144.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0947\u0928\u094d\u0928\u0908 \u0938\u0947\u0902\u091f\u094d\u0930\u0932",
+    "constituency_gu": "\u0a9a\u0ac7\u0aa8\u0acd\u0aa8\u0abe\u0a88 \u0ab8\u0ac7\u0aa8\u0acd\u0a9f\u0acd\u0ab0\u0ab2",
+    "constituency_mr": "\u091a\u0947\u0928\u094d\u0928\u0908 \u0938\u0947\u0902\u091f\u094d\u0930\u0932"
   },
   {
     "id": 5589,
@@ -2269,7 +3022,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Saharanpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5589.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0939\u093e\u0930\u0928\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0ab9\u0abe\u0ab0\u0aa8\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u0939\u093e\u0930\u0928\u092a\u0942\u0930"
   },
   {
     "id": 5623,
@@ -2278,7 +3034,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Visakhapatnam",
     "photo": "https://sansad.in/getFile/mpimage/photo/5623.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093f\u0936\u093e\u0916\u093e\u092a\u0924\u094d\u0924\u0928\u092e",
+    "constituency_gu": "\u0ab5\u0abf\u0ab6\u0abe\u0a96\u0abe\u0aaa\u0a9f\u0acd\u0a9f\u0aa8\u0aae",
+    "constituency_mr": "\u0935\u093f\u0936\u093e\u0916\u093e\u092a\u091f\u094d\u091f\u0923\u092e"
   },
   {
     "id": 5637,
@@ -2287,7 +3046,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Aonla",
     "photo": "https://sansad.in/getFile/mpimage/photo/5637.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0902\u0935\u0932\u093e",
+    "constituency_gu": "\u0a86\u0a93\u0aa8\u0ab2\u0abe",
+    "constituency_mr": "\u091d\u094b\u0928\u0932\u093e"
   },
   {
     "id": 5603,
@@ -2296,7 +3058,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Guwahati",
     "photo": "https://sansad.in/getFile/mpimage/photo/5603.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0941\u0935\u093e\u0939\u093e\u091f\u0940",
+    "constituency_gu": "\u0a97\u0ac1\u0ab5\u0abe\u0ab9\u0abe\u0a9f\u0ac0",
+    "constituency_mr": "\u0917\u0941\u0935\u093e\u0939\u093e\u091f\u0940"
   },
   {
     "id": 4640,
@@ -2305,7 +3070,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Tonk-Sawai Madhopur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4640.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091f\u094b\u0902\u0915-\u0938\u0935\u093e\u0908 \u092e\u093e\u0927\u094b\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9f\u0acb\u0a82\u0a95-\u0ab8\u0ab5\u0abe\u0a88 \u0aae\u0abe\u0aa7\u0acb\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091f\u094b\u0902\u0915-\u0938\u0935\u093e\u0908 \u092e\u093e\u0927\u094b\u092a\u0942\u0930"
   },
   {
     "id": 5717,
@@ -2314,7 +3082,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Dausa",
     "photo": "https://sansad.in/getFile/mpimage/photo/5717.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u094c\u0938\u093e",
+    "constituency_gu": "\u0aa6\u0acc\u0ab8\u0abe",
+    "constituency_mr": "\u0926\u094c\u0938\u093e"
   },
   {
     "id": 4399,
@@ -2323,7 +3094,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bikaner",
     "photo": "https://sansad.in/getFile/mpimage/photo/4399.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0940\u0915\u093e\u0928\u0947\u0930",
+    "constituency_gu": "\u0aac\u0abf\u0a95\u0abe\u0aa8\u0ac7\u0ab0",
+    "constituency_mr": "\u092c\u093f\u0915\u093e\u0928\u0947\u0930"
   },
   {
     "id": 5761,
@@ -2332,7 +3106,10 @@ const MEMBERS_DATA = [
     "party": "J&KNC",
     "constituency": "Srinagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5761.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u094d\u0930\u0940\u0928\u0917\u0930",
+    "constituency_gu": "\u0ab6\u0acd\u0ab0\u0ac0\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0936\u094d\u0930\u0940\u0928\u0917\u0930"
   },
   {
     "id": 5683,
@@ -2341,7 +3118,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Rajsamand",
     "photo": "https://sansad.in/getFile/mpimage/photo/5683.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u0938\u092e\u0902\u0926",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0ab8\u0aae\u0a82\u0aa6",
+    "constituency_mr": "\u0930\u093e\u091c\u0938\u092e\u0902\u0926"
   },
   {
     "id": 5693,
@@ -2350,7 +3130,10 @@ const MEMBERS_DATA = [
     "party": "SS",
     "constituency": "Thane",
     "photo": "https://sansad.in/getFile/mpimage/photo/5693.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0925\u093e\u0907\u0928",
+    "constituency_gu": "\u0aa5\u0abe\u0aa3\u0ac7",
+    "constituency_mr": "\u0920\u093e\u0923\u0947"
   },
   {
     "id": 5644,
@@ -2359,7 +3142,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Bhiwandi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5644.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u093f\u0935\u0902\u0921\u0940",
+    "constituency_gu": "\u0aad\u0abf\u0ab5\u0a82\u0aa1\u0ac0",
+    "constituency_mr": "\u092d\u093f\u0935\u0902\u0921\u0940"
   },
   {
     "id": 5579,
@@ -2368,7 +3154,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Sidhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5579.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0940\u0927\u0940",
+    "constituency_gu": "\u0ab8\u0abf\u0aa7\u0ac0",
+    "constituency_mr": "\u0938\u093f\u0927\u0940"
   },
   {
     "id": 4728,
@@ -2377,7 +3166,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Rewa",
     "photo": "https://sansad.in/getFile/mpimage/photo/4728.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u0940\u0935\u093e",
+    "constituency_gu": "\u0ab0\u0ac0\u0ab5\u0abe",
+    "constituency_mr": "\u0930\u0947\u0935\u093e"
   },
   {
     "id": 5777,
@@ -2386,7 +3178,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Arambag",
     "photo": "https://sansad.in/getFile/mpimage/photo/5777.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0930\u093e\u092e\u092c\u093e\u0917",
+    "constituency_gu": "\u0a86\u0ab0\u0abe\u0aae\u0aac\u0abe\u0a97",
+    "constituency_mr": "\u0906\u0930\u093e\u092e\u092c\u093e\u0917"
   },
   {
     "id": 4589,
@@ -2395,7 +3190,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Varanasi",
     "photo": "https://sansad.in/getFile/mpimage/photo/4589.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093e\u0930\u093e\u0923\u0938\u0940",
+    "constituency_gu": "\u0ab5\u0abe\u0ab0\u0abe\u0aa3\u0ab8\u0ac0",
+    "constituency_mr": "\u0935\u093e\u0930\u093e\u0923\u0938\u0940"
   },
   {
     "id": 4321,
@@ -2404,7 +3202,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bangalore Central",
     "photo": "https://sansad.in/getFile/mpimage/photo/4321.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0902\u0917\u0932\u0941\u0930\u0941 \u0938\u0947\u0902\u091f\u094d\u0930\u0932",
+    "constituency_gu": "\u0aac\u0ac7\u0a82\u0a97\u0acd\u0ab2\u0acb\u0ab0 \u0ab8\u0ac7\u0aa8\u0acd\u0a9f\u0acd\u0ab0\u0ab2",
+    "constituency_mr": "\u092c\u0902\u0917\u0932\u094b\u0930 \u0938\u0947\u0902\u091f\u094d\u0930\u0932"
   },
   {
     "id": 5536,
@@ -2413,7 +3214,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dadra and Nagar Haveli",
     "photo": "https://sansad.in/getFile/mpimage/photo/5536.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u093e\u0926\u0930\u093e \u0914\u0930 \u0928\u0917\u0930 \u0939\u0935\u0947\u0932\u0940",
+    "constituency_gu": "\u0aa6\u0abe\u0aa6\u0ab0\u0abe \u0a85\u0aa8\u0ac7 \u0aa8\u0a97\u0ab0 \u0ab9\u0ab5\u0ac7\u0ab2\u0ac0",
+    "constituency_mr": "\u0926\u093e\u0926\u0930\u093e \u0906\u0923\u093f \u0928\u0917\u0930 \u0939\u0935\u0947\u0932\u0940"
   },
   {
     "id": 5705,
@@ -2422,7 +3226,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Pune",
     "photo": "https://sansad.in/getFile/mpimage/photo/5705.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0941\u0923\u0947",
+    "constituency_gu": "\u0aaa\u0ac1\u0aa3\u0ac7",
+    "constituency_mr": "\u092a\u0941\u0923\u0947"
   },
   {
     "id": 5049,
@@ -2431,7 +3238,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Krishnanagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5049.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0943\u0937\u094d\u0923\u0928\u0917\u0930",
+    "constituency_gu": "\u0a95\u0ac3\u0ab7\u0acd\u0aa3\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0915\u0943\u0937\u094d\u0923\u0928\u0917\u0930"
   },
   {
     "id": 4871,
@@ -2440,7 +3250,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Jaynagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/4871.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u092f\u0928\u0917\u0930",
+    "constituency_gu": "\u0a9c\u0aaf\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u091c\u092f\u0928\u0917\u0930"
   },
   {
     "id": 5810,
@@ -2449,7 +3262,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Khunti",
     "photo": "https://sansad.in/getFile/mpimage/photo/5810.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u0942\u0902\u091f\u0940",
+    "constituency_gu": "\u0a96\u0ac1\u0a82\u0a9f\u0ac0",
+    "constituency_mr": "\u0916\u0941\u0902\u091f\u0940"
   },
   {
     "id": 5050,
@@ -2458,7 +3274,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Maldaha Uttar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5050.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093e\u0932\u0926\u093e\u0939\u093e \u0909\u0924\u094d\u0924\u0930",
+    "constituency_gu": "\u0aae\u0abe\u0ab2\u0aa6\u0ab9\u0abe \u0a89\u0aa4\u0acd\u0aa4\u0ab0",
+    "constituency_mr": "\u092e\u093e\u0932\u0926\u0939\u093e \u0909\u0924\u094d\u0924\u0930"
   },
   {
     "id": 5732,
@@ -2467,7 +3286,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kanker",
     "photo": "https://sansad.in/getFile/mpimage/photo/5732.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0902\u0915\u0947\u0930",
+    "constituency_gu": "\u0a95\u0abe\u0a82\u0a95\u0ac7\u0ab0",
+    "constituency_mr": "\u0915\u093e\u0902\u0915\u0947\u0930"
   },
   {
     "id": 4702,
@@ -2476,7 +3298,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Rajgarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4702.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u0917\u0922\u093c",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0a97\u0aa2",
+    "constituency_mr": "\u0930\u093e\u091c\u0917\u0921"
   },
   {
     "id": 5601,
@@ -2485,7 +3310,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Kurnool",
     "photo": "https://sansad.in/getFile/mpimage/photo/5601.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0941\u0930\u0928\u0942\u0932",
+    "constituency_gu": "\u0a95\u0ac1\u0ab0\u0acd\u0aa8\u0ac2\u0ab2",
+    "constituency_mr": "\u0915\u0930\u094d\u0928\u0942\u0932"
   },
   {
     "id": 4804,
@@ -2494,7 +3322,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Adilabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/4804.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0926\u093f\u0932\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a86\u0aa6\u0abf\u0ab2\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0906\u0926\u093f\u0932\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4771,
@@ -2503,7 +3334,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Srikakulam",
     "photo": "https://sansad.in/getFile/mpimage/photo/4771.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u094d\u0930\u0940\u0915\u093e\u0915\u0941\u0932\u092e",
+    "constituency_gu": "\u0ab6\u0acd\u0ab0\u0ac0\u0a95\u0abe\u0a95\u0ac1\u0ab2\u0aae",
+    "constituency_mr": "\u0936\u094d\u0930\u0940\u0915\u093e\u0915\u0941\u0932\u092e"
   },
   {
     "id": 5737,
@@ -2512,7 +3346,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Raichur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5737.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092f\u091a\u0942\u0930",
+    "constituency_gu": "\u0ab0\u0abe\u0aaf\u0a9a\u0ac1\u0ab0",
+    "constituency_mr": "\u0930\u093e\u092f\u091a\u0942\u0930"
   },
   {
     "id": 273,
@@ -2521,7 +3358,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "North Goa",
     "photo": "https://sansad.in/getFile/mpimage/photo/273.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0924\u094d\u0924\u0930\u0940 \u0917\u094b\u0935\u093e",
+    "constituency_gu": "\u0a89\u0aa4\u0acd\u0aa4\u0ab0 \u0a97\u0acb\u0ab5\u0abe",
+    "constituency_mr": "\u0909\u0924\u094d\u0924\u0930 \u0917\u094b\u0935\u093e"
   },
   {
     "id": 5727,
@@ -2530,7 +3370,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Gadchiroli-Chimur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5727.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0922\u093c\u091a\u093f\u0930\u094b\u0932\u0940-\u091a\u093f\u092e\u0942\u0930 \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0a97\u0aa2\u0a9a\u0abf\u0ab0\u0acb\u0ab2\u0ac0-\u0a9a\u0abf\u0aae\u0ac1\u0ab0",
+    "constituency_mr": "\u0917\u0921\u091a\u093f\u0930\u094b\u0932\u0940-\u091a\u093f\u092e\u0942\u0930"
   },
   {
     "id": 275,
@@ -2539,7 +3382,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Keonjhar",
     "photo": "https://sansad.in/getFile/mpimage/photo/275.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094d\u092f\u094b\u0902\u091d\u0930",
+    "constituency_gu": "\u0a95\u0abf\u0aaf\u0acb\u0a82\u0a9d\u0ab0",
+    "constituency_mr": "\u0915\u0947\u0913\u0902\u091d\u093e\u0930"
   },
   {
     "id": 5797,
@@ -2548,7 +3394,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Perambalur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5797.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0947\u0930\u092e\u094d\u092c\u0932\u0942\u0930",
+    "constituency_gu": "\u0aaa\u0ac7\u0ab0\u0abe\u0aae\u0acd\u0aac\u0ab2\u0ac1\u0ab0",
+    "constituency_mr": "\u092a\u0947\u0930\u093e\u0902\u092c\u0932\u0942\u0930"
   },
   {
     "id": 5813,
@@ -2557,7 +3406,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Sant Kabir Nagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5813.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0902\u0924\u0915\u092c\u0940\u0930\u0928\u0917\u0930",
+    "constituency_gu": "\u0ab8\u0a82\u0aa4 \u0a95\u0aac\u0ac0\u0ab0 \u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0938\u0902\u0924 \u0915\u092c\u0940\u0930 \u0928\u0917\u0930"
   },
   {
     "id": 5786,
@@ -2566,7 +3418,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Sultanpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5786.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0941\u0932\u094d\u0924\u093e\u0928\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0ac1\u0ab2\u0aa4\u0abe\u0aa8\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u0941\u0932\u0924\u093e\u0928\u092a\u0942\u0930"
   },
   {
     "id": 5720,
@@ -2575,7 +3430,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Jhunjhunu",
     "photo": "https://sansad.in/getFile/mpimage/photo/5720.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091d\u0941\u0902\u091d\u0941\u0928\u0942\u0902",
+    "constituency_gu": "\u0a9d\u0ac1\u0a82\u0a9d\u0ac1\u0aa8\u0ac1",
+    "constituency_mr": "\u091d\u0941\u0902\u091d\u0941\u0928\u0942"
   },
   {
     "id": 279,
@@ -2584,7 +3442,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Sundargarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/279.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0941\u0902\u0926\u0930\u0917\u0922\u093c",
+    "constituency_gu": "\u0ab8\u0ac1\u0a82\u0aa6\u0ab0\u0a97\u0aa2",
+    "constituency_mr": "\u0938\u0941\u0902\u0926\u0930\u0917\u0921"
   },
   {
     "id": 4091,
@@ -2593,7 +3454,10 @@ const MEMBERS_DATA = [
     "party": "AIMIM",
     "constituency": "Hyderabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/4091.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u0948\u0926\u0930\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0ab9\u0ac8\u0aa6\u0ab0\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0939\u0948\u0926\u0930\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5807,
@@ -2602,7 +3466,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Coimbatore",
     "photo": "https://sansad.in/getFile/mpimage/photo/5807.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u092f\u0902\u092c\u091f\u0942\u0930",
+    "constituency_gu": "\u0a95\u0acb\u0a88\u0aae\u0acd\u0aac\u0aa4\u0ac1\u0ab0",
+    "constituency_mr": "\u0915\u094b\u0908\u092e\u094d\u092c\u0924\u0942\u0930"
   },
   {
     "id": 5760,
@@ -2611,7 +3478,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Nandurbar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5760.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0902\u0926\u0941\u0930\u092c\u093e\u0930",
+    "constituency_gu": "\u0aa8\u0a82\u0aa6\u0ac1\u0ab0\u0aac\u0abe\u0ab0",
+    "constituency_mr": "\u0928\u0902\u0926\u0941\u0930\u092c\u093e\u0930"
   },
   {
     "id": 5729,
@@ -2620,7 +3490,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Bhandara-Gondiya",
     "photo": "https://sansad.in/getFile/mpimage/photo/5729.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0902\u0921\u093e\u0930\u093e-\u0917\u094b\u0902\u0926\u093f\u092f\u093e \u091c\u093f\u0932\u093e",
+    "constituency_gu": "\u0aad\u0a82\u0aa1\u0abe\u0ab0\u0abe-\u0a97\u0acb\u0a82\u0aa6\u0abf\u0aaf\u0abe",
+    "constituency_mr": "\u092d\u0902\u0921\u093e\u0930\u093e-\u0917\u094b\u0902\u0926\u093f\u092f\u093e"
   },
   {
     "id": 4295,
@@ -2629,7 +3502,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Domariyaganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/4295.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0921\u0941\u092e\u0930\u093f\u092f\u093e\u0917\u0902\u091c \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0aa1\u0acb\u0aae\u0ab0\u0ac0\u0aaf\u0abe\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0921\u094b\u092e\u0930\u093f\u092f\u093e\u0917\u0902\u091c"
   },
   {
     "id": 4422,
@@ -2638,7 +3514,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kendrapara",
     "photo": "https://sansad.in/getFile/mpimage/photo/4422.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0947\u0902\u0926\u094d\u0930\u092a\u093e\u0921\u093c\u093e",
+    "constituency_gu": "\u0a95\u0ac7\u0aa8\u0acd\u0aa6\u0acd\u0ab0\u0aaa\u0ab0\u0abe",
+    "constituency_mr": "\u0915\u0947\u0902\u0926\u094d\u0930\u092a\u093e\u0930\u093e"
   },
   {
     "id": 5580,
@@ -2647,7 +3526,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Ballia",
     "photo": "https://sansad.in/getFile/mpimage/photo/5580.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0932\u093f\u092f\u093e",
+    "constituency_gu": "\u0aac\u0ab2\u0abf\u0aaf\u0abe",
+    "constituency_mr": "\u092c\u0932\u093f\u092f\u093e"
   },
   {
     "id": 5015,
@@ -2656,7 +3538,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Rajnandgaon",
     "photo": "https://sansad.in/getFile/mpimage/photo/5015.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u0928\u0902\u0926\u0917\u093e\u0902\u0935",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0aa8\u0abe\u0a82\u0aa6\u0a97\u0abe\u0a82\u0ab5",
+    "constituency_mr": "\u0930\u093e\u091c\u0928\u093e\u0902\u0926\u0917\u093e\u0935"
   },
   {
     "id": 5615,
@@ -2665,7 +3550,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kandhamal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5615.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0902\u0927\u092e\u093e\u0932",
+    "constituency_gu": "\u0a95\u0a82\u0aa7\u0aae\u0abe\u0ab2",
+    "constituency_mr": "\u0915\u0902\u0927\u092e\u093e\u0933"
   },
   {
     "id": 5708,
@@ -2674,7 +3562,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Berhampur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5708.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0930\u0939\u093e\u092e\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0ab0\u0ab9\u0abe\u0aae\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092c\u0947\u0930\u0939\u093e\u092e\u092a\u0942\u0930"
   },
   {
     "id": 5805,
@@ -2683,7 +3574,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dhenkanal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5805.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0922\u0947\u0902\u0915\u0928\u093e\u0932",
+    "constituency_gu": "\u0aa2\u0ac7\u0a82\u0a95\u0aa8\u0abe\u0ab2",
+    "constituency_mr": "\u0922\u0947\u0902\u0915\u0928\u093e\u0932"
   },
   {
     "id": 5698,
@@ -2692,7 +3586,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Vadakara",
     "photo": "https://sansad.in/getFile/mpimage/photo/5698.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "vadakara",
+    "constituency_gu": "\u0ab5\u0aa1\u0a95\u0abe\u0ab0\u0abe",
+    "constituency_mr": "\u0935\u0921\u0915\u093e\u0930\u093e"
   },
   {
     "id": 5696,
@@ -2701,7 +3598,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Balaghat",
     "photo": "https://sansad.in/getFile/mpimage/photo/5696.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0932\u093e\u0918\u093e\u091f",
+    "constituency_gu": "\u0aac\u0abe\u0ab2\u0abe\u0a98\u0abe\u0a9f",
+    "constituency_mr": "\u092c\u093e\u0932\u093e\u0918\u093e\u091f"
   },
   {
     "id": 3289,
@@ -2710,7 +3610,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Hisar",
     "photo": "https://sansad.in/getFile/mpimage/photo/3289.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093f\u0938\u093e\u0930",
+    "constituency_gu": "\u0ab9\u0abf\u0ab8\u0abe\u0ab0",
+    "constituency_mr": "\u0939\u093f\u0938\u093e\u0930"
   },
   {
     "id": 292,
@@ -2719,7 +3622,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Hindupur",
     "photo": "https://sansad.in/getFile/mpimage/photo/292.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093f\u0928\u094d\u0926\u0941\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab9\u0abf\u0aa8\u0acd\u0aa6\u0ac1\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0939\u093f\u0902\u0926\u0941\u092a\u0942\u0930"
   },
   {
     "id": 4777,
@@ -2728,7 +3634,10 @@ const MEMBERS_DATA = [
     "party": "LJSP(RV)",
     "constituency": "Hajipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4777.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093e\u091c\u0940\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab9\u0abe\u0a9c\u0ac0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0939\u093e\u091c\u0940\u092a\u0942\u0930"
   },
   {
     "id": 4303,
@@ -2737,7 +3646,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bansgaon",
     "photo": "https://sansad.in/getFile/mpimage/photo/4303.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0902\u0938\u0917\u093e\u0902\u0935",
+    "constituency_gu": "\u0aac\u0abe\u0a82\u0ab8\u0a97\u0abe\u0a82\u0ab5",
+    "constituency_mr": "\u092c\u0928\u0938\u0917\u093e\u0935"
   },
   {
     "id": 5643,
@@ -2746,7 +3658,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Pratapgarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/5643.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u094d\u0930\u0924\u093e\u092a\u0917\u0922\u093c",
+    "constituency_gu": "\u0aaa\u0acd\u0ab0\u0aa4\u0abe\u0aaa\u0a97\u0aa2",
+    "constituency_mr": "\u092a\u094d\u0930\u0924\u093e\u092a\u0917\u0921"
   },
   {
     "id": 5665,
@@ -2755,7 +3670,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Valsad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5665.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u0932\u0938\u093e\u0921",
+    "constituency_gu": "\u0ab5\u0ab2\u0ab8\u0abe\u0aa1",
+    "constituency_mr": "\u0935\u0932\u0938\u093e\u0921"
   },
   {
     "id": 5067,
@@ -2764,7 +3682,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Khargone",
     "photo": "https://sansad.in/getFile/mpimage/photo/5067.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u0930\u0917\u094b\u0928",
+    "constituency_gu": "\u0a96\u0ab0\u0a97\u0acb\u0aa8",
+    "constituency_mr": "\u0916\u0930\u0917\u094b\u0928"
   },
   {
     "id": 5560,
@@ -2773,7 +3694,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mahesana",
     "photo": "https://sansad.in/getFile/mpimage/photo/5560.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0939\u0947\u0938\u093e\u0923\u093e",
+    "constituency_gu": "\u0aae\u0ab9\u0ac7\u0ab8\u0abe\u0aa3\u0abe",
+    "constituency_mr": "\u092e\u0939\u0947\u0938\u093e\u0923\u093e"
   },
   {
     "id": 5017,
@@ -2782,7 +3706,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ahmedabad East",
     "photo": "https://sansad.in/getFile/mpimage/photo/5017.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0939\u092e\u0926\u093e\u092c\u093e\u0926 \u092a\u0942\u0930\u094d\u0935",
+    "constituency_gu": "\u0a85\u0aae\u0aa6\u0abe\u0ab5\u0abe\u0aa6 \u0aaa\u0ac2\u0ab0\u0acd\u0ab5",
+    "constituency_mr": "\u0905\u0939\u092e\u0926\u093e\u092c\u093e\u0926 \u092a\u0942\u0930\u094d\u0935"
   },
   {
     "id": 5018,
@@ -2791,7 +3718,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Anand",
     "photo": "https://sansad.in/getFile/mpimage/photo/5018.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0928\u0902\u0926",
+    "constituency_gu": "\u0a86\u0aa3\u0a82\u0aa6",
+    "constituency_mr": "\u0906\u0928\u0902\u0926"
   },
   {
     "id": 5801,
@@ -2800,7 +3730,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Fatehpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5801.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u093c\u0924\u0947\u0939\u092a\u0941\u0930",
+    "constituency_gu": "\u0aab\u0aa4\u0ac7\u0ab9\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092b\u0924\u0947\u0939\u092a\u0942\u0930"
   },
   {
     "id": 5583,
@@ -2809,7 +3742,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Phulpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5583.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u0942\u0932\u092a\u0941\u0930",
+    "constituency_gu": "\u0aab\u0ac1\u0ab2\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092b\u0941\u0932\u092a\u0942\u0930"
   },
   {
     "id": 5751,
@@ -2818,7 +3754,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Hassan",
     "photo": "https://sansad.in/getFile/mpimage/photo/5751.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u0938\u0928",
+    "constituency_gu": "\u0ab9\u0ab8\u0aa8",
+    "constituency_mr": "\u0939\u0938\u0928"
   },
   {
     "id": 4662,
@@ -2827,7 +3766,10 @@ const MEMBERS_DATA = [
     "party": "Apna Dal (S)",
     "constituency": "Mirzapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4662.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093f\u0930\u094d\u091c\u093e\u092a\u0941\u0930",
+    "constituency_gu": "\u0aae\u0abf\u0ab0\u0acd\u0a9d\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092e\u093f\u0930\u094d\u091d\u093e\u092a\u0942\u0930"
   },
   {
     "id": 5594,
@@ -2836,7 +3778,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Banda",
     "photo": "https://sansad.in/getFile/mpimage/photo/5594.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0901\u0926\u093e",
+    "constituency_gu": "\u0aac\u0a82\u0aa6\u0abe",
+    "constituency_mr": "\u092c\u093e\u0902\u0926\u093e"
   },
   {
     "id": 4452,
@@ -2845,7 +3790,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Navsari",
     "photo": "https://sansad.in/getFile/mpimage/photo/4452.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0935\u0938\u093e\u0930\u0940",
+    "constituency_gu": "\u0aa8\u0ab5\u0ab8\u0abe\u0ab0\u0ac0",
+    "constituency_mr": "\u0928\u0935\u0938\u093e\u0930\u0940"
   },
   {
     "id": 5535,
@@ -2854,7 +3802,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Khandwa",
     "photo": "https://sansad.in/getFile/mpimage/photo/5535.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u0902\u0921\u0935\u093e",
+    "constituency_gu": "\u0a96\u0a82\u0aa1\u0ab5\u0abe",
+    "constituency_mr": "\u0916\u093e\u0902\u0921\u0935\u093e"
   },
   {
     "id": 4393,
@@ -2863,7 +3814,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Mumbai North East",
     "photo": "https://sansad.in/getFile/mpimage/photo/4393.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0902\u092c\u0908 \u0909\u0924\u094d\u0924\u0930 \u092a\u0942\u0930\u094d\u0935",
+    "constituency_gu": "\u0aae\u0ac1\u0a82\u0aac\u0a88 \u0aa8\u0acb\u0ab0\u0acd\u0aa5 \u0a88\u0ab8\u0acd\u0a9f",
+    "constituency_mr": "\u092e\u0941\u0902\u092c\u0908 \u0908\u0936\u093e\u0928\u094d\u092f"
   },
   {
     "id": 5756,
@@ -2872,7 +3826,10 @@ const MEMBERS_DATA = [
     "party": "Ind.",
     "constituency": "Sangli",
     "photo": "https://sansad.in/getFile/mpimage/photo/5756.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093e\u0902\u0917\u0932\u0940",
+    "constituency_gu": "\u0ab8\u0abe\u0a82\u0a97\u0ab2\u0ac0",
+    "constituency_mr": "\u0938\u093e\u0902\u0917\u0932\u0940"
   },
   {
     "id": 5599,
@@ -2881,7 +3838,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Puri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5599.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0941\u0930\u0940",
+    "constituency_gu": "\u0aaa\u0ac1\u0ab0\u0ac0",
+    "constituency_mr": "\u092a\u0941\u0930\u0940"
   },
   {
     "id": 5691,
@@ -2890,7 +3850,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Raiganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/5691.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092f\u0917\u0902\u091c",
+    "constituency_gu": "\u0ab0\u0abe\u0aaf\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0930\u093e\u092f\u0917\u0902\u091c"
   },
   {
     "id": 5636,
@@ -2899,7 +3862,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Guntur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5636.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0941\u0902\u091f\u0942\u0930",
+    "constituency_gu": "\u0a97\u0ac1\u0a82\u0a9f\u0ac1\u0ab0",
+    "constituency_mr": "\u0917\u0941\u0902\u091f\u0942\u0930"
   },
   {
     "id": 5711,
@@ -2908,7 +3874,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Udupi Chikmagalur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5711.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0921\u0941\u092a\u0940 \u091a\u093f\u0915\u092e\u0902\u0917\u0932\u0942\u0930",
+    "constituency_gu": "\u0a89\u0aa1\u0ac1\u0aaa\u0ac0 \u0a9a\u0abf\u0a95\u0aae\u0a97\u0ab2\u0ac1\u0ab0",
+    "constituency_mr": "\u0909\u0921\u0941\u092a\u0940 \u091a\u093f\u0915\u092e\u0902\u0917\u0933\u0942\u0930"
   },
   {
     "id": 4322,
@@ -2917,7 +3886,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Mahabubabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/4322.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0939\u092c\u0941\u092c\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aae\u0ab9\u0aac\u0ac2\u0aac\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u092e\u0939\u092c\u0942\u092c\u093e\u092c\u093e\u0926"
   },
   {
     "id": 3999,
@@ -2926,7 +3898,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Sambalpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/3999.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0902\u092c\u0932\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0a82\u0aac\u0ab2\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u0902\u092c\u0933\u092a\u0942\u0930"
   },
   {
     "id": 5123,
@@ -2935,7 +3910,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Attingal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5123.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u091f\u094d\u091f\u093f\u0902\u0917\u0932",
+    "constituency_gu": "\u0a85\u0a9f\u0abf\u0aa8\u0acd\u0a97\u0ab2",
+    "constituency_mr": "\u0905\u091f\u093f\u0902\u0917\u0932"
   },
   {
     "id": 159,
@@ -2944,7 +3922,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Hardoi",
     "photo": "https://sansad.in/getFile/mpimage/photo/159.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u0930\u0926\u094b\u0908",
+    "constituency_gu": "\u0ab9\u0ab0\u0aa6\u0acb\u0a88",
+    "constituency_mr": "\u0939\u0930\u0926\u094b\u0908"
   },
   {
     "id": 5770,
@@ -2953,7 +3934,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Erode",
     "photo": "https://sansad.in/getFile/mpimage/photo/5770.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0907\u0930\u094b\u0921",
+    "constituency_gu": "\u0a87\u0ab0\u0acb\u0aa1",
+    "constituency_mr": "\u0907\u0930\u094b\u0921"
   },
   {
     "id": 4971,
@@ -2962,7 +3946,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Cuddalore",
     "photo": "https://sansad.in/getFile/mpimage/photo/4971.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0941\u0921\u094d\u0921\u093e\u0932\u094b\u0930",
+    "constituency_gu": "\u0a95\u0ac1\u0aa1\u0acd\u0aa1\u0ab2\u0acb\u0ab0",
+    "constituency_mr": "\u0915\u0941\u0921\u094d\u0921\u093e\u0932\u094b\u0930"
   },
   {
     "id": 5780,
@@ -2971,7 +3958,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Faizabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5780.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u0948\u091c\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aab\u0ac8\u0a9d\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u092b\u0948\u091c\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5219,
@@ -2980,7 +3970,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Patna Sahib",
     "photo": "https://sansad.in/getFile/mpimage/photo/5219.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u091f\u0928\u093e \u0938\u093e\u0939\u093f\u092c",
+    "constituency_gu": "\u0aaa\u0a9f\u0aa8\u0abe \u0ab8\u0abe\u0ab9\u0abf\u0aac",
+    "constituency_mr": "\u092a\u093e\u091f\u0923\u093e \u0938\u093e\u0939\u093f\u092c"
   },
   {
     "id": 5641,
@@ -2989,7 +3982,10 @@ const MEMBERS_DATA = [
     "party": "CPI(ML)(L)",
     "constituency": "Arrah",
     "photo": "https://sansad.in/getFile/mpimage/photo/5641.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0930\u093e",
+    "constituency_gu": "\u0a85\u0ab0\u0abe\u0ab9",
+    "constituency_mr": "\u0906\u0930\u093e\u0939"
   },
   {
     "id": 4065,
@@ -2998,7 +3994,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Pilibhit",
     "photo": "https://sansad.in/getFile/mpimage/photo/4065.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0940\u0932\u0940\u092d\u0940\u0924",
+    "constituency_gu": "\u0aaa\u0ac0\u0ab2\u0ac0\u0aad\u0ac0\u0aa4",
+    "constituency_mr": "\u092a\u093f\u0932\u0940\u092d\u0940\u0924"
   },
   {
     "id": 3754,
@@ -3007,7 +4006,10 @@ const MEMBERS_DATA = [
     "party": "RSP",
     "constituency": "Kollam",
     "photo": "https://sansad.in/getFile/mpimage/photo/3754.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0932\u094d\u0932\u092e",
+    "constituency_gu": "\u0a95\u0acb\u0ab2\u0acd\u0ab2\u0aae",
+    "constituency_mr": "\u0915\u094b\u0932\u094d\u0932\u092e"
   },
   {
     "id": 5728,
@@ -3016,7 +4018,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Barabanki",
     "photo": "https://sansad.in/getFile/mpimage/photo/5728.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0930\u093e\u092c\u0902\u0915\u0940",
+    "constituency_gu": "\u0aac\u0abe\u0ab0\u0abe\u0aac\u0a82\u0a95\u0ac0",
+    "constituency_mr": "\u092c\u093e\u0930\u093e\u092c\u0902\u0915\u0940"
   },
   {
     "id": 4022,
@@ -3025,7 +4030,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Rajahmundry",
     "photo": "https://sansad.in/getFile/mpimage/photo/4022.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u092e\u0941\u0902\u0926\u0930\u0940",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0aae\u0ac1\u0aa8\u0acd\u0aa6\u0acd\u0ab0\u0ac0",
+    "constituency_mr": "\u0930\u093e\u091c\u092e\u0941\u0902\u0926\u094d\u0930\u0940"
   },
   {
     "id": 5668,
@@ -3034,7 +4042,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bargarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/5668.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0930\u0917\u0922\u093c",
+    "constituency_gu": "\u0aac\u0abe\u0ab0\u0a97\u0aa2",
+    "constituency_mr": "\u092c\u093e\u0930\u0917\u0933"
   },
   {
     "id": 5650,
@@ -3043,7 +4054,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Mayiladuthurai",
     "photo": "https://sansad.in/getFile/mpimage/photo/5650.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093e\u0907\u0932\u093e\u0926\u0941\u0924\u094d\u0930\u092f\u0940",
+    "constituency_gu": "\u0aae\u0aaf\u0ab2\u0abe\u0aa6\u0ac1\u0aa5\u0ac1\u0ab0\u0abe\u0a88",
+    "constituency_mr": "\u092e\u093e\u092f\u0932\u093e\u0926\u0941\u0925\u0941\u0930\u093e\u0908"
   },
   {
     "id": 5628,
@@ -3052,7 +4066,10 @@ const MEMBERS_DATA = [
     "party": "CPI(M)",
     "constituency": "Dindigul",
     "photo": "https://sansad.in/getFile/mpimage/photo/5628.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0921\u093f\u0902\u0921\u0940\u0917\u0941\u0932",
+    "constituency_gu": "\u0aa1\u0ac0\u0a82\u0aa1\u0ac0\u0a97\u0ac1\u0ab2",
+    "constituency_mr": "\u0926\u093f\u0902\u0921\u0940"
   },
   {
     "id": 5757,
@@ -3061,7 +4078,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Gulbarga",
     "photo": "https://sansad.in/getFile/mpimage/photo/5757.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0941\u0932\u092c\u0930\u094d\u0917\u093e",
+    "constituency_gu": "\u0a97\u0ac1\u0ab2\u0aac\u0ab0\u0acd\u0a97\u0abe",
+    "constituency_mr": "\u0917\u0941\u0932\u092c\u0930\u094d\u0917\u093e"
   },
   {
     "id": 5812,
@@ -3070,7 +4090,10 @@ const MEMBERS_DATA = [
     "party": "CPI(M)",
     "constituency": "Alathur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5812.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0932\u093e\u0925\u0941\u0930",
+    "constituency_gu": "\u0a85\u0ab2\u0abe\u0aa5\u0ac1\u0ab0",
+    "constituency_mr": "\u0905\u0932\u093e\u0925\u0942\u0930"
   },
   {
     "id": 4560,
@@ -3079,7 +4102,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Kozhikode",
     "photo": "https://sansad.in/getFile/mpimage/photo/4560.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u091d\u093f\u0915\u094b\u0921",
+    "constituency_gu": "\u0a95\u0acb\u0a9d\u0abf\u0a95\u0acb\u0aa1",
+    "constituency_mr": "\u0915\u094b\u091d\u093f\u0915\u094b\u0921\u0947"
   },
   {
     "id": 4570,
@@ -3088,7 +4114,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Shimoga",
     "photo": "https://sansad.in/getFile/mpimage/photo/4570.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093f\u092e\u094b\u0917\u093e",
+    "constituency_gu": "\u0ab6\u0abf\u0aae\u0acb\u0a97\u0abe",
+    "constituency_mr": "\u0936\u093f\u092e\u094b\u0917\u093e"
   },
   {
     "id": 5793,
@@ -3097,7 +4126,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Nalgonda",
     "photo": "https://sansad.in/getFile/mpimage/photo/5793.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0932\u0917\u094b\u0902\u0921\u093e",
+    "constituency_gu": "\u0aa8\u0abe\u0ab2\u0a97\u0acb\u0a82\u0aa1\u0abe",
+    "constituency_mr": "\u0928\u0932\u0917\u094b\u0902\u0921\u093e"
   },
   {
     "id": 5046,
@@ -3106,7 +4138,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Jangipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5046.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0902\u0917\u0940\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0abe\u0a82\u0a97\u0ac0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u0902\u0917\u0940\u092a\u0942\u0930"
   },
   {
     "id": 4625,
@@ -3115,7 +4150,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ujiarpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4625.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u091c\u093f\u092f\u093e\u0930\u092a\u0941\u0930 \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0a89\u0a9c\u0abf\u0aaf\u0abe\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0909\u091c\u093f\u092f\u093e\u0930\u092a\u0942\u0930"
   },
   {
     "id": 5769,
@@ -3124,7 +4162,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Ghosi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5769.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0918\u094b\u0938\u0940",
+    "constituency_gu": "\u0a98\u0acb\u0ab8\u0ac0",
+    "constituency_mr": "\u0918\u094b\u0938\u0940"
   },
   {
     "id": 4305,
@@ -3133,7 +4174,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Salempur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4305.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0932\u0947\u092e\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0ab2\u0ac7\u0aae\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u093e\u0932\u0947\u092e\u092a\u0942\u0930"
   },
   {
     "id": 5731,
@@ -3142,7 +4186,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Malkajgiri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5731.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0932\u094d\u0915\u093e\u091c\u0917\u093f\u0930\u093f \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0aae\u0ab2\u0a95\u0abe\u0a9c\u0a97\u0ac0\u0ab0\u0ac0",
+    "constituency_mr": "\u092e\u0932\u0915\u093e\u091c\u0917\u093f\u0930\u0940"
   },
   {
     "id": 5189,
@@ -3151,7 +4198,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Osmanabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5189.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0938\u094d\u092e\u093e\u0928\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a89\u0ab8\u0acd\u0aae\u0abe\u0aa8\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0909\u0938\u094d\u092e\u093e\u0928\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4666,
@@ -3160,7 +4210,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Farrukhabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/4666.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u0930\u094d\u0930\u0941\u0916\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aab\u0ab0\u0ac1\u0a96\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u092b\u093e\u0930\u0941\u0916\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5649,
@@ -3169,7 +4222,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Madha",
     "photo": "https://sansad.in/getFile/mpimage/photo/5649.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093e\u0922\u093e",
+    "constituency_gu": "\u0aae\u0abe\u0aa7\u0abe",
+    "constituency_mr": "\u092e\u0927\u093e"
   },
   {
     "id": 5776,
@@ -3178,7 +4234,10 @@ const MEMBERS_DATA = [
     "party": "CPI(M)",
     "constituency": "Sikar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5776.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0940\u0915\u0930",
+    "constituency_gu": "\u0ab8\u0ac0\u0a95\u0ab0",
+    "constituency_mr": "\u0938\u093f\u0915\u0930"
   },
   {
     "id": 4731,
@@ -3187,7 +4246,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Palamu",
     "photo": "https://sansad.in/getFile/mpimage/photo/4731.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0932\u093e\u092e\u0942",
+    "constituency_gu": "\u0aaa\u0ab2\u0abe\u0aae\u0ac1",
+    "constituency_mr": "\u092a\u0932\u093e\u092e\u0942"
   },
   {
     "id": 5544,
@@ -3196,7 +4258,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Anakapalle",
     "photo": "https://sansad.in/getFile/mpimage/photo/5544.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0928\u0915\u093e\u092a\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0a85\u0aa8\u0abe\u0a95\u0aaa\u0ab2\u0acd\u0ab2\u0ac7",
+    "constituency_mr": "\u0905\u0928\u0915\u092a\u0932\u094d\u0932\u0947"
   },
   {
     "id": 5652,
@@ -3205,7 +4270,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mandi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5652.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0902\u0921\u0940",
+    "constituency_gu": "\u0aae\u0a82\u0aa1\u0ac0",
+    "constituency_mr": "\u092e\u0902\u0921\u0940"
   },
   {
     "id": 5752,
@@ -3214,7 +4282,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Gurdaspur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5752.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0941\u0930\u0926\u093e\u0938\u092a\u0941\u0930",
+    "constituency_gu": "\u0a97\u0ac1\u0ab0\u0aa6\u0abe\u0ab8\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0917\u0941\u0930\u0941\u0926\u093e\u0938\u092a\u0942\u0930"
   },
   {
     "id": 5704,
@@ -3223,7 +4294,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ratnagiri-Sindhudurg",
     "photo": "https://sansad.in/getFile/mpimage/photo/5704.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u0924\u094d\u0928\u093e\u0917\u093f\u0930\u0940-\u0938\u093f\u0902\u0927\u0941\u0926\u0941\u0930\u094d\u0917",
+    "constituency_gu": "\u0ab0\u0aa4\u0acd\u0aa8\u0abe\u0a97\u0ac0\u0ab0\u0ac0-\u0ab8\u0abf\u0a82\u0aa7\u0ac1\u0aa6\u0ac1\u0ab0\u0acd\u0a97",
+    "constituency_mr": "\u0930\u0924\u094d\u0928\u093e\u0917\u093f\u0930\u0940-\u0938\u093f\u0902\u0927\u0941\u0926\u0941\u0930\u094d\u0917"
   },
   {
     "id": 5679,
@@ -3232,7 +4306,10 @@ const MEMBERS_DATA = [
     "party": "YSR Congress Party",
     "constituency": "Araku",
     "photo": "https://sansad.in/getFile/mpimage/photo/5679.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0930\u0915\u0942",
+    "constituency_gu": "\u0a85\u0ab0\u0abe\u0a95\u0ac1",
+    "constituency_mr": "\u0905\u0930\u093e\u0915\u0942"
   },
   {
     "id": 554,
@@ -3241,7 +4318,10 @@ const MEMBERS_DATA = [
     "party": "Ind.",
     "constituency": "Purnia",
     "photo": "https://sansad.in/getFile/mpimage/photo/554.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0942\u0930\u094d\u0923\u093f\u092f\u093e",
+    "constituency_gu": "\u0aaa\u0ac2\u0ab0\u0acd\u0aa3\u0abf\u0aaf\u0abe",
+    "constituency_mr": "\u092a\u0942\u0930\u094d\u0923\u093f\u092f\u093e"
   },
   {
     "id": 5670,
@@ -3250,7 +4330,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Chittoor",
     "photo": "https://sansad.in/getFile/mpimage/photo/5670.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093f\u0924\u094d\u0924\u0942\u0930",
+    "constituency_gu": "\u0a9a\u0abf\u0aa4\u0acd\u0aa4\u0ac2\u0ab0",
+    "constituency_mr": "\u091a\u093f\u0924\u094d\u0924\u0942\u0930"
   },
   {
     "id": 5573,
@@ -3259,7 +4342,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Medak",
     "photo": "https://sansad.in/getFile/mpimage/photo/5573.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0947\u0921\u0915",
+    "constituency_gu": "\u0aae\u0ac7\u0aa1\u0a95",
+    "constituency_mr": "\u092e\u0947\u0921\u0915"
   },
   {
     "id": 5678,
@@ -3268,7 +4354,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Raigarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/5678.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092f\u0917\u0922\u093c",
+    "constituency_gu": "\u0ab0\u0abe\u0aaf\u0a97\u0aa2",
+    "constituency_mr": "\u0930\u093e\u092f\u0917\u0921"
   },
   {
     "id": 5743,
@@ -3277,7 +4366,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Sitapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5743.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0940\u0924\u093e\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0ac0\u0aa4\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u0940\u0924\u093e\u092a\u0942\u0930"
   },
   {
     "id": 5572,
@@ -3286,7 +4378,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chhota Udaipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5572.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091b\u094b\u091f\u093e \u0909\u0926\u092f\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9b\u0acb\u0a9f\u0abe \u0a89\u0aa6\u0ac7\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091b\u094b\u091f\u093e \u0909\u0926\u092f\u092a\u0942\u0930"
   },
   {
     "id": 3534,
@@ -3295,7 +4390,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Nagarkurnool",
     "photo": "https://sansad.in/getFile/mpimage/photo/3534.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0917\u0930\u0915\u0941\u0930\u0928\u0942\u0932",
+    "constituency_gu": "\u0aa8\u0abe\u0a97\u0ab0\u0a95\u0ac1\u0ab0\u0acd\u0aa8\u0ac2\u0ab2",
+    "constituency_mr": "\u0928\u0917\u0930\u0915\u0941\u0930\u094d\u0928\u0942\u0932"
   },
   {
     "id": 5622,
@@ -3304,7 +4402,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Udaipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5622.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0926\u092f\u092a\u0941\u0930",
+    "constituency_gu": "\u0a89\u0aa6\u0aaf\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0909\u0926\u092f\u092a\u0942\u0930"
   },
   {
     "id": 4096,
@@ -3313,7 +4414,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Misrikh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4096.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093f\u0938\u0930\u093f\u0916",
+    "constituency_gu": "\u0aae\u0abf\u0ab8\u0ab0\u0ac0\u0a96",
+    "constituency_mr": "\u092e\u093f\u0938\u0930\u093f\u0916"
   },
   {
     "id": 5556,
@@ -3322,7 +4426,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Hardwar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5556.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u0930\u0926\u094d\u0935\u093e\u0930",
+    "constituency_gu": "\u0ab9\u0ab0\u0aa6\u0acd\u0ab5\u0abe\u0ab0",
+    "constituency_mr": "\u0939\u0930\u0926\u094d\u0935\u093e\u0930"
   },
   {
     "id": 2554,
@@ -3331,7 +4438,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Dum Dum",
     "photo": "https://sansad.in/getFile/mpimage/photo/2554.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u092e \u0926\u092e",
+    "constituency_gu": "\u0aa6\u0aae \u0aa6\u0aae",
+    "constituency_mr": "\u0926\u092e \u0926\u092e"
   },
   {
     "id": 371,
@@ -3340,7 +4450,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Andaman and Nicobar Islands",
     "photo": "https://sansad.in/getFile/mpimage/photo/371.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0902\u0921\u092e\u093e\u0928 \u0935 \u0928\u094b\u0915\u094b\u092c\u093e\u0930 \u0926\u094d\u0935\u0940\u092a \u0938\u092e\u0942\u0939",
+    "constituency_gu": "\u0a86\u0a82\u0aa6\u0abe\u0aae\u0abe\u0aa8 \u0a85\u0aa8\u0ac7 \u0aa8\u0abf\u0a95\u0acb\u0aac\u0abe\u0ab0 \u0a9f\u0abe\u0aaa\u0ac1\u0a93",
+    "constituency_mr": "\u0905\u0902\u0926\u092e\u093e\u0928 \u0906\u0923\u093f \u0928\u093f\u0915\u094b\u092c\u093e\u0930 \u092c\u0947\u091f\u0947"
   },
   {
     "id": 5058,
@@ -3349,7 +4462,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhind",
     "photo": "https://sansad.in/getFile/mpimage/photo/5058.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u093f\u0902\u0921",
+    "constituency_gu": "\u0aad\u0ac0\u0a82\u0aa1",
+    "constituency_mr": "\u092d\u093f\u0902\u0921"
   },
   {
     "id": 5755,
@@ -3358,7 +4474,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Bhongir",
     "photo": "https://sansad.in/getFile/mpimage/photo/5755.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u094b\u0902\u0917\u0940\u0930",
+    "constituency_gu": "\u0aad\u0acb\u0a82\u0a97\u0abf\u0ab0",
+    "constituency_mr": "\u092d\u094b\u0902\u0917\u0940\u0930"
   },
   {
     "id": 5084,
@@ -3367,7 +4486,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Secunderabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5084.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093f\u0915\u0902\u0926\u0930\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0ab8\u0abf\u0a95\u0a82\u0aa6\u0ab0\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0938\u093f\u0915\u0902\u0926\u0930\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4800,
@@ -3376,7 +4498,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chevella",
     "photo": "https://sansad.in/getFile/mpimage/photo/4800.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0947\u0935\u0947\u0932\u094d\u0932\u093e",
+    "constituency_gu": "\u0a9a\u0ac7\u0ab5\u0ac7\u0ab2\u0abe",
+    "constituency_mr": "\u0936\u0947\u0935\u0947\u0932\u094d\u0932\u093e"
   },
   {
     "id": 3907,
@@ -3385,7 +4510,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Ongole",
     "photo": "https://sansad.in/getFile/mpimage/photo/3907.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0913\u0902\u0917\u094b\u0932",
+    "constituency_gu": "\u0a93\u0aa8\u0acd\u0a97\u0acb\u0ab2",
+    "constituency_mr": "\u0913\u0902\u0917\u094b\u0932"
   },
   {
     "id": 4688,
@@ -3394,7 +4522,10 @@ const MEMBERS_DATA = [
     "party": "YSR Congress Party",
     "constituency": "Rajampet",
     "photo": "https://sansad.in/getFile/mpimage/photo/4688.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u092e\u092a\u0947\u091f",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0aae\u0aaa\u0ac7\u0a9f",
+    "constituency_mr": "\u0930\u093e\u091c\u092e\u092a\u0947\u0920"
   },
   {
     "id": 5716,
@@ -3403,7 +4534,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Khammam",
     "photo": "https://sansad.in/getFile/mpimage/photo/5716.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u092e\u094d\u092e\u092e",
+    "constituency_gu": "\u0a96\u0aae\u0acd\u0aae\u0aae",
+    "constituency_mr": "\u0916\u092e\u094d\u092e\u092e"
   },
   {
     "id": 4816,
@@ -3412,7 +4546,10 @@ const MEMBERS_DATA = [
     "party": "YSR Congress Party",
     "constituency": "Kadapa",
     "photo": "https://sansad.in/getFile/mpimage/photo/4816.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0921\u092a\u093e",
+    "constituency_gu": "\u0a95\u0aa1\u0aaa\u0abe",
+    "constituency_mr": "\u0915\u0921\u092a\u094d\u092a\u093e"
   },
   {
     "id": 5822,
@@ -3421,7 +4558,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Sambhal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5822.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0902\u092d\u0932",
+    "constituency_gu": "\u0ab8\u0a82\u0aad\u0ab2",
+    "constituency_mr": "\u0938\u0902\u092d\u0933"
   },
   {
     "id": 3972,
@@ -3430,7 +4570,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Arunachal West",
     "photo": "https://sansad.in/getFile/mpimage/photo/3972.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0930\u0941\u0923\u093e\u091a\u0932 \u092a\u0936\u094d\u091a\u093f\u092e",
+    "constituency_gu": "\u0a85\u0ab0\u0ac1\u0aa3\u0abe\u0a9a\u0ab2 \u0aaa\u0ab6\u0acd\u0a9a\u0abf\u0aae",
+    "constituency_mr": "\u0905\u0930\u0941\u0923\u093e\u091a\u0932 \u092a\u0936\u094d\u091a\u093f\u092e"
   },
   {
     "id": 5764,
@@ -3439,7 +4582,10 @@ const MEMBERS_DATA = [
     "party": "BAP",
     "constituency": "Banswara",
     "photo": "https://sansad.in/getFile/mpimage/photo/5764.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0902\u0938\u0935\u093e\u0921\u093c\u093e",
+    "constituency_gu": "\u0aac\u0abe\u0a82\u0ab8\u0ab5\u0abe\u0aa1\u0abe",
+    "constituency_mr": "\u092c\u093e\u0902\u0938\u0935\u093e\u0921\u093e"
   },
   {
     "id": 5045,
@@ -3448,7 +4594,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jalpaiguri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5045.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0932\u092a\u093e\u0908\u0917\u0941\u0921\u093c\u0940",
+    "constituency_gu": "\u0a9c\u0ab2\u0aaa\u0abe\u0a88\u0a97\u0ac1\u0aa1\u0ac0",
+    "constituency_mr": "\u091c\u0932\u092a\u093e\u0908\u0917\u0941\u0921\u0940"
   },
   {
     "id": 5048,
@@ -3457,7 +4606,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Kolkata Dakshin",
     "photo": "https://sansad.in/getFile/mpimage/photo/5048.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0932\u0915\u093e\u0924\u093e \u0926\u0915\u094d\u0937\u093f\u0923",
+    "constituency_gu": "\u0a95\u0acb\u0ab2\u0a95\u0abe\u0aa4\u0abe \u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3",
+    "constituency_mr": "\u0915\u094b\u0932\u0915\u093e\u0924\u093e \u0926\u0915\u094d\u0937\u093f\u0923"
   },
   {
     "id": 4506,
@@ -3466,7 +4618,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Birbhum",
     "photo": "https://sansad.in/getFile/mpimage/photo/4506.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0940\u0930\u092d\u0942\u092e",
+    "constituency_gu": "\u0aac\u0ac0\u0ab0\u0aad\u0ac1\u0aae",
+    "constituency_mr": "\u092c\u093f\u0930\u092d\u0942\u092e"
   },
   {
     "id": 385,
@@ -3475,7 +4630,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Saran",
     "photo": "https://sansad.in/getFile/mpimage/photo/385.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093e\u0930\u0923",
+    "constituency_gu": "\u0ab8\u0ab0\u0aa8",
+    "constituency_mr": "\u0938\u093e\u0930\u0923"
   },
   {
     "id": 5598,
@@ -3484,7 +4642,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Rajkot",
     "photo": "https://sansad.in/getFile/mpimage/photo/5598.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u0915\u094b\u091f",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0a95\u0acb\u0a9f",
+    "constituency_mr": "\u0930\u093e\u091c\u0915\u094b\u091f"
   },
   {
     "id": 5542,
@@ -3493,7 +4654,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Namakkal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5542.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u092e\u0915\u094d\u0915\u0932",
+    "constituency_gu": "\u0aa8\u0aae\u0a95\u0acd\u0a95\u0ab2",
+    "constituency_mr": "\u0928\u092e\u0915\u094d\u0915\u0932"
   },
   {
     "id": 5798,
@@ -3502,7 +4666,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Thanjavur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5798.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u0902\u091c\u093e\u0935\u0941\u0930",
+    "constituency_gu": "\u0aa4\u0a82\u0a9c\u0abe\u0ab5\u0ac1\u0ab0",
+    "constituency_mr": "\u0924\u0902\u091c\u093e\u0935\u0930"
   },
   {
     "id": 5163,
@@ -3511,7 +4678,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Shahjahanpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5163.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093e\u0939\u091c\u0939\u093e\u0902\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab6\u0abe\u0ab9\u0a9c\u0ab9\u0abe\u0a82\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0936\u0939\u093e\u091c\u0939\u093e\u0928\u092a\u0942\u0930"
   },
   {
     "id": 5666,
@@ -3520,7 +4690,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chhindwara",
     "photo": "https://sansad.in/getFile/mpimage/photo/5666.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091b\u093f\u0902\u0926\u0935\u093e\u0921\u093c\u093e",
+    "constituency_gu": "\u0a9b\u0abf\u0a82\u0aa6\u0ab5\u0abe\u0aa1\u0abe",
+    "constituency_mr": "\u091b\u093f\u0902\u0926\u0935\u093e\u0921\u093e"
   },
   {
     "id": 5700,
@@ -3529,7 +4702,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bilaspur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5700.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093f\u0932\u093e\u0938\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0abf\u0ab2\u0abe\u0ab8\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092c\u093f\u0932\u093e\u0938\u092a\u0942\u0930"
   },
   {
     "id": 5107,
@@ -3538,7 +4714,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Darrang Udalguri",
     "photo": "https://sansad.in/getFile/mpimage/photo/5107.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u093e\u0930\u0902\u0917 \u0909\u0926\u0932\u0917\u0941\u0930\u0940",
+    "constituency_gu": "\u0aa6\u0ab0\u0ab0\u0a82\u0a97 \u0a89\u0aa6\u0ab2\u0a97\u0ac1\u0ab0\u0ac0",
+    "constituency_mr": "\u0926\u0930\u0930\u0902\u0917 \u0909\u0926\u0932\u0917\u0941\u0930\u0940"
   },
   {
     "id": 3586,
@@ -3547,7 +4726,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Unnao",
     "photo": "https://sansad.in/getFile/mpimage/photo/3586.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0928\u094d\u0928\u093e\u0935",
+    "constituency_gu": "\u0a89\u0aa8\u0acd\u0aa8\u0abe\u0ab5",
+    "constituency_mr": "\u0909\u0928\u094d\u0928\u093e\u0935"
   },
   {
     "id": 5532,
@@ -3556,7 +4738,10 @@ const MEMBERS_DATA = [
     "party": "IUML",
     "constituency": "Ponnani",
     "photo": "https://sansad.in/getFile/mpimage/photo/5532.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u094b\u0928\u094d\u0928\u093e\u0928\u0940",
+    "constituency_gu": "\u0aaa\u0acb\u0aa8\u0abe\u0aa8\u0ac0",
+    "constituency_mr": "\u092a\u094b\u0928\u094d\u0928\u093e\u0928\u0940"
   },
   {
     "id": 5553,
@@ -3565,7 +4750,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Tura",
     "photo": "https://sansad.in/getFile/mpimage/photo/5553.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u0941\u0930\u093e",
+    "constituency_gu": "\u0aa4\u0ac1\u0ab0\u0abe",
+    "constituency_mr": "\u0924\u0941\u0930\u093e"
   },
   {
     "id": 5550,
@@ -3574,7 +4762,10 @@ const MEMBERS_DATA = [
     "party": "RLD",
     "constituency": "Baghpat",
     "photo": "https://sansad.in/getFile/mpimage/photo/5550.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0917\u092a\u0924",
+    "constituency_gu": "\u0aac\u0abe\u0a97\u0aaa\u0aa4",
+    "constituency_mr": "\u092c\u093e\u0917\u092a\u0924"
   },
   {
     "id": 4985,
@@ -3583,7 +4774,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Balasore",
     "photo": "https://sansad.in/getFile/mpimage/photo/4985.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0932\u093e\u0938\u094b\u0930",
+    "constituency_gu": "\u0aac\u0abe\u0ab2\u0abe\u0ab8\u0acb\u0ab0",
+    "constituency_mr": "\u092c\u093e\u0932\u093e\u0938\u094b\u0930"
   },
   {
     "id": 4988,
@@ -3592,7 +4786,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhubaneswar",
     "photo": "https://sansad.in/getFile/mpimage/photo/4988.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0941\u0935\u0928\u0947\u0936\u094d\u0935\u0930",
+    "constituency_gu": "\u0aad\u0ac1\u0ab5\u0aa8\u0ac7\u0ab6\u0acd\u0ab5\u0ab0",
+    "constituency_mr": "\u092d\u0941\u0935\u0928\u0947\u0936\u094d\u0935\u0930"
   },
   {
     "id": 5768,
@@ -3601,7 +4798,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Bardhaman Purba",
     "photo": "https://sansad.in/getFile/mpimage/photo/5768.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0930\u094d\u0927\u092e\u093e\u0928 \u092a\u0941\u0930\u092c\u093e",
+    "constituency_gu": "\u0aac\u0ab0\u0acd\u0aa7\u0aae\u0abe\u0aa8 \u0aaa\u0ac2\u0ab0\u0acd\u0ab5\u0abe",
+    "constituency_mr": "\u0935\u0930\u094d\u0927\u092e\u093e\u0928 \u092a\u0942\u0930\u094d\u0935\u093e"
   },
   {
     "id": 5055,
@@ -3610,7 +4810,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ranaghat",
     "photo": "https://sansad.in/getFile/mpimage/photo/5055.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u0928\u093e\u0918\u093e\u091f",
+    "constituency_gu": "\u0ab0\u0abe\u0aa3\u0abe\u0a98\u0abe\u0a9f",
+    "constituency_mr": "\u0930\u093e\u0923\u093e\u0918\u093e\u091f"
   },
   {
     "id": 5775,
@@ -3619,7 +4822,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Machhlishahr",
     "photo": "https://sansad.in/getFile/mpimage/photo/5775.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u091b\u0932\u0940\u0936\u0939\u0930",
+    "constituency_gu": "\u0aae\u0a9a\u0acd\u0a9b\u0ab2\u0ac0\u0ab6\u0ab9\u0ab0",
+    "constituency_mr": "\u092e\u091a\u094d\u091b\u0932\u0940\u0936\u0939\u0930"
   },
   {
     "id": 3916,
@@ -3628,7 +4834,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Lalganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/3916.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u093e\u0932\u0917\u0902\u091c",
+    "constituency_gu": "\u0ab2\u0abe\u0ab2\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0932\u093e\u0932\u0917\u0902\u091c"
   },
   {
     "id": 5804,
@@ -3637,7 +4846,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Kaushambi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5804.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094c\u0936\u093e\u0902\u092c\u0940",
+    "constituency_gu": "\u0a95\u0acc\u0ab6\u0abe\u0aae\u0acd\u0aac\u0ac0",
+    "constituency_mr": "\u0915\u094c\u0936\u093e\u0902\u092c\u0940"
   },
   {
     "id": 5669,
@@ -3646,7 +4858,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Palghar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5669.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "Palghar",
+    "constituency_gu": "\u0aaa\u0abe\u0ab2\u0a98\u0ab0",
+    "constituency_mr": "\u092a\u093e\u0932\u0918\u0930"
   },
   {
     "id": 4713,
@@ -3655,7 +4870,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Mumbai South",
     "photo": "https://sansad.in/getFile/mpimage/photo/4713.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0902\u092c\u0908 \u0926\u0915\u094d\u0937\u093f\u0923",
+    "constituency_gu": "\u0aae\u0ac1\u0a82\u0aac\u0a88 \u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3",
+    "constituency_mr": "\u092e\u0941\u0902\u092c\u0908 \u0926\u0915\u094d\u0937\u093f\u0923"
   },
   {
     "id": 4349,
@@ -3664,7 +4882,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Lakshadweep",
     "photo": "https://sansad.in/getFile/mpimage/photo/4349.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u0915\u094d\u0937\u0926\u094d\u0935\u0940\u092a",
+    "constituency_gu": "\u0ab2\u0a95\u0acd\u0ab7\u0aa6\u0acd\u0ab5\u0ac0\u0aaa",
+    "constituency_mr": "\u0932\u0915\u094d\u0937\u0926\u094d\u0935\u0940\u092a"
   },
   {
     "id": 3958,
@@ -3673,7 +4894,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Guna",
     "photo": "https://sansad.in/getFile/mpimage/photo/3958.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0941\u0928\u093e",
+    "constituency_gu": "\u0a97\u0ac1\u0aa3",
+    "constituency_mr": "\u0917\u0941\u0923"
   },
   {
     "id": 5565,
@@ -3682,7 +4906,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "West Delhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5565.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0936\u094d\u091a\u093f\u092e\u0940 \u0926\u093f\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0aaa\u0ab6\u0acd\u0a9a\u0abf\u0aae \u0aa6\u0abf\u0ab2\u0acd\u0ab9\u0ac0",
+    "constituency_mr": "\u092a\u0936\u094d\u091a\u093f\u092e \u0926\u093f\u0932\u094d\u0932\u0940"
   },
   {
     "id": 407,
@@ -3691,7 +4918,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Salem",
     "photo": "https://sansad.in/getFile/mpimage/photo/407.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0932\u0947\u092e",
+    "constituency_gu": "\u0ab8\u0abe\u0ab2\u0ac7\u0aae",
+    "constituency_mr": "\u0938\u093e\u0932\u0947\u092e"
   },
   {
     "id": 5681,
@@ -3700,7 +4930,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Tiruvallur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5681.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093f\u0930\u0941\u0935\u0932\u094d\u0932\u0941\u0930",
+    "constituency_gu": "\u0aa4\u0abf\u0ab0\u0ac1\u0ab5\u0ab2\u0acd\u0ab2\u0ac1\u0ab0",
+    "constituency_mr": "\u0924\u093f\u0930\u0941\u0935\u0932\u094d\u0932\u0942\u0930"
   },
   {
     "id": 5117,
@@ -3709,7 +4942,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Ranchi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5117.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u0902\u091a\u0940",
+    "constituency_gu": "\u0ab0\u0abe\u0a82\u0a9a\u0ac0",
+    "constituency_mr": "\u0930\u093e\u0902\u091a\u0940"
   },
   {
     "id": 5610,
@@ -3718,7 +4954,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhadrak",
     "photo": "https://sansad.in/getFile/mpimage/photo/5610.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0926\u094d\u0930\u0915",
+    "constituency_gu": "\u0aad\u0aa6\u0acd\u0ab0\u0a95",
+    "constituency_mr": "\u092d\u0926\u094d\u0930\u0915"
   },
   {
     "id": 5687,
@@ -3727,7 +4966,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Nandyal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5687.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0902\u0926\u092f\u093e\u0932",
+    "constituency_gu": "\u0aa8\u0a82\u0aa6\u0acd\u0aaf\u0abe\u0ab2",
+    "constituency_mr": "\u0928\u093e\u0902\u0926\u094d\u092f\u093e\u0932"
   },
   {
     "id": 5021,
@@ -3736,7 +4978,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Gandhinagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5021.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u093e\u0902\u0927\u0940\u0928\u0917\u0930",
+    "constituency_gu": "\u0a97\u0abe\u0a82\u0aa7\u0ac0\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0917\u093e\u0902\u0927\u0940\u0928\u0917\u0930"
   },
   {
     "id": 4582,
@@ -3745,7 +4990,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Tehri Garhwal",
     "photo": "https://sansad.in/getFile/mpimage/photo/4582.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091f\u0947\u0939\u0930\u0940 \u0917\u0922\u093c\u0935\u093e\u0932",
+    "constituency_gu": "\u0a9f\u0abf\u0ab9\u0ab0\u0ac0 \u0a97\u0aa2\u0ab5\u0abe\u0ab2",
+    "constituency_mr": "\u091f\u093f\u0939\u0930\u0940 \u0917\u0922\u0935\u093e\u0932"
   },
   {
     "id": 5656,
@@ -3754,7 +5002,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Etah",
     "photo": "https://sansad.in/getFile/mpimage/photo/5656.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u090f\u091f\u093e",
+    "constituency_gu": "\u0a87\u0a9f\u0abe\u0ab9",
+    "constituency_mr": "\u090f\u091f\u093e"
   },
   {
     "id": 4642,
@@ -3763,7 +5014,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Gautam Buddha Nagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/4642.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u094c\u0924\u092e\u092c\u0941\u0926\u094d\u0927\u0928\u0917\u0930",
+    "constituency_gu": "\u0a97\u0acc\u0aa4\u0aae \u0aac\u0ac1\u0aa6\u0acd\u0aa7 \u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0917\u094c\u0924\u092e \u092c\u0941\u0926\u094d\u0927 \u0928\u0917\u0930"
   },
   {
     "id": 5674,
@@ -3772,7 +5026,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhopal",
     "photo": "https://sansad.in/getFile/mpimage/photo/5674.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u094b\u092a\u093e\u0932",
+    "constituency_gu": "\u0aad\u0acb\u0aaa\u0abe\u0ab2",
+    "constituency_mr": "\u092d\u094b\u092a\u093e\u0933"
   },
   {
     "id": 5148,
@@ -3781,7 +5038,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jhansi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5148.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091d\u093e\u0902\u0938\u0940",
+    "constituency_gu": "\u0a9d\u0abe\u0a82\u0ab8\u0ac0",
+    "constituency_mr": "\u091d\u093e\u0936\u0940"
   },
   {
     "id": 5066,
@@ -3790,7 +5050,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Khajuraho",
     "photo": "https://sansad.in/getFile/mpimage/photo/5066.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u091c\u0941\u0930\u093e\u0939\u094b",
+    "constituency_gu": "\u0a96\u0a9c\u0ac1\u0ab0\u0abe\u0ab9\u0acb",
+    "constituency_mr": "\u0916\u091c\u0941\u0930\u093e\u0939\u094b"
   },
   {
     "id": 5619,
@@ -3799,7 +5062,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jaipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5619.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u092f\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0aaf\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u092f\u092a\u0942\u0930"
   },
   {
     "id": 5830,
@@ -3808,7 +5074,10 @@ const MEMBERS_DATA = [
     "party": "Ind.",
     "constituency": "Baramulla",
     "photo": "https://sansad.in/getFile/mpimage/photo/5830.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0930\u093e\u092e\u0942\u0932\u093e",
+    "constituency_gu": "\u0aac\u0abe\u0ab0\u0abe\u0aae\u0ac1\u0ab2\u0acd\u0ab2\u0abe",
+    "constituency_mr": "\u092c\u093e\u0930\u093e\u092e\u0941\u0932\u094d\u0932\u093e"
   },
   {
     "id": 5647,
@@ -3817,7 +5086,10 @@ const MEMBERS_DATA = [
     "party": "ASP (KR)",
     "constituency": "Nagina",
     "photo": "https://sansad.in/getFile/mpimage/photo/5647.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0917\u0940\u0928\u093e",
+    "constituency_gu": "\u0aa8\u0a97\u0ac0\u0aa8\u0abe",
+    "constituency_mr": "\u0928\u0917\u0940\u0928\u093e"
   },
   {
     "id": 4670,
@@ -3826,7 +5098,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jodhpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4670.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u094b\u0927\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0acb\u0aa7\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u094b\u0927\u092a\u0942\u0930"
   },
   {
     "id": 4523,
@@ -3835,7 +5110,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Zahirabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/4523.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0939\u0940\u0930\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a9d\u0ab9\u0abf\u0ab0\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u091c\u0939\u093f\u0930\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5733,
@@ -3844,7 +5122,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Belgaum",
     "photo": "https://sansad.in/getFile/mpimage/photo/5733.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0932\u0917\u093e\u092e",
+    "constituency_gu": "\u0aac\u0ac7\u0ab2\u0a97\u0abe\u0aae",
+    "constituency_mr": "\u092c\u0947\u0933\u0917\u093e\u0935"
   },
   {
     "id": 5617,
@@ -3853,7 +5134,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Surendranagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5617.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0941\u0930\u0947\u0902\u0926\u094d\u0930\u0928\u0917\u0930",
+    "constituency_gu": "\u0ab8\u0ac1\u0ab0\u0ac7\u0aa8\u0acd\u0aa6\u0acd\u0ab0\u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0938\u0941\u0930\u0947\u0902\u0926\u094d\u0930\u0928\u0917\u0930"
   },
   {
     "id": 4659,
@@ -3862,7 +5146,10 @@ const MEMBERS_DATA = [
     "party": "SS",
     "constituency": "Kalyan",
     "photo": "https://sansad.in/getFile/mpimage/photo/4659.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0932\u094d\u092f\u093e\u0923",
+    "constituency_gu": "\u0a95\u0ab2\u0acd\u0aaf\u0abe\u0aa3",
+    "constituency_mr": "\u0915\u0932\u094d\u092f\u093e\u0923"
   },
   {
     "id": 5759,
@@ -3871,7 +5158,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Solapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5759.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u094b\u0932\u093e\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0acb\u0ab2\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u094b\u0932\u093e\u092a\u0942\u0930"
   },
   {
     "id": 5633,
@@ -3880,7 +5170,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Rampur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5633.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0930\u093e\u092e\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab0\u0abe\u0aae\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0930\u093e\u092e\u092a\u0942\u0930"
   },
   {
     "id": 4638,
@@ -3889,7 +5182,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Maharajganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/4638.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0939\u093e\u0930\u093e\u091c\u0917\u0902\u091c",
+    "constituency_gu": "\u0aae\u0ab9\u0abe\u0ab0\u0abe\u0a9c\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u092e\u0939\u093e\u0930\u093e\u091c\u0917\u0902\u091c"
   },
   {
     "id": 5169,
@@ -3898,7 +5194,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Fatehgarh Sahib",
     "photo": "https://sansad.in/getFile/mpimage/photo/5169.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u0924\u0947\u0939\u0917\u0922\u093c \u0938\u093e\u0939\u093f\u092c",
+    "constituency_gu": "\u0aab\u0aa4\u0ac7\u0ab9\u0a97\u0aa2 \u0ab8\u0abe\u0ab9\u0abf\u0aac",
+    "constituency_mr": "\u092b\u0924\u0947\u0939\u0917\u0922 \u0938\u093e\u0939\u093f\u092c"
   },
   {
     "id": 4605,
@@ -3907,7 +5206,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bulandshahr",
     "photo": "https://sansad.in/getFile/mpimage/photo/4605.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0941\u0932\u0928\u094d\u0926\u0936\u0939\u0930",
+    "constituency_gu": "\u0aac\u0ac1\u0ab2\u0a82\u0aa6\u0ab6\u0ab9\u0ab0",
+    "constituency_mr": "\u092c\u0941\u0932\u0902\u0926\u0936\u0939\u0930"
   },
   {
     "id": 4718,
@@ -3916,7 +5218,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Udhampur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4718.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0927\u092e\u092a\u0941\u0930",
+    "constituency_gu": "\u0a89\u0aa7\u0aae\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0909\u0927\u092e\u092a\u0942\u0930"
   },
   {
     "id": 5832,
@@ -3925,7 +5230,10 @@ const MEMBERS_DATA = [
     "party": "Ind.",
     "constituency": "Khadoor Sahib",
     "photo": "https://sansad.in/getFile/mpimage/photo/5832.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u0921\u0942\u0930 \u0938\u093e\u0939\u093f\u092c",
+    "constituency_gu": "\u0a96\u0aa1\u0ac2\u0ab0 \u0ab8\u0abe\u0ab9\u0ac7\u0aac",
+    "constituency_mr": "\u0916\u0921\u0942\u0930 \u0938\u093e\u0939\u093f\u092c"
   },
   {
     "id": 4664,
@@ -3934,7 +5242,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Akbarpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4664.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0915\u092c\u0930\u092a\u0941\u0930",
+    "constituency_gu": "\u0a85\u0a95\u0aac\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0905\u0915\u092c\u0930\u092a\u0942\u0930"
   },
   {
     "id": 4647,
@@ -3943,7 +5254,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bhiwani-Mahendragarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4647.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u093f\u0935\u093e\u0928\u0940-\u092e\u0939\u0947\u0902\u0926\u094d\u0930\u0917\u0922\u093c",
+    "constituency_gu": "\u0aad\u0abf\u0ab5\u0abe\u0aa8\u0ac0-\u0aae\u0ab9\u0ac7\u0aa8\u0acd\u0aa6\u0acd\u0ab0\u0a97\u0aa2",
+    "constituency_mr": "\u092d\u093f\u0935\u093e\u0928\u0940-\u092e\u0939\u0947\u0902\u0926\u094d\u0930\u0917\u0921"
   },
   {
     "id": 4005,
@@ -3952,7 +5266,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jhalawar-Baran",
     "photo": "https://sansad.in/getFile/mpimage/photo/4005.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091d\u093e\u0932\u093e\u0935\u093e\u0921\u093c-\u092c\u093e\u0930\u093e\u0902",
+    "constituency_gu": "\u0a9d\u0abe\u0ab2\u0abe\u0ab5\u0abe\u0aa1-\u0aac\u0abe\u0ab0\u0aa3",
+    "constituency_mr": "\u091d\u093e\u0932\u093e\u0935\u093e\u0930-\u092c\u093e\u0930\u0923"
   },
   {
     "id": 3986,
@@ -3961,7 +5278,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Satna",
     "photo": "https://sansad.in/getFile/mpimage/photo/3986.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0924\u0928\u093e",
+    "constituency_gu": "\u0ab8\u0aa4\u0aa8\u0abe",
+    "constituency_mr": "\u0938\u0924\u0928\u093e"
   },
   {
     "id": 4641,
@@ -3970,7 +5290,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Begusarai",
     "photo": "https://sansad.in/getFile/mpimage/photo/4641.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0917\u0942\u0938\u0930\u093e\u092f",
+    "constituency_gu": "\u0aac\u0ac7\u0a97\u0ac1\u0ab8\u0ab0\u0abe\u0aaf",
+    "constituency_mr": "\u092c\u0947\u0917\u0941\u0938\u0930\u093e\u092f"
   },
   {
     "id": 5618,
@@ -3979,7 +5302,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chatra",
     "photo": "https://sansad.in/getFile/mpimage/photo/5618.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0924\u0930\u093e",
+    "constituency_gu": "\u0a9a\u0aa4\u0acd\u0ab0\u0abe",
+    "constituency_mr": "\u091a\u0924\u094d\u0930"
   },
   {
     "id": 5581,
@@ -3988,7 +5314,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kaiserganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/5581.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0948\u0938\u0930\u0917\u0902\u091c",
+    "constituency_gu": "\u0a95\u0ac8\u0ab8\u0ab0\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0915\u0948\u0938\u0930\u0917\u0902\u091c"
   },
   {
     "id": 3926,
@@ -3997,7 +5326,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Gonda",
     "photo": "https://sansad.in/getFile/mpimage/photo/3926.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u094b\u0902\u0921\u093e",
+    "constituency_gu": "\u0a97\u0acb\u0a82\u0aa1\u0abe",
+    "constituency_mr": "\u0917\u094b\u0902\u0921\u093e"
   },
   {
     "id": 4459,
@@ -4006,7 +5338,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Araria",
     "photo": "https://sansad.in/getFile/mpimage/photo/4459.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0930\u0930\u093f\u092f\u093e",
+    "constituency_gu": "\u0a85\u0ab0\u0ab0\u0abf\u0aaf\u0abe",
+    "constituency_mr": "\u0905\u0930\u0930\u093f\u092f\u093e"
   },
   {
     "id": 451,
@@ -4015,7 +5350,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Purvi Champaran",
     "photo": "https://sansad.in/getFile/mpimage/photo/451.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0942\u0930\u094d\u0935\u0940 \u091a\u0902\u092a\u093e\u0930\u0923",
+    "constituency_gu": "\u0aaa\u0ac2\u0ab0\u0acd\u0ab5\u0ac0 \u0a9a\u0a82\u0aaa\u0abe\u0ab0\u0aa3",
+    "constituency_mr": "\u092a\u0941\u0930\u094d\u0935\u0940 \u091a\u0902\u092a\u093e\u0930\u0923"
   },
   {
     "id": 5642,
@@ -4024,7 +5362,10 @@ const MEMBERS_DATA = [
     "party": "CPI(ML)(L)",
     "constituency": "Karakat",
     "photo": "https://sansad.in/getFile/mpimage/photo/5642.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0930\u093e\u0915\u093e\u091f \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0a95\u0ab0\u0a95\u0a9f",
+    "constituency_mr": "\u0915\u0930\u0915\u091f"
   },
   {
     "id": 4134,
@@ -4033,7 +5374,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Munger",
     "photo": "https://sansad.in/getFile/mpimage/photo/4134.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0902\u0917\u0947\u0930",
+    "constituency_gu": "\u0aae\u0ac1\u0a82\u0a97\u0ac7\u0ab0",
+    "constituency_mr": "\u092e\u0941\u0902\u0917\u0947\u0930"
   },
   {
     "id": 4268,
@@ -4042,7 +5386,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Lucknow",
     "photo": "https://sansad.in/getFile/mpimage/photo/4268.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u0916\u0928\u090a",
+    "constituency_gu": "\u0ab2\u0a96\u0aa8\u0acc",
+    "constituency_mr": "\u0932\u0916\u0928\u094c"
   },
   {
     "id": 3904,
@@ -4051,7 +5398,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Gurgaon",
     "photo": "https://sansad.in/getFile/mpimage/photo/3904.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u0941\u0921\u0917\u093e\u0901\u0935",
+    "constituency_gu": "\u0a97\u0ac1\u0aa1\u0a97\u0abe\u0a82\u0ab5",
+    "constituency_mr": "\u0917\u0941\u0921\u0917\u093e\u0935"
   },
   {
     "id": 5632,
@@ -4060,7 +5410,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jaipur Rural",
     "photo": "https://sansad.in/getFile/mpimage/photo/5632.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u092f\u092a\u0941\u0930 \u0917\u094d\u0930\u093e\u092e\u0940\u0923",
+    "constituency_gu": "\u0a9c\u0aaf\u0aaa\u0ac1\u0ab0 \u0a97\u0acd\u0ab0\u0abe\u0aae\u0ac0\u0aa3",
+    "constituency_mr": "\u091c\u092f\u092a\u0942\u0930 \u0917\u094d\u0930\u093e\u092e\u0940\u0923"
   },
   {
     "id": 5634,
@@ -4069,7 +5422,10 @@ const MEMBERS_DATA = [
     "party": "RJD",
     "constituency": "Buxar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5634.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0915\u094d\u0938\u0930",
+    "constituency_gu": "\u0aac\u0a95\u0acd\u0ab8\u0ab0",
+    "constituency_mr": "\u092c\u0915\u094d\u0938\u0930"
   },
   {
     "id": 5749,
@@ -4078,7 +5434,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Allahabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5749.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0907\u0932\u093e\u0939\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a85\u0ab2\u0acd\u0ab9\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0905\u0932\u093e\u0939\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5651,
@@ -4087,7 +5446,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Chandauli",
     "photo": "https://sansad.in/getFile/mpimage/photo/5651.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0902\u0926\u094c\u0932\u0940",
+    "constituency_gu": "\u0a9a\u0a82\u0aa6\u0acc\u0ab2\u0ac0",
+    "constituency_mr": "\u091a\u093e\u0902\u0926\u094c\u0932\u0940"
   },
   {
     "id": 5070,
@@ -4096,7 +5458,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Shahdol",
     "photo": "https://sansad.in/getFile/mpimage/photo/5070.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093e\u0939\u0921\u094b\u0932",
+    "constituency_gu": "\u0ab6\u0abe\u0ab9\u0aa1\u0acb\u0ab2",
+    "constituency_mr": "\u0936\u0939\u093e\u0921\u094b\u0932"
   },
   {
     "id": 5646,
@@ -4105,7 +5470,10 @@ const MEMBERS_DATA = [
     "party": "RJD",
     "constituency": "Aurangabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5646.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0914\u0930\u0902\u0917\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a94\u0ab0\u0a82\u0a97\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u0914\u0930\u0902\u0917\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4468,
@@ -4114,7 +5482,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Asansol",
     "photo": "https://sansad.in/getFile/mpimage/photo/4468.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u0938\u0928\u0938\u094b\u0932",
+    "constituency_gu": "\u0a86\u0ab8\u0aa8\u0ab8\u0acb\u0ab2",
+    "constituency_mr": "\u0906\u0938\u0928\u0938\u094b\u0932"
   },
   {
     "id": 5667,
@@ -4123,7 +5494,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Vijayawada",
     "photo": "https://sansad.in/getFile/mpimage/photo/5667.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093f\u091c\u092f\u0935\u093e\u0921\u093c\u093e",
+    "constituency_gu": "\u0ab5\u0abf\u0a9c\u0aaf\u0ab5\u0abe\u0aa1\u0abe",
+    "constituency_mr": "\u0935\u093f\u091c\u092f\u0935\u093e\u0921\u093e"
   },
   {
     "id": 5685,
@@ -4132,7 +5506,10 @@ const MEMBERS_DATA = [
     "party": "LJSP(RV)",
     "constituency": "Samastipur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5685.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u092e\u0938\u094d\u0924\u0940\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab8\u0aae\u0ab8\u0acd\u0aa4\u0ac0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0938\u092e\u0938\u094d\u0924\u0940\u092a\u0942\u0930"
   },
   {
     "id": 5061,
@@ -4141,7 +5518,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dewas",
     "photo": "https://sansad.in/getFile/mpimage/photo/5061.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0947\u0935\u093e\u0938",
+    "constituency_gu": "\u0aa6\u0ac7\u0ab5\u0abe\u0ab8",
+    "constituency_mr": "\u0926\u0947\u0935\u093e\u0938"
   },
   {
     "id": 5625,
@@ -4150,7 +5530,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Tumkur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5625.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u0941\u092e\u0915\u0941\u0930",
+    "constituency_gu": "\u0aa4\u0ac1\u0aae\u0a95\u0ac1\u0ab0",
+    "constituency_mr": "\u0924\u0941\u092e\u0915\u0942\u0930"
   },
   {
     "id": 4163,
@@ -4159,7 +5542,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dibrugarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4163.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0921\u093f\u092c\u094d\u0930\u0942\u0917\u0922\u093c",
+    "constituency_gu": "\u0aa6\u0abf\u0aac\u0acd\u0ab0\u0ac1\u0a97\u0aa2",
+    "constituency_mr": "\u0926\u093f\u092c\u094d\u0930\u0941\u0917\u0921"
   },
   {
     "id": 5645,
@@ -4168,7 +5554,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Beed",
     "photo": "https://sansad.in/getFile/mpimage/photo/5645.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0940\u0921",
+    "constituency_gu": "\u0aac\u0ac0\u0aa1",
+    "constituency_mr": "\u092c\u0940\u0921"
   },
   {
     "id": 5826,
@@ -4177,7 +5566,10 @@ const MEMBERS_DATA = [
     "party": "JMM",
     "constituency": "Dumka",
     "photo": "https://sansad.in/getFile/mpimage/photo/5826.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0941\u092e\u0915\u093e",
+    "constituency_gu": "\u0aa6\u0ac1\u0aae\u0a95\u0abe",
+    "constituency_mr": "\u0926\u0941\u092e\u0915\u093e"
   },
   {
     "id": 5659,
@@ -4186,7 +5578,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kanthi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5659.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0902\u0925\u0940",
+    "constituency_gu": "\u0a95\u0abe\u0a82\u0aa5\u0ac0",
+    "constituency_mr": "\u0915\u0902\u0920\u0940"
   },
   {
     "id": 5128,
@@ -4195,7 +5590,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Palakkad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5128.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0932\u0915\u094d\u0915\u0921\u093c",
+    "constituency_gu": "\u0aaa\u0ab2\u0a95\u0acd\u0a95\u0aa1",
+    "constituency_mr": "\u092a\u0932\u0915\u094d\u0915\u0921"
   },
   {
     "id": 5787,
@@ -4204,7 +5602,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Tenkasi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5787.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u0947\u0928\u0915\u093e\u0938\u0940",
+    "constituency_gu": "\u0aa4\u0ac7\u0aa8\u0a95\u0abe\u0ab8\u0ac0",
+    "constituency_mr": "\u0924\u0947\u0902\u0915\u093e\u0938\u0940"
   },
   {
     "id": 5676,
@@ -4213,7 +5614,10 @@ const MEMBERS_DATA = [
     "party": "JSP",
     "constituency": "Kakinada",
     "photo": "https://sansad.in/getFile/mpimage/photo/5676.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0915\u0940\u0928\u093e\u0921\u093e",
+    "constituency_gu": "\u0a95\u0abe\u0a95\u0ac0\u0aa8\u0abe\u0aa1\u0abe",
+    "constituency_mr": "\u0915\u093e\u0915\u0940\u0928\u093e\u0921\u093e"
   },
   {
     "id": 5111,
@@ -4222,7 +5626,10 @@ const MEMBERS_DATA = [
     "party": "SKM",
     "constituency": "Sikkim",
     "photo": "https://sansad.in/getFile/mpimage/photo/5111.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093f\u0915\u094d\u0915\u093f\u092e",
+    "constituency_gu": "\u0ab8\u0abf\u0a95\u0acd\u0a95\u0abf\u0aae",
+    "constituency_mr": "\u0938\u093f\u0915\u094d\u0915\u0940\u092e"
   },
   {
     "id": 5597,
@@ -4231,7 +5638,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Aska",
     "photo": "https://sansad.in/getFile/mpimage/photo/5597.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0938\u094d\u0915\u093e",
+    "constituency_gu": "\u0a86\u0ab8\u0acd\u0a95\u0abe",
+    "constituency_mr": "\u0906\u0938\u094d\u0915\u093e"
   },
   {
     "id": 5602,
@@ -4240,7 +5650,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Chikkballapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5602.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093f\u0915\u092c\u0932\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9a\u0abf\u0a95\u0acd\u0a95\u0aac\u0ab2\u0acd\u0ab2\u0abe\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091a\u093f\u0915\u094d\u0915\u092c\u0932\u094d\u0932\u093e\u092a\u0942\u0930"
   },
   {
     "id": 4558,
@@ -4249,7 +5662,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Kannur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4558.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0928\u094d\u0928\u0942\u0930",
+    "constituency_gu": "\u0a95\u0aa8\u0acd\u0aa8\u0ac1\u0ab0",
+    "constituency_mr": "\u0915\u0928\u094d\u0928\u0942\u0930"
   },
   {
     "id": 5675,
@@ -4258,7 +5674,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Silchar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5675.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093f\u0932\u091a\u0930",
+    "constituency_gu": "\u0ab8\u0abf\u0ab2\u0acd\u0a9a\u0ab0",
+    "constituency_mr": "\u0938\u093f\u0932\u091a\u0930"
   },
   {
     "id": 4392,
@@ -4267,7 +5686,10 @@ const MEMBERS_DATA = [
     "party": "NCPSP",
     "constituency": "Baramati",
     "photo": "https://sansad.in/getFile/mpimage/photo/4392.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0930\u093e\u092e\u0924\u0940",
+    "constituency_gu": "\u0aac\u0abe\u0ab0\u0abe\u0aae\u0aa4\u0ac0",
+    "constituency_mr": "\u092c\u093e\u0930\u093e\u092e\u0924\u0940"
   },
   {
     "id": 5211,
@@ -4276,7 +5698,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Gopalganj",
     "photo": "https://sansad.in/getFile/mpimage/photo/5211.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0917\u094b\u092a\u093e\u0932\u0917\u0902\u091c",
+    "constituency_gu": "\u0a97\u0acb\u0aaa\u0abe\u0ab2\u0a97\u0a82\u0a9c",
+    "constituency_mr": "\u0917\u094b\u092a\u093e\u0932\u0917\u0902\u091c"
   },
   {
     "id": 477,
@@ -4285,7 +5710,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Mavelikkara",
     "photo": "https://sansad.in/getFile/mpimage/photo/477.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0935\u0947\u0932\u093f\u0915\u094d\u0915\u093e\u0930\u093e",
+    "constituency_gu": "\u0aae\u0abe\u0ab5\u0ac7\u0ab2\u0ac0\u0a95\u0acd\u0a95\u0abe\u0ab0\u0abe",
+    "constituency_mr": "\u092e\u093e\u0935\u0947\u0932\u0940\u0915\u094d\u0915\u093e\u0930\u093e"
   },
   {
     "id": 5748,
@@ -4294,7 +5722,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Chandrapur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5748.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0902\u0926\u094d\u0930\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9a\u0a82\u0aa6\u0acd\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091a\u0902\u0926\u094d\u0930\u092a\u0942\u0930"
   },
   {
     "id": 5182,
@@ -4303,7 +5734,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bangalore South",
     "photo": "https://sansad.in/getFile/mpimage/photo/5182.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0902\u0917\u0932\u0941\u0930\u0941 \u0938\u093e\u0909\u0925",
+    "constituency_gu": "\u0aac\u0ac7\u0a82\u0a97\u0ab2\u0acb\u0ab0 \u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3",
+    "constituency_mr": "\u092c\u0902\u0917\u0932\u094b\u0930 \u0926\u0915\u094d\u0937\u093f\u0923"
   },
   {
     "id": 5616,
@@ -4312,7 +5746,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Amreli",
     "photo": "https://sansad.in/getFile/mpimage/photo/5616.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u092e\u0930\u0947\u0932\u0940",
+    "constituency_gu": "\u0a85\u0aae\u0ab0\u0ac7\u0ab2\u0ac0",
+    "constituency_mr": "\u0905\u092e\u0930\u0947\u0932\u0940"
   },
   {
     "id": 5588,
@@ -4321,7 +5758,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "New Delhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5588.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0908 \u0926\u093f\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0aa8\u0ab5\u0ac0 \u0aa6\u0abf\u0ab2\u0acd\u0ab9\u0ac0",
+    "constituency_mr": "\u0928\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940"
   },
   {
     "id": 5811,
@@ -4330,7 +5770,10 @@ const MEMBERS_DATA = [
     "party": "VPP",
     "constituency": "Shillong",
     "photo": "https://sansad.in/getFile/mpimage/photo/5811.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093f\u0932\u093e\u0902\u0917",
+    "constituency_gu": "\u0ab6\u0abf\u0ab2\u0acb\u0a82\u0a97",
+    "constituency_mr": "\u0936\u093f\u0932\u093e\u0901\u0917"
   },
   {
     "id": 5686,
@@ -4339,7 +5782,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Theni",
     "photo": "https://sansad.in/getFile/mpimage/photo/5686.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u092c \u092e\u0948\u0902",
+    "constituency_gu": "\u0aa5\u0ac7\u0aa8\u0ac0",
+    "constituency_mr": "\u0925\u0947\u0928\u0940"
   },
   {
     "id": 4651,
@@ -4348,7 +5794,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Almora",
     "photo": "https://sansad.in/getFile/mpimage/photo/4651.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0932\u094d\u092e\u094b\u0921\u093e",
+    "constituency_gu": "\u0a85\u0ab2\u0aae\u0acb\u0aa1\u0abe",
+    "constituency_mr": "\u0905\u0932\u094d\u092e\u094b\u0921\u093e"
   },
   {
     "id": 4607,
@@ -4357,7 +5806,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Amroha",
     "photo": "https://sansad.in/getFile/mpimage/photo/4607.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u092e\u0930\u094b\u0939\u093e",
+    "constituency_gu": "\u0a85\u0aae\u0ab0\u0acb\u0ab9\u0abe",
+    "constituency_mr": "\u0905\u092e\u0930\u094b\u0939\u093e"
   },
   {
     "id": 4423,
@@ -4366,7 +5818,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jagatsinghpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4423.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0917\u0924\u0938\u093f\u0902\u0939\u092a\u0941\u0930",
+    "constituency_gu": "\u0a9c\u0a97\u0aa4\u0ab8\u0abf\u0a82\u0ab9\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u091c\u0917\u0924\u0938\u093f\u0902\u0917\u092a\u0942\u0930"
   },
   {
     "id": 4739,
@@ -4375,7 +5830,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Kaziranga",
     "photo": "https://sansad.in/getFile/mpimage/photo/4739.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u091c\u0940\u0930\u0902\u0917\u093e",
+    "constituency_gu": "\u0a95\u0abe\u0a9d\u0ac0\u0ab0\u0a82\u0a97\u0abe",
+    "constituency_mr": "\u0915\u093e\u091d\u0940\u0930\u0902\u0917\u093e"
   },
   {
     "id": 5680,
@@ -4384,7 +5842,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Bapatla",
     "photo": "https://sansad.in/getFile/mpimage/photo/5680.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u092a\u0924\u0932\u093e",
+    "constituency_gu": "\u0aac\u0abe\u0aaa\u0a9f\u0ab2\u0abe",
+    "constituency_mr": "\u092c\u093e\u092a\u091f\u0932\u093e"
   },
   {
     "id": 4430,
@@ -4393,7 +5854,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Chandigarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4430.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0902\u0921\u0940\u0917\u0922\u093c",
+    "constituency_gu": "\u0a9a\u0a82\u0aa1\u0ac0\u0a97\u0aa2",
+    "constituency_mr": "\u091a\u0902\u0926\u0940\u0917\u0921"
   },
   {
     "id": 5744,
@@ -4402,7 +5866,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Banaskantha",
     "photo": "https://sansad.in/getFile/mpimage/photo/5744.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0928\u093e\u0938\u0915\u093e\u0902\u0920\u093e",
+    "constituency_gu": "\u0aac\u0aa8\u0abe\u0ab8\u0a95\u0abe\u0a82\u0aa0\u0abe",
+    "constituency_mr": "\u092c\u0928\u093e\u0938\u0915\u093e\u0902\u0920\u093e"
   },
   {
     "id": 4249,
@@ -4411,7 +5878,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Hamirpur",
     "photo": "https://sansad.in/getFile/mpimage/photo/4249.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u092e\u0940\u0930\u092a\u0941\u0930",
+    "constituency_gu": "\u0ab9\u0aae\u0ac0\u0ab0\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u0939\u092e\u0940\u0930\u092a\u0942\u0930"
   },
   {
     "id": 5662,
@@ -4420,7 +5890,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Sitamarhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/5662.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u0940\u0924\u093e\u092e\u0922\u093c\u0940",
+    "constituency_gu": "\u0ab8\u0ac0\u0aa4\u0abe\u0aae\u0aa2\u0ac0",
+    "constituency_mr": "\u0938\u0940\u0924\u093e\u092e\u0922\u0940"
   },
   {
     "id": 5176,
@@ -4429,7 +5902,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Darbhanga",
     "photo": "https://sansad.in/getFile/mpimage/photo/5176.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u0930\u092d\u0902\u0917\u093e",
+    "constituency_gu": "\u0aa6\u0ab0\u0aad\u0a82\u0a97\u0abe",
+    "constituency_mr": "\u0926\u0930\u092d\u0902\u0917\u093e"
   },
   {
     "id": 5036,
@@ -4438,7 +5914,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bangaon",
     "photo": "https://sansad.in/getFile/mpimage/photo/5036.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0928\u0917\u093e\u0902\u0935",
+    "constituency_gu": "\u0aac\u0abe\u0aa3\u0a97\u0abe\u0a82\u0ab5",
+    "constituency_mr": "\u092c\u0928\u0917\u093e\u0935"
   },
   {
     "id": 5712,
@@ -4447,7 +5926,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Nawada",
     "photo": "https://sansad.in/getFile/mpimage/photo/5712.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0935\u093e\u0926\u093e",
+    "constituency_gu": "\u0aa8\u0ab5\u0abe\u0aa1\u0abe",
+    "constituency_mr": "\u0928\u0935\u093e\u0921\u093e"
   },
   {
     "id": 4596,
@@ -4456,7 +5938,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Dhar",
     "photo": "https://sansad.in/getFile/mpimage/photo/4596.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0927\u093e\u0930",
+    "constituency_gu": "\u0aa7\u0ab0",
+    "constituency_mr": "\u0927\u093e\u0930"
   },
   {
     "id": 4961,
@@ -4465,7 +5950,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Chennai South",
     "photo": "https://sansad.in/getFile/mpimage/photo/4961.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0947\u0928\u094d\u0928\u0908 \u0926\u0915\u094d\u0937\u093f\u0923",
+    "constituency_gu": "\u0a9a\u0ac7\u0aa8\u0acd\u0aa8\u0abe\u0a88 \u0aa6\u0a95\u0acd\u0ab7\u0abf\u0aa3",
+    "constituency_mr": "\u091a\u0947\u0928\u094d\u0928\u0908 \u0926\u0915\u094d\u0937\u093f\u0923"
   },
   {
     "id": 4569,
@@ -4474,7 +5962,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Thiruvananthapuram",
     "photo": "https://sansad.in/getFile/mpimage/photo/4569.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093f\u0930\u0941\u0935\u0928\u0902\u0924\u092a\u0941\u0930\u092e",
+    "constituency_gu": "\u0aa4\u0abf\u0ab0\u0ac1\u0ab5\u0aa8\u0a82\u0aa4\u0aaa\u0ac1\u0ab0\u0aae",
+    "constituency_mr": "\u0924\u093f\u0930\u0941\u0935\u0928\u0902\u0924\u092a\u0941\u0930\u092e"
   },
   {
     "id": 4549,
@@ -4483,7 +5974,10 @@ const MEMBERS_DATA = [
     "party": "VCK",
     "constituency": "Chidambaram",
     "photo": "https://sansad.in/getFile/mpimage/photo/4549.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u093f\u0926\u0902\u092c\u0930\u092e",
+    "constituency_gu": "\u0a9a\u0abf\u0aa6\u0aae\u0acd\u0aac\u0ab0\u0aae",
+    "constituency_mr": "\u091a\u093f\u0926\u0902\u092c\u0930\u092e"
   },
   {
     "id": 5596,
@@ -4492,7 +5986,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Alipurduars",
     "photo": "https://sansad.in/getFile/mpimage/photo/5596.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0932\u0940\u092a\u0941\u0930\u0926\u094d\u0935\u093e\u0930 \u0932\u094b\u0915 \u0938\u092d\u093e \u0928\u093f\u0930\u094d\u0935\u093e\u091a\u0928 \u0915\u094d\u0937\u0947\u0924\u094d\u0930",
+    "constituency_gu": "\u0a85\u0ab2\u0ac0\u0aaa\u0ac1\u0ab0\u0aa6\u0acd\u0ab5\u0abe\u0ab0",
+    "constituency_mr": "\u0905\u0932\u0940\u092a\u0941\u0930\u0926\u094d\u0935\u093e\u0930"
   },
   {
     "id": 5658,
@@ -4501,7 +5998,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Diphu",
     "photo": "https://sansad.in/getFile/mpimage/photo/5658.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0926\u093f\u092b\u0942",
+    "constituency_gu": "\u0aa6\u0abf\u0aab\u0ac1",
+    "constituency_mr": "\u0926\u093f\u092b\u0942"
   },
   {
     "id": 4606,
@@ -4510,7 +6010,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "North East Delhi",
     "photo": "https://sansad.in/getFile/mpimage/photo/4606.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0909\u0924\u094d\u0924\u0930 \u092a\u0942\u0930\u094d\u0935\u0940 \u0926\u093f\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0a89\u0aa4\u0acd\u0aa4\u0ab0 \u0aaa\u0ac2\u0ab0\u0acd\u0ab5 \u0aa6\u0abf\u0ab2\u0acd\u0ab9\u0ac0",
+    "constituency_mr": "\u0908\u0936\u093e\u0928\u094d\u092f \u0926\u093f\u0932\u094d\u0932\u0940"
   },
   {
     "id": 5604,
@@ -4519,7 +6022,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Morena",
     "photo": "https://sansad.in/getFile/mpimage/photo/5604.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0930\u0948\u0928\u093e",
+    "constituency_gu": "\u0aae\u0acb\u0ab0\u0ac7\u0aa8\u0abe",
+    "constituency_mr": "\u092e\u094b\u0930\u0947\u0928\u093e"
   },
   {
     "id": 5823,
@@ -4528,7 +6034,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Bellary",
     "photo": "https://sansad.in/getFile/mpimage/photo/5823.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0932\u094d\u0932\u093e\u0930\u0940",
+    "constituency_gu": "\u0aac\u0ac7\u0ab2\u0abe\u0ab0\u0ac0",
+    "constituency_mr": "\u092c\u0947\u0932\u094d\u0932\u093e\u0930\u0940"
   },
   {
     "id": 5057,
@@ -4537,7 +6046,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Betul",
     "photo": "https://sansad.in/getFile/mpimage/photo/5057.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0947\u0924\u0941\u0932",
+    "constituency_gu": "\u0aac\u0ac7\u0aa4\u0ac1\u0ab2",
+    "constituency_mr": "\u092c\u0948\u0924\u0942\u0932"
   },
   {
     "id": 4996,
@@ -4546,7 +6058,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Koraput",
     "photo": "https://sansad.in/getFile/mpimage/photo/4996.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u094b\u0930\u093e\u092a\u0941\u091f",
+    "constituency_gu": "\u0a95\u0acb\u0ab0\u0abe\u0aaa\u0ac1\u0a9f",
+    "constituency_mr": "\u0915\u094b\u0930\u093e\u092a\u0941\u091f"
   },
   {
     "id": 5127,
@@ -4555,7 +6070,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Kasaragod",
     "photo": "https://sansad.in/getFile/mpimage/photo/5127.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u093e\u0938\u0930\u0917\u094b\u0921",
+    "constituency_gu": "\u0a95\u0abe\u0ab8\u0ab0\u0a97\u0acb\u0aa1",
+    "constituency_mr": "\u0915\u093e\u0938\u093e\u0930\u0917\u094b\u0921"
   },
   {
     "id": 5800,
@@ -4564,7 +6082,10 @@ const MEMBERS_DATA = [
     "party": "CPI",
     "constituency": "Nagapattinam",
     "photo": "https://sansad.in/getFile/mpimage/photo/5800.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0917\u092a\u091f\u094d\u091f\u093f\u0928\u092e",
+    "constituency_gu": "\u0aa8\u0abe\u0a97\u0aaa\u0a9f\u0acd\u0a9f\u0abf\u0aa8\u0aae",
+    "constituency_mr": "\u0928\u093e\u0917\u092a\u091f\u094d\u091f\u0923\u092e"
   },
   {
     "id": 5836,
@@ -4573,7 +6094,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Wayanad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5836.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0935\u093e\u092f\u0928\u093e\u0921",
+    "constituency_gu": "\u0ab5\u0abe\u0aaf\u0aa8\u0abe\u0aa1",
+    "constituency_mr": "\u0935\u093e\u092f\u0928\u093e\u0921"
   },
   {
     "id": 5828,
@@ -4582,7 +6106,10 @@ const MEMBERS_DATA = [
     "party": "MDMK",
     "constituency": "Tiruchirappalli",
     "photo": "https://sansad.in/getFile/mpimage/photo/5828.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0924\u093f\u0930\u0941\u091a\u093f\u0930\u093e\u092a\u0932\u094d\u0932\u0940",
+    "constituency_gu": "\u0aa4\u0abf\u0ab0\u0ac1\u0a9a\u0abf\u0ab0\u0abe\u0aaa\u0ab2\u0acd\u0ab2\u0ac0",
+    "constituency_mr": "\u0924\u093f\u0930\u0941\u091a\u093f\u0930\u093e\u092a\u0932\u094d\u0932\u0940"
   },
   {
     "id": 5120,
@@ -4591,7 +6118,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Puducherry",
     "photo": "https://sansad.in/getFile/mpimage/photo/5120.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092a\u0941\u0926\u0941\u091a\u0947\u0930\u0940",
+    "constituency_gu": "\u0aaa\u0ac1\u0aa1\u0ac1\u0a9a\u0ac7\u0ab0\u0ac0",
+    "constituency_mr": "\u092a\u0941\u0926\u094d\u0926\u0941\u091a\u0947\u0930\u0940"
   },
   {
     "id": 4021,
@@ -4600,7 +6130,10 @@ const MEMBERS_DATA = [
     "party": "JSP",
     "constituency": "Machilipatnam",
     "photo": "https://sansad.in/getFile/mpimage/photo/4021.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u091b\u0932\u0940\u092a\u091f\u094d\u091f\u0928\u092e",
+    "constituency_gu": "\u0aae\u0abe\u0a9b\u0ab2\u0ac0\u0aaa\u0a9f\u0acd\u0a9f\u0aa8\u0aae",
+    "constituency_mr": "\u092e\u091b\u0932\u0940\u092a\u091f\u094d\u091f\u0923\u092e"
   },
   {
     "id": 5576,
@@ -4609,7 +6142,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Hathras",
     "photo": "https://sansad.in/getFile/mpimage/photo/5576.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0939\u093e\u0925\u0930\u0938",
+    "constituency_gu": "\u0ab9\u0abe\u0aa5\u0ab0\u0ab8",
+    "constituency_mr": "\u0939\u093e\u0924\u0930\u0938"
   },
   {
     "id": 5600,
@@ -4618,7 +6154,10 @@ const MEMBERS_DATA = [
     "party": "ZPM",
     "constituency": "Mizoram",
     "photo": "https://sansad.in/getFile/mpimage/photo/5600.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u093f\u091c\u094b\u0930\u092e",
+    "constituency_gu": "\u0aae\u0abf\u0a9d\u0acb\u0ab0\u0aae",
+    "constituency_mr": "\u092e\u093f\u091d\u094b\u0930\u093e\u092e"
   },
   {
     "id": 5533,
@@ -4627,7 +6166,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Kanniyakumari",
     "photo": "https://sansad.in/getFile/mpimage/photo/5533.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0928\u094d\u0928\u093f\u092f\u093e\u0915\u0941\u092e\u093e\u0930\u0940",
+    "constituency_gu": "\u0a95\u0aa8\u0acd\u0aaf\u0abe\u0a95\u0ac1\u0aae\u0abe\u0ab0\u0ac0",
+    "constituency_mr": "\u0915\u0928\u094d\u092f\u093e\u0915\u0941\u092e\u093e\u0930\u0940"
   },
   {
     "id": 5835,
@@ -4636,7 +6178,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Nanded",
     "photo": "https://sansad.in/getFile/mpimage/photo/5835.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0902\u0926\u0947\u0921\u093c",
+    "constituency_gu": "\u0aa8\u0abe\u0a82\u0aa6\u0ac7\u0aa1",
+    "constituency_mr": "\u0928\u093e\u0902\u0926\u0947\u0921"
   },
   {
     "id": 501,
@@ -4645,7 +6190,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bharuch",
     "photo": "https://sansad.in/getFile/mpimage/photo/501.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092d\u0930\u0942\u091a",
+    "constituency_gu": "\u0aad\u0ab0\u0ac2\u0a9a",
+    "constituency_mr": "\u092d\u0930\u0941\u091a"
   },
   {
     "id": 4757,
@@ -4654,7 +6202,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Bardoli",
     "photo": "https://sansad.in/getFile/mpimage/photo/4757.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0930\u0921\u094b\u0932\u0940",
+    "constituency_gu": "\u0aac\u0abe\u0ab0\u0aa1\u0acb\u0ab2\u0ac0",
+    "constituency_mr": "\u092c\u093e\u0930\u0921\u094b\u0932\u0940"
   },
   {
     "id": 4959,
@@ -4663,7 +6214,10 @@ const MEMBERS_DATA = [
     "party": "DMK",
     "constituency": "Chennai North",
     "photo": "https://sansad.in/getFile/mpimage/photo/4959.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091a\u0947\u0928\u094d\u0928\u0908 \u0909\u0924\u094d\u0924\u0930",
+    "constituency_gu": "\u0a9a\u0ac7\u0aa8\u0acd\u0aa8\u0abe\u0a88 \u0a89\u0aa4\u0acd\u0aa4\u0ab0",
+    "constituency_mr": "\u091a\u0947\u0928\u094d\u0928\u0908 \u0909\u0924\u094d\u0924\u0930"
   },
   {
     "id": 5765,
@@ -4672,7 +6226,10 @@ const MEMBERS_DATA = [
     "party": "TDP",
     "constituency": "Nellore",
     "photo": "https://sansad.in/getFile/mpimage/photo/5765.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u0947\u0932\u094d\u0932\u094b\u0930",
+    "constituency_gu": "\u0aa8\u0ac7\u0ab2\u0acd\u0ab2\u0acb\u0ab0",
+    "constituency_mr": "\u0928\u0947\u0932\u094d\u0932\u094b\u0930"
   },
   {
     "id": 4965,
@@ -4681,7 +6238,10 @@ const MEMBERS_DATA = [
     "party": "CPI(M)",
     "constituency": "Madurai",
     "photo": "https://sansad.in/getFile/mpimage/photo/4965.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0926\u0941\u0930\u0948",
+    "constituency_gu": "\u0aae\u0aa6\u0ac1\u0ab0\u0abe\u0a88",
+    "constituency_mr": "\u092e\u0926\u0941\u0930\u093e\u0908"
   },
   {
     "id": 4567,
@@ -4690,7 +6250,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Alappuzha",
     "photo": "https://sansad.in/getFile/mpimage/photo/4567.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0932\u093e\u092a\u094d\u092a\u0941\u091d\u093e",
+    "constituency_gu": "\u0a85\u0ab2\u0aaa\u0acd\u0aaa\u0ac1\u0a9d\u0abe",
+    "constituency_mr": "\u0905\u0932\u092a\u094d\u092a\u0941\u091d\u093e"
   },
   {
     "id": 5794,
@@ -4699,7 +6262,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Ambedkar Nagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5794.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0902\u092c\u0947\u0921\u0915\u0930\u0928\u0917\u0930",
+    "constituency_gu": "\u0a86\u0a82\u0aac\u0ac7\u0aa1\u0a95\u0ab0 \u0aa8\u0a97\u0ab0",
+    "constituency_mr": "\u0906\u0902\u092c\u0947\u0921\u0915\u0930 \u0928\u0917\u0930"
   },
   {
     "id": 5605,
@@ -4708,7 +6274,10 @@ const MEMBERS_DATA = [
     "party": "LJSP(RV)",
     "constituency": "Khagaria",
     "photo": "https://sansad.in/getFile/mpimage/photo/5605.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0916\u0917\u0930\u093f\u092f\u093e",
+    "constituency_gu": "\u0a96\u0abe\u0a97\u0ab0\u0ac0\u0aaf\u0abe",
+    "constituency_mr": "\u0916\u0917\u0930\u093f\u092f\u093e"
   },
   {
     "id": 5164,
@@ -4717,7 +6286,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Shrawasti",
     "photo": "https://sansad.in/getFile/mpimage/photo/5164.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u094d\u0930\u093e\u0935\u0938\u094d\u0924\u0940",
+    "constituency_gu": "\u0ab6\u0acd\u0ab0\u0abe\u0ab5\u0ab8\u0acd\u0aa4\u0abf",
+    "constituency_mr": "\u0936\u094d\u0930\u093e\u0935\u0938\u094d\u0924\u0940"
   },
   {
     "id": 5706,
@@ -4726,7 +6298,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Moradabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/5706.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0930\u093e\u0926\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aae\u0ac1\u0ab0\u0abe\u0aa6\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u092e\u0941\u0930\u093e\u0926\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5682,
@@ -4735,7 +6310,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Mysore",
     "photo": "https://sansad.in/getFile/mpimage/photo/5682.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0948\u0938\u0942\u0930",
+    "constituency_gu": "\u0aae\u0ac8\u0ab8\u0ac1\u0ab0",
+    "constituency_mr": "\u092e\u094d\u0939\u0948\u0938\u0942\u0930"
   },
   {
     "id": 5723,
@@ -4744,7 +6322,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Jalgaon",
     "photo": "https://sansad.in/getFile/mpimage/photo/5723.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0932\u0917\u093e\u0902\u0935",
+    "constituency_gu": "\u0a9c\u0ab2\u0a97\u0abe\u0a82\u0ab5",
+    "constituency_mr": "\u091c\u0933\u0917\u093e\u0935"
   },
   {
     "id": 5701,
@@ -4753,7 +6334,10 @@ const MEMBERS_DATA = [
     "party": "SS",
     "constituency": "Mumbai North West",
     "photo": "https://sansad.in/getFile/mpimage/photo/5701.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0941\u0902\u092c\u0908 \u0909\u0924\u094d\u0924\u0930 \u092a\u0936\u094d\u091a\u093f\u092e",
+    "constituency_gu": "\u0aae\u0ac1\u0a82\u0aac\u0a88 \u0a89\u0aa4\u0acd\u0aa4\u0ab0 \u0aaa\u0ab6\u0acd\u0a9a\u0abf\u0aae",
+    "constituency_mr": "\u092e\u0941\u0902\u092c\u0908 \u0909\u0924\u094d\u0924\u0930 \u092a\u0936\u094d\u091a\u093f\u092e"
   },
   {
     "id": 5790,
@@ -4762,7 +6346,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Nashik",
     "photo": "https://sansad.in/getFile/mpimage/photo/5790.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0928\u093e\u0938\u093f\u0915",
+    "constituency_gu": "\u0aa8\u0abe\u0ab8\u0abf\u0a95",
+    "constituency_mr": "\u0928\u093e\u0936\u093f\u0915"
   },
   {
     "id": 4385,
@@ -4771,7 +6358,10 @@ const MEMBERS_DATA = [
     "party": "SHSUBT",
     "constituency": "Shirdi",
     "photo": "https://sansad.in/getFile/mpimage/photo/4385.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0936\u093f\u0930\u0921\u0940",
+    "constituency_gu": "\u0ab6\u0abf\u0ab0\u0aa1\u0ac0",
+    "constituency_mr": "\u0936\u093f\u0930\u094d\u0921\u0940"
   },
   {
     "id": 5713,
@@ -4780,7 +6370,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Amravati",
     "photo": "https://sansad.in/getFile/mpimage/photo/5713.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u092e\u0930\u093e\u0935\u0924\u0940",
+    "constituency_gu": "\u0a85\u0aae\u0ab0\u0abe\u0ab5\u0aa4\u0ac0",
+    "constituency_mr": "\u0905\u092e\u0930\u093e\u0935\u0924\u0940"
   },
   {
     "id": 5692,
@@ -4789,7 +6382,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Sagar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5692.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0938\u093e\u0917\u0930",
+    "constituency_gu": "\u0ab8\u0abe\u0a97\u0ab0",
+    "constituency_mr": "\u0938\u093e\u0917\u0930"
   },
   {
     "id": 5747,
@@ -4798,7 +6394,10 @@ const MEMBERS_DATA = [
     "party": "INC",
     "constituency": "Ludhiana",
     "photo": "https://sansad.in/getFile/mpimage/photo/5747.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0932\u0941\u0927\u093f\u092f\u093e\u0928\u093e",
+    "constituency_gu": "\u0ab2\u0ac1\u0aa7\u0abf\u0aaf\u0abe\u0aa3\u0abe",
+    "constituency_mr": "\u0932\u0941\u0927\u093f\u092f\u093e\u0928\u093e"
   },
   {
     "id": 5802,
@@ -4807,7 +6406,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Badaun",
     "photo": "https://sansad.in/getFile/mpimage/photo/5802.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0926\u093e\u092f\u0942\u0902",
+    "constituency_gu": "\u0aac\u0aa6\u0abe\u0a89\u0aa8",
+    "constituency_mr": "\u092c\u0926\u093e\u090a\u0928"
   },
   {
     "id": 564,
@@ -4816,7 +6418,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Kannauj",
     "photo": "https://sansad.in/getFile/mpimage/photo/564.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0915\u0928\u094d\u0928\u094c\u091c",
+    "constituency_gu": "\u0a95\u0aa8\u0acd\u0aa8\u0acc\u0a9c",
+    "constituency_mr": "\u0915\u0928\u094d\u0928\u094c\u091c"
   },
   {
     "id": 4779,
@@ -4825,7 +6430,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Firozabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/4779.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092b\u093f\u0930\u094b\u091c\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0aab\u0abf\u0ab0\u0acb\u0a9d\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u092b\u093f\u0930\u094b\u091c\u093e\u092c\u093e\u0926"
   },
   {
     "id": 5217,
@@ -4834,7 +6442,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Madhubani",
     "photo": "https://sansad.in/getFile/mpimage/photo/5217.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0927\u0941\u092c\u0928\u0940",
+    "constituency_gu": "\u0aae\u0aa7\u0ac1\u0aac\u0aa8\u0ac0",
+    "constituency_mr": "\u092e\u0927\u0941\u092c\u0928\u0940"
   },
   {
     "id": 5541,
@@ -4843,7 +6454,10 @@ const MEMBERS_DATA = [
     "party": "BJP",
     "constituency": "Alwar",
     "photo": "https://sansad.in/getFile/mpimage/photo/5541.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0905\u0932\u0935\u0930",
+    "constituency_gu": "\u0a85\u0ab2\u0ab5\u0ab0",
+    "constituency_mr": "\u0905\u0932\u0935\u0930"
   },
   {
     "id": 4206,
@@ -4852,7 +6466,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Azamgarh",
     "photo": "https://sansad.in/getFile/mpimage/photo/4206.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u0906\u091c\u092e\u0917\u0922\u093c",
+    "constituency_gu": "\u0a86\u0a9d\u0aae\u0a97\u0aa2",
+    "constituency_mr": "\u0906\u091d\u092e\u0917\u0921"
   },
   {
     "id": 527,
@@ -4861,7 +6478,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Madhepura",
     "photo": "https://sansad.in/getFile/mpimage/photo/527.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0927\u0947\u092a\u0941\u0930\u093e",
+    "constituency_gu": "\u0aae\u0aa7\u0ac7\u0aaa\u0ac1\u0ab0\u0abe",
+    "constituency_mr": "\u092e\u0927\u0947\u092a\u0941\u0930\u093e"
   },
   {
     "id": 3830,
@@ -4870,7 +6490,10 @@ const MEMBERS_DATA = [
     "party": "JD(U)",
     "constituency": "Banka",
     "photo": "https://sansad.in/getFile/mpimage/photo/3830.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u093e\u0902\u0915\u093e",
+    "constituency_gu": "\u0aac\u0abe\u0a82\u0a95\u0abe",
+    "constituency_mr": "\u092c\u0902\u0915\u093e"
   },
   {
     "id": 3955,
@@ -4879,7 +6502,10 @@ const MEMBERS_DATA = [
     "party": "RJD",
     "constituency": "Jahanabad",
     "photo": "https://sansad.in/getFile/mpimage/photo/3955.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u091c\u0939\u093e\u0928\u093e\u092c\u093e\u0926",
+    "constituency_gu": "\u0a9c\u0ab9\u0abe\u0aa8\u0abe\u0aac\u0abe\u0aa6",
+    "constituency_mr": "\u091c\u0939\u093e\u0928\u093e\u092c\u093e\u0926"
   },
   {
     "id": 4580,
@@ -4888,7 +6514,10 @@ const MEMBERS_DATA = [
     "party": "SP",
     "constituency": "Mainpuri",
     "photo": "https://sansad.in/getFile/mpimage/photo/4580.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092e\u0948\u0928\u092a\u0941\u0930\u0940",
+    "constituency_gu": "\u0aae\u0ac8\u0aa8\u0aaa\u0ac1\u0ab0\u0ac0",
+    "constituency_mr": "\u092e\u0948\u0928\u092a\u0941\u0930\u0940"
   },
   {
     "id": 5818,
@@ -4897,7 +6526,10 @@ const MEMBERS_DATA = [
     "party": "AITC",
     "constituency": "Baharampur",
     "photo": "https://sansad.in/getFile/mpimage/photo/5818.jpg?source=loksabhadocs",
-    "house": "lokSabha"
+    "house": "lokSabha",
+    "constituency_hi": "\u092c\u0930\u0939\u093e\u092e\u094d\u092a\u0941\u0930",
+    "constituency_gu": "\u0aac\u0ab9\u0ac7\u0ab0\u0abe\u0aae\u0aaa\u0ac1\u0ab0",
+    "constituency_mr": "\u092c\u0939\u0930\u093e\u092e\u092a\u0942\u0930"
   },
   {
     "id": 1929,
@@ -4906,7 +6538,10 @@ const MEMBERS_DATA = [
     "party": "Indian Union Muslim League",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P1929.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2556,
@@ -4915,7 +6550,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2556.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2562,
@@ -4924,7 +6562,10 @@ const MEMBERS_DATA = [
     "party": "Rashtriya Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2562.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2628,
@@ -4933,7 +6574,10 @@ const MEMBERS_DATA = [
     "party": "Jharkhand Mukti Morcha",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2628.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2572,
@@ -4942,7 +6586,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2572.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2465,
@@ -4951,7 +6598,10 @@ const MEMBERS_DATA = [
     "party": "Yuvajana Sramika Rythu Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2465.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2469,
@@ -4960,7 +6610,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2469.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2248,
@@ -4969,7 +6622,10 @@ const MEMBERS_DATA = [
     "party": "Republican Party of India (ATHAWALE)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2248.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2641,
@@ -4978,7 +6634,10 @@ const MEMBERS_DATA = [
     "party": "Telugu Desam Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2641.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2586,
@@ -4987,7 +6646,10 @@ const MEMBERS_DATA = [
     "party": "Yuvajana Sramika Rythu Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2586.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 1964,
@@ -4996,7 +6658,10 @@ const MEMBERS_DATA = [
     "party": "Samajwadi Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P1964.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2064,
@@ -5005,7 +6670,10 @@ const MEMBERS_DATA = [
     "party": "Asom Gana Parishad",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2064.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2558,
@@ -5014,7 +6682,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2558.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2533,
@@ -5023,7 +6694,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2533.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2617,
@@ -5032,7 +6706,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2617.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2493,
@@ -5041,7 +6718,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2493.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2471,
@@ -5050,7 +6730,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2471.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2577,
@@ -5059,7 +6742,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2577.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2677,
@@ -5068,7 +6754,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2677.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2597,
@@ -5077,7 +6766,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2597.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2527,
@@ -5086,7 +6778,10 @@ const MEMBERS_DATA = [
     "party": "Telugu Desam Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2527.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2631,
@@ -5095,7 +6790,10 @@ const MEMBERS_DATA = [
     "party": "Indian Union Muslim League",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2631.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2600,
@@ -5104,7 +6802,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2600.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2667,
@@ -5113,7 +6814,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2667.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2618,
@@ -5122,7 +6826,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2618.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2640,
@@ -5131,7 +6838,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2640.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2620,
@@ -5140,7 +6850,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2620.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2543,
@@ -5149,7 +6862,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2543.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2664,
@@ -5158,7 +6874,10 @@ const MEMBERS_DATA = [
     "party": "UNITED PEOPLES PARTY (LIBERAL)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2664.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2488,
@@ -5167,7 +6886,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2488.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2498,
@@ -5176,7 +6898,10 @@ const MEMBERS_DATA = [
     "party": "Communist Party of India (Marxist)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2498.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2522,
@@ -5185,7 +6910,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2522.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2384,
@@ -5194,7 +6922,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2384.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2551,
@@ -5203,7 +6934,10 @@ const MEMBERS_DATA = [
     "party": "Rashtriya Lok Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2551.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2607,
@@ -5212,7 +6946,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2607.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2343,
@@ -5221,7 +6958,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2343.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 503,
@@ -5230,7 +6970,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P503.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2477,
@@ -5239,7 +6982,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2477.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2541,
@@ -5248,7 +6994,10 @@ const MEMBERS_DATA = [
     "party": "Biju Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2541.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2608,
@@ -5257,7 +7006,10 @@ const MEMBERS_DATA = [
     "party": "Shiv Sena",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2608.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2576,
@@ -5266,7 +7018,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2576.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2507,
@@ -5275,7 +7030,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2507.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 870,
@@ -5284,7 +7042,10 @@ const MEMBERS_DATA = [
     "party": "Janata Dal (Secular)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P870.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2653,
@@ -5293,7 +7054,10 @@ const MEMBERS_DATA = [
     "party": "All India Anna Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2653.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2537,
@@ -5302,7 +7066,10 @@ const MEMBERS_DATA = [
     "party": "All India Anna Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2537.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2594,
@@ -5311,7 +7078,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2594.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2529,
@@ -5320,7 +7090,10 @@ const MEMBERS_DATA = [
     "party": "Bharat Rashtra Samithi",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2529.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2435,
@@ -5329,7 +7102,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2435.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2490,
@@ -5338,7 +7114,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2490.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2626,
@@ -5347,7 +7126,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2626.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2624,
@@ -5356,7 +7138,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2624.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2487,
@@ -5365,7 +7150,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2487.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2478,
@@ -5374,7 +7162,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2478.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2621,
@@ -5383,7 +7174,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2621.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2535,
@@ -5392,7 +7186,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2535.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2470,
@@ -5401,7 +7198,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2470.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2606,
@@ -5410,7 +7210,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2606.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2661,
@@ -5419,7 +7222,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2661.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2374,
@@ -5428,7 +7234,10 @@ const MEMBERS_DATA = [
     "party": "Aam Aadmi Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2374.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2654,
@@ -5437,7 +7246,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2654.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2589,
@@ -5446,7 +7258,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2589.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2603,
@@ -5455,7 +7270,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2603.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2678,
@@ -5464,7 +7282,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2678.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2649,
@@ -5473,7 +7294,10 @@ const MEMBERS_DATA = [
     "party": "Makkal Needhi Maiam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2649.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2609,
@@ -5482,7 +7306,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2609.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2198,
@@ -5491,7 +7318,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2198.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2567,
@@ -5500,7 +7330,10 @@ const MEMBERS_DATA = [
     "party": "Nominated",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2567.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2386,
@@ -5509,7 +7342,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2386.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2566,
@@ -5518,7 +7354,10 @@ const MEMBERS_DATA = [
     "party": "Nominated",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2566.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2652,
@@ -5527,7 +7366,10 @@ const MEMBERS_DATA = [
     "party": "All India Anna Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2652.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2578,
@@ -5536,7 +7378,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2578.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2660,
@@ -5545,7 +7390,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2660.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2538,
@@ -5554,7 +7402,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2538.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2648,
@@ -5563,7 +7414,10 @@ const MEMBERS_DATA = [
     "party": "Nominated",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2648.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2613,
@@ -5572,7 +7426,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2613.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2426,
@@ -5581,7 +7438,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2426.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2379,
@@ -5590,7 +7450,10 @@ const MEMBERS_DATA = [
     "party": "Rashtriya Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2379.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2591,
@@ -5599,7 +7462,10 @@ const MEMBERS_DATA = [
     "party": "Janata Dal (United)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2591.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2579,
@@ -5608,7 +7474,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2579.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2481,
@@ -5617,7 +7486,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2481.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2534,
@@ -5626,7 +7498,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2534.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2295,
@@ -5635,7 +7510,10 @@ const MEMBERS_DATA = [
     "party": "Samajwadi Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2295.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2482,
@@ -5644,7 +7522,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2482.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2476,
@@ -5653,7 +7534,10 @@ const MEMBERS_DATA = [
     "party": "National Peoples Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2476.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2623,
@@ -5662,7 +7546,10 @@ const MEMBERS_DATA = [
     "party": "Biju Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2623.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2656,
@@ -5671,7 +7558,10 @@ const MEMBERS_DATA = [
     "party": "J&K National Conference",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2656.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2516,
@@ -5680,7 +7570,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2516.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2494,
@@ -5689,7 +7582,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2494.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2528,
@@ -5698,7 +7594,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2528.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2605,
@@ -5707,7 +7606,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2605.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2512,
@@ -5716,7 +7618,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2512.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2555,
@@ -5725,7 +7630,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2555.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2685,
@@ -5734,7 +7642,10 @@ const MEMBERS_DATA = [
     "party": "Janata Dal (United)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2685.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2679,
@@ -5743,7 +7654,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2679.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2684,
@@ -5752,7 +7666,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2684.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2447,
@@ -5761,7 +7678,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2447.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2636,
@@ -5770,7 +7690,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2636.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2168,
@@ -5779,7 +7702,10 @@ const MEMBERS_DATA = [
     "party": "Rashtriya Lok Morcha",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2168.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2557,
@@ -5788,7 +7714,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2557.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2475,
@@ -5797,7 +7726,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2475.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2584,
@@ -5806,7 +7738,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2584.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2544,
@@ -5815,7 +7750,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2544.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2598,
@@ -5824,7 +7762,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2598.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2561,
@@ -5833,7 +7774,10 @@ const MEMBERS_DATA = [
     "party": "Janata Dal (United)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2561.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2565,
@@ -5842,7 +7786,10 @@ const MEMBERS_DATA = [
     "party": "Jharkhand Mukti Morcha",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2565.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2599,
@@ -5851,7 +7798,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2599.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2582,
@@ -5860,7 +7810,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2582.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2680,
@@ -5869,7 +7822,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2680.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2610,
@@ -5878,7 +7834,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2610.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2540,
@@ -5887,7 +7846,10 @@ const MEMBERS_DATA = [
     "party": "Biju Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2540.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2416,
@@ -5896,7 +7858,10 @@ const MEMBERS_DATA = [
     "party": "Kerala Congress (M)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2416.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2659,
@@ -5905,7 +7870,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2659.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2510,
@@ -5914,7 +7882,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2510.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2646,
@@ -5923,7 +7894,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2646.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2513,
@@ -5932,7 +7906,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2513.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2611,
@@ -5941,7 +7918,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2611.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2634,
@@ -5950,7 +7930,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2634.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2673,
@@ -5959,7 +7942,10 @@ const MEMBERS_DATA = [
     "party": "Biju Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2673.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2518,
@@ -5968,7 +7954,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2518.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2663,
@@ -5977,7 +7966,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2663.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2585,
@@ -5986,7 +7978,10 @@ const MEMBERS_DATA = [
     "party": "Nominated",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2585.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2504,
@@ -5995,7 +7990,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2504.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2683,
@@ -6004,7 +8002,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2683.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2204,
@@ -6013,7 +8014,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2204.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2353,
@@ -6022,7 +8026,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2353.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2604,
@@ -6031,7 +8038,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2604.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2511,
@@ -6040,7 +8050,10 @@ const MEMBERS_DATA = [
     "party": "UNITED PEOPLES PARTY (LIBERAL)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2511.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2081,
@@ -6049,7 +8062,10 @@ const MEMBERS_DATA = [
     "party": "Yuvajana Sramika Rythu Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2081.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2596,
@@ -6058,7 +8074,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2596.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2460,
@@ -6067,7 +8086,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2460.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2645,
@@ -6076,7 +8098,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2645.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2288,
@@ -6085,7 +8110,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2288.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2554,
@@ -6094,7 +8122,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2554.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2181,
@@ -6103,7 +8134,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2181.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2658,
@@ -6112,7 +8146,10 @@ const MEMBERS_DATA = [
     "party": "J&K National Conference",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2658.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2515,
@@ -6121,7 +8158,10 @@ const MEMBERS_DATA = [
     "party": "Communist Party of India",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2515.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 208,
@@ -6130,7 +8170,10 @@ const MEMBERS_DATA = [
     "party": "Nationalist Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P208.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2563,
@@ -6139,7 +8182,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2563.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2521,
@@ -6148,7 +8194,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2521.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2532,
@@ -6157,7 +8206,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2532.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2638,
@@ -6166,7 +8218,10 @@ const MEMBERS_DATA = [
     "party": "Nationalist Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2638.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2423,
@@ -6175,7 +8230,10 @@ const MEMBERS_DATA = [
     "party": "Biju Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2423.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2669,
@@ -6184,7 +8242,10 @@ const MEMBERS_DATA = [
     "party": "Nationalist Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2669.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2251,
@@ -6193,7 +8254,10 @@ const MEMBERS_DATA = [
     "party": "Nationalist Congress Party-SHARADCHANDRA PAWAR",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2251.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2629,
@@ -6202,7 +8266,10 @@ const MEMBERS_DATA = [
     "party": "Nationalist Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2629.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2466,
@@ -6211,7 +8278,10 @@ const MEMBERS_DATA = [
     "party": "Yuvajana Sramika Rythu Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2466.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2472,
@@ -6220,7 +8290,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2472.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2564,
@@ -6229,7 +8302,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2564.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2569,
@@ -6238,7 +8314,10 @@ const MEMBERS_DATA = [
     "party": "Nominated",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2569.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2542,
@@ -6247,7 +8326,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2542.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2371,
@@ -6256,7 +8338,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2371.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2644,
@@ -6265,7 +8350,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2644.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2514,
@@ -6274,7 +8362,10 @@ const MEMBERS_DATA = [
     "party": "Communist Party of India (Marxist)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2514.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2506,
@@ -6283,7 +8374,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2506.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 1949,
@@ -6292,7 +8386,10 @@ const MEMBERS_DATA = [
     "party": "Pattali Makkal Katchi",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P1949.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2497,
@@ -6301,7 +8398,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2497.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 1935,
@@ -6310,7 +8410,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P1935.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2489,
@@ -6319,7 +8422,10 @@ const MEMBERS_DATA = [
     "party": "Bahujan Samaj Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2489.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2655,
@@ -6328,7 +8434,10 @@ const MEMBERS_DATA = [
     "party": "J&K National Conference",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2655.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2531,
@@ -6337,7 +8446,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2531.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2625,
@@ -6346,7 +8458,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2625.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 1945,
@@ -6355,7 +8470,10 @@ const MEMBERS_DATA = [
     "party": "Shiv Sena-Uddhav Balasaheb Thackeray",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P1945.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2672,
@@ -6364,7 +8482,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2672.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 236,
@@ -6373,7 +8494,10 @@ const MEMBERS_DATA = [
     "party": "Independent & Others",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P236.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2580,
@@ -6382,7 +8506,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2580.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2184,
@@ -6391,7 +8518,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2184.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 238,
@@ -6400,7 +8530,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P238.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2530,
@@ -6409,7 +8542,10 @@ const MEMBERS_DATA = [
     "party": "Bharat Rashtra Samithi",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2530.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2587,
@@ -6418,7 +8554,10 @@ const MEMBERS_DATA = [
     "party": "Yuvajana Sramika Rythu Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2587.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2526,
@@ -6427,7 +8566,10 @@ const MEMBERS_DATA = [
     "party": "Yuvajana Sramika Rythu Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2526.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2682,
@@ -6436,7 +8578,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2682.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2588,
@@ -6445,7 +8590,10 @@ const MEMBERS_DATA = [
     "party": "Yuvajana Sramika Rythu Congress Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2588.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2546,
@@ -6454,7 +8602,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2546.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2560,
@@ -6463,7 +8614,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2560.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2595,
@@ -6472,7 +8626,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2595.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2674,
@@ -6481,7 +8638,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2674.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2622,
@@ -6490,7 +8650,10 @@ const MEMBERS_DATA = [
     "party": "Biju Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2622.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2583,
@@ -6499,7 +8662,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2583.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2643,
@@ -6508,7 +8674,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2643.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2508,
@@ -6517,7 +8686,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2508.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2307,
@@ -6526,7 +8698,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2307.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2351,
@@ -6535,7 +8710,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2351.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2536,
@@ -6544,7 +8722,10 @@ const MEMBERS_DATA = [
     "party": "All India Anna Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2536.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2581,
@@ -6553,7 +8734,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2581.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2668,
@@ -6562,7 +8746,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2668.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2571,
@@ -6571,7 +8758,10 @@ const MEMBERS_DATA = [
     "party": "Independent & Others",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2571.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2657,
@@ -6580,7 +8770,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2657.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2642,
@@ -6589,7 +8782,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2642.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2297,
@@ -6598,7 +8794,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2297.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2269,
@@ -6607,7 +8806,10 @@ const MEMBERS_DATA = [
     "party": "Nominated",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2269.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2647,
@@ -6616,7 +8818,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2647.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 175,
@@ -6625,7 +8830,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P175.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 74,
@@ -6634,7 +8842,10 @@ const MEMBERS_DATA = [
     "party": "Independent & Others",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P74.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2666,
@@ -6643,7 +8854,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2666.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2590,
@@ -6652,7 +8866,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2590.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2377,
@@ -6661,7 +8878,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2377.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2437,
@@ -6670,7 +8890,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2437.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2601,
@@ -6679,7 +8902,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2601.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2593,
@@ -6688,7 +8914,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2593.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2279,
@@ -6697,7 +8926,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2279.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2520,
@@ -6706,7 +8938,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2520.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2614,
@@ -6715,7 +8950,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2614.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2639,
@@ -6724,7 +8962,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2639.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2372,
@@ -6733,7 +8974,10 @@ const MEMBERS_DATA = [
     "party": "Aam Aadmi Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2372.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2545,
@@ -6742,7 +8986,10 @@ const MEMBERS_DATA = [
     "party": "Aam Aadmi Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2545.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2612,
@@ -6751,7 +8998,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2612.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2553,
@@ -6760,7 +9010,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2553.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2616,
@@ -6769,7 +9022,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2616.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2029,
@@ -6778,7 +9034,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2029.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2681,
@@ -6787,7 +9046,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2681.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2539,
@@ -6796,7 +9058,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2539.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 177,
@@ -6805,7 +9070,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P177.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2499,
@@ -6814,7 +9082,10 @@ const MEMBERS_DATA = [
     "party": "Communist Party of India (Marxist)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2499.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2651,
@@ -6823,7 +9094,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2651.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2650,
@@ -6832,7 +9106,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2650.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2474,
@@ -6841,7 +9118,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2474.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2676,
@@ -6850,7 +9130,10 @@ const MEMBERS_DATA = [
     "party": "Desiya Murpokku Dravida Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2676.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2615,
@@ -6859,7 +9142,10 @@ const MEMBERS_DATA = [
     "party": "Samajwadi Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2615.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2630,
@@ -6868,7 +9154,10 @@ const MEMBERS_DATA = [
     "party": "Communist Party of India",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2630.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2548,
@@ -6877,7 +9166,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2548.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2575,
@@ -6886,7 +9178,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2575.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2333,
@@ -6895,7 +9190,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2333.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2662,
@@ -6904,7 +9202,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2662.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2268,
@@ -6913,7 +9214,10 @@ const MEMBERS_DATA = [
     "party": "Janata Dal (United)",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2268.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2619,
@@ -6922,7 +9226,10 @@ const MEMBERS_DATA = [
     "party": "All India Trinamool Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2619.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2451,
@@ -6931,7 +9238,10 @@ const MEMBERS_DATA = [
     "party": "All India Anna Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2451.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2547,
@@ -6940,7 +9250,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2547.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2245,
@@ -6949,7 +9262,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2245.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2436,
@@ -6958,7 +9274,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2436.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2602,
@@ -6967,7 +9286,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2602.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2568,
@@ -6976,7 +9298,10 @@ const MEMBERS_DATA = [
     "party": "Nominated",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2568.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2524,
@@ -6985,7 +9310,10 @@ const MEMBERS_DATA = [
     "party": "Bharat Rashtra Samithi",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2524.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2425,
@@ -6994,7 +9322,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2425.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2483,
@@ -7003,7 +9334,10 @@ const MEMBERS_DATA = [
     "party": "Mizo National Front",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2483.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2627,
@@ -7012,7 +9346,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2627.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2491,
@@ -7021,7 +9358,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2491.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2665,
@@ -7030,7 +9370,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2665.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2670,
@@ -7039,7 +9382,10 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2670.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2671,
@@ -7048,7 +9394,10 @@ const MEMBERS_DATA = [
     "party": "Shiv Sena",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2671.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2549,
@@ -7057,7 +9406,10 @@ const MEMBERS_DATA = [
     "party": "Indian National Congress",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2549.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2431,
@@ -7066,7 +9418,10 @@ const MEMBERS_DATA = [
     "party": "Dravida Munnetra Kazhagam",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2431.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 109,
@@ -7075,7 +9430,10 @@ const MEMBERS_DATA = [
     "party": "Samajwadi Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P109.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2592,
@@ -7084,7 +9442,10 @@ const MEMBERS_DATA = [
     "party": "Rashtriya Janata Dal",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2592.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   },
   {
     "id": 2559,
@@ -7093,6 +9454,25 @@ const MEMBERS_DATA = [
     "party": "Bharatiya Janata Party",
     "constituency": "Rajya Sabha",
     "photo": "https://sansad.in/getFile/rsnew/member_site/photos/P2559.jpg?source=rajyasabha",
-    "house": "rajyaSabha"
+    "house": "rajyaSabha",
+    "constituency_hi": "\u0930\u093e\u091c\u094d\u092f \u0938\u092d\u093e",
+    "constituency_gu": "\u0ab0\u0abe\u0a9c\u0acd\u0aaf\u0ab8\u0aad\u0abe",
+    "constituency_mr": "\u0930\u093e\u091c\u094d\u092f\u0938\u092d\u093e"
   }
 ];
+
+// Keep members data language-ready like other datasets.
+// Until translated labels are added, localized keys default to base values.
+MEMBERS_DATA.forEach((member) => {
+  member.name_hi = member.name_hi || member.name;
+  member.name_gu = member.name_gu || member.name;
+  member.name_mr = member.name_mr || member.name;
+
+  member.state_hi = member.state_hi || member.state;
+  member.state_gu = member.state_gu || member.state;
+  member.state_mr = member.state_mr || member.state;
+
+  member.constituency_hi = member.constituency_hi || member.constituency;
+  member.constituency_gu = member.constituency_gu || member.constituency;
+  member.constituency_mr = member.constituency_mr || member.constituency;
+});

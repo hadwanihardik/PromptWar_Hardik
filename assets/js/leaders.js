@@ -16,13 +16,12 @@ const Leaders = (() => {
     activeTab = tab;
     expandedCard = null;
 
-    // Update tab buttons
     document.querySelectorAll('.leaders-tab-btn').forEach(btn => {
       btn.classList.toggle('leaders-tab-btn--active', btn.dataset.tab === tab);
     });
 
-    // Re-render leader cards
     renderLeaderCards();
+    updateHouseInfo();
   }
 
   function toggleCard(id) {
@@ -47,52 +46,63 @@ const Leaders = (() => {
     const container = document.getElementById('leaders-cards-container');
     if (!container) return;
 
+    const lang = I18n.currentLang();
     const houseData = LEADERS_DATA[activeTab];
-    container.innerHTML = houseData.leaders.map(leader => `
+    container.innerHTML = houseData.leaders.map(leader => {
+      const role = I18n.num(leader[`role_${lang}`] || leader.role);
+      const constituency = I18n.num(leader[`constituency_${lang}`] || leader.constituency);
+      const tenure = I18n.num(leader[`tenure_${lang}`] || leader.tenure);
+      const about = I18n.num(leader[`about_${lang}`] || leader.about);
+
+      const education = I18n.num(leader[`education_${lang}`] || leader.education);
+      const keyFacts = (leader[`keyFacts_${lang}`] || leader.keyFacts).map(f => I18n.num(f));
+      const constitutionalRole = I18n.num(leader[`constitutionalRole_${lang}`] || leader.constitutionalRole);
+
+      return `
       <div class="leader-card" data-id="${leader.id}" onclick="Leaders.toggleCard('${leader.id}')">
         <div class="leader-card__header">
           <div class="leader-card__role-badge">
             <span class="leader-role-icon">${leader.roleIcon}</span>
-            <span class="leader-role-text">${leader.role}</span>
+            <span class="leader-role-text">${role}</span>
           </div>
           <span class="leader-card__chevron">▼</span>
         </div>
         <div class="leader-card__identity">
           <div class="leader-card__avatar" style="background-image: url('${leader.photo}'); background-size: cover; background-position: top center;"></div>
           <div class="leader-card__info">
-            <h3 class="leader-card__name">${leader.name}</h3>
+            <h3 class="leader-card__name">${leader[`name_${lang}`] || leader.name}</h3>
             <div class="leader-card__meta">
-              <span class="leader-party-tag" style="${getPartyBadgeStyle(leader.partyColor)}">${leader.party}</span>
-              ${leader.constituency !== '—' ? `<span class="leader-constituency">📍 ${leader.constituency}</span>` : ''}
+              <span class="leader-party-tag" style="${getPartyBadgeStyle(leader.partyColor)}">${I18n.getParty(leader.party)}</span>
+              ${constituency !== '—' ? `<span class="leader-constituency">📍 ${constituency}</span>` : ''}
             </div>
-            <div class="leader-card__since">${leader.since !== '—' ? `Since ${leader.since} · ${leader.tenure}` : leader.tenure}</div>
+            <div class="leader-card__since">${leader.since !== '—' ? `${I18n.get('since')} ${I18n.num(leader.since)} · ${tenure}` : tenure}</div>
           </div>
         </div>
         <div class="leader-card__details" style="max-height:0">
           <div class="leader-card__details-inner">
             <div class="leader-about">
-              <h4>📋 About</h4>
-              <p>${leader.about}</p>
+              <h4>📋 ${I18n.get('about')}</h4>
+              <p>${about}</p>
             </div>
             <div class="leader-keyfacts">
-              <h4>⚡ Key Facts</h4>
+              <h4>⚡ ${I18n.get('key_facts')}</h4>
               <ul>
-                ${leader.keyFacts.map(f => `<li>${f}</li>`).join('')}
+                ${keyFacts.map(f => `<li>${f}</li>`).join('')}
               </ul>
             </div>
             <div class="leader-constitutional">
-              <h4>📜 Constitutional Role</h4>
-              <p class="leader-constitutional__text">${leader.constitutionalRole}</p>
+              <h4>📜 ${I18n.get('constitutional_role')}</h4>
+              <p class="leader-constitutional__text">${constitutionalRole}</p>
             </div>
-            ${leader.education !== '—' ? `
+            ${education !== '—' ? `
             <div class="leader-education">
-              <h4>🎓 Education</h4>
-              <p>${leader.education}</p>
+              <h4>🎓 ${I18n.get('education')}</h4>
+              <p>${education}</p>
             </div>` : ''}
           </div>
         </div>
       </div>
-    `).join('');
+    `; }).join('');
   }
 
   function render() {
@@ -102,36 +112,31 @@ const Leaders = (() => {
     section.innerHTML = `
       <div class="leaders-page">
         <div class="leaders-hero">
-          <div class="leaders-hero__badge">🏛️ Parliament of India</div>
-          <h2 class="leaders-hero__title">Leaders of <span>Parliament</span></h2>
-          <p class="leaders-hero__subtitle">Know your elected representatives & key constitutional offices</p>
+          <div class="leaders-hero__badge" data-i18n="parliament_of_india">${I18n.get('parliament_of_india')}</div>
+          <h2 class="leaders-hero__title">${I18n.get('leaders_of_parliament')}</h2>
+          <p class="leaders-hero__subtitle" data-i18n="leaders_subtitle">${I18n.get('leaders_subtitle')}</p>
         </div>
 
-        <!-- House Info Banner -->
         <div class="house-info-banner" id="house-info-banner"></div>
 
-        <!-- Tab Switcher -->
         <div class="leaders-tabs">
-          <button class="leaders-tab-btn leaders-tab-btn--active" data-tab="lokSabha" onclick="Leaders.switchTab('lokSabha')" id="tab-lok-sabha">
-            🏛️ Lok Sabha
-            <span class="tab-subtitle">Lower House</span>
+          <button class="leaders-tab-btn ${activeTab === 'lokSabha' ? 'leaders-tab-btn--active' : ''}" data-tab="lokSabha" onclick="Leaders.switchTab('lokSabha')">
+            🏛️ ${I18n.get('lok_sabha')}
+            <span class="tab-subtitle" data-i18n="lower_house">${I18n.get('lower_house')}</span>
           </button>
-          <button class="leaders-tab-btn" data-tab="rajyaSabha" onclick="Leaders.switchTab('rajyaSabha')" id="tab-rajya-sabha">
-            🏛️ Rajya Sabha
-            <span class="tab-subtitle">Upper House</span>
+          <button class="leaders-tab-btn ${activeTab === 'rajyaSabha' ? 'leaders-tab-btn--active' : ''}" data-tab="rajyaSabha" onclick="Leaders.switchTab('rajyaSabha')">
+            🏛️ ${I18n.get('rajya_sabha')}
+            <span class="tab-subtitle" data-i18n="upper_house">${I18n.get('upper_house')}</span>
           </button>
         </div>
 
-        <!-- House Stats -->
         <div class="house-stats-row" id="house-stats-row"></div>
 
-        <!-- Leader Cards -->
         <div class="leader-cards-grid" id="leaders-cards-container"></div>
 
-        <!-- Info Footer -->
         <div class="leaders-info-footer">
           <span>ℹ️</span>
-          <span>Click on any card to expand and learn more about the leader's role, key facts, and constitutional responsibilities.</span>
+          <span data-i18n="leaders_footer">${I18n.get('leaders_footer')}</span>
         </div>
       </div>
     `;
@@ -144,17 +149,22 @@ const Leaders = (() => {
     const houseData = LEADERS_DATA[activeTab];
     const banner = document.getElementById('house-info-banner');
     const statsRow = document.getElementById('house-stats-row');
+    const lang = I18n.currentLang();
+
+    const fullName = houseData[`fullName_${lang}`] || houseData.fullName;
+    const description = houseData[`description_${lang}`] || houseData.description;
+
     if (banner) {
       banner.innerHTML = `
         <div class="house-banner-content">
           <div class="house-banner-icon">${activeTab === 'lokSabha' ? '🏛️' : '📜'}</div>
           <div>
-            <div class="house-banner-name">${houseData.fullName}</div>
-            <div class="house-banner-desc">${houseData.description}</div>
+            <div class="house-banner-name">${fullName}</div>
+            <div class="house-banner-desc">${description}</div>
           </div>
           <div class="house-banner-article">
-            <span>Constitution</span>
-            <strong>${houseData.constitution}</strong>
+            <span>${I18n.get('constitution')}</span>
+            <strong>${I18n.num(houseData[`constitution_${lang}`] || houseData.constitution)}</strong>
           </div>
         </div>
       `;
@@ -162,20 +172,26 @@ const Leaders = (() => {
     if (statsRow) {
       statsRow.innerHTML = `
         <div class="house-stat-chip">
-          <span class="house-stat-chip__label">Total Seats</span>
-          <span class="house-stat-chip__value">${houseData.totalSeats}</span>
+          <span class="house-stat-chip__label" data-i18n="total_seats">${I18n.get('total_seats')}</span>
+          <span class="house-stat-chip__value">${I18n.num(houseData.totalSeats)}</span>
         </div>
         <div class="house-stat-chip">
-          <span class="house-stat-chip__label">Current Term</span>
-          <span class="house-stat-chip__value" style="font-size:0.85rem">${houseData.term}</span>
+          <span class="house-stat-chip__label" data-i18n="current_term">${I18n.get('current_term')}</span>
+          <span class="house-stat-chip__value" style="font-size:0.85rem">${I18n.num(houseData.term)}</span>
         </div>
         <div class="house-stat-chip">
-          <span class="house-stat-chip__label">Key Leaders</span>
-          <span class="house-stat-chip__value">${houseData.leaders.length}</span>
+          <span class="house-stat-chip__label" data-i18n="key_leaders">${I18n.get('key_leaders')}</span>
+          <span class="house-stat-chip__value">${I18n.num(houseData.leaders.length)}</span>
         </div>
       `;
     }
   }
+
+  window.addEventListener('langChanged', () => {
+    if (document.getElementById('page-leaders')?.classList.contains('page--active')) {
+      render();
+    }
+  });
 
   return { init, switchTab, toggleCard };
 })();

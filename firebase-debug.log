@@ -1,0 +1,30 @@
+[debug] [2026-04-30T15:49:31.928Z] ----------------------------------------------------------------------
+[debug] [2026-04-30T15:49:31.933Z] Command:       /usr/local/bin/firebase /Users/hardikhadwani/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase deploy
+[debug] [2026-04-30T15:49:31.934Z] CLI Version:   15.16.0
+[debug] [2026-04-30T15:49:31.934Z] Platform:      darwin
+[debug] [2026-04-30T15:49:31.934Z] Node Version:  v20.18.2
+[debug] [2026-04-30T15:49:31.935Z] Time:          Thu Apr 30 2026 21:19:31 GMT+0530 (India Standard Time)
+[debug] [2026-04-30T15:49:31.935Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-04-30T15:49:32.827Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-04-30T15:49:32.828Z] > authorizing via signed-in user (hadwanihardik@gmail.com)
+[debug] [2026-04-30T15:49:32.829Z] [iam] checking project votewise-dc42a for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-04-30T15:49:32.831Z] Checked if tokens are valid: true, expires at: 1777565332981
+[debug] [2026-04-30T15:49:32.832Z] Checked if tokens are valid: true, expires at: 1777565332981
+[debug] [2026-04-30T15:49:32.833Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/votewise-dc42a:testIamPermissions [none]
+[debug] [2026-04-30T15:49:32.833Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/votewise-dc42a:testIamPermissions  x-goog-user-project=votewise-dc42a
+[debug] [2026-04-30T15:49:32.834Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/votewise-dc42a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-04-30T15:49:34.514Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/votewise-dc42a:testIamPermissions 200
+[debug] [2026-04-30T15:49:34.514Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/votewise-dc42a:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-04-30T15:49:34.515Z] Checked if tokens are valid: true, expires at: 1777565332981
+[debug] [2026-04-30T15:49:34.515Z] Checked if tokens are valid: true, expires at: 1777565332981
+[debug] [2026-04-30T15:49:34.516Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/votewise-dc42a [none]
+[debug] [2026-04-30T15:49:35.161Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/votewise-dc42a 200
+[debug] [2026-04-30T15:49:35.161Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/votewise-dc42a {"projectId":"votewise-dc42a","projectNumber":"997808729152","displayName":" VoteWise","name":"projects/votewise-dc42a","resources":{"hostingSite":"votewise-dc42a"},"state":"ACTIVE","etag":"1_0eea3adf-4ed2-4508-ba4a-41abb999f30d"}
+[info] 
+[info] === Deploying to 'votewise-dc42a'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2026-04-30T15:49:35.167Z] Checked if tokens are valid: true, expires at: 1777565332981
+[debug] [2026-04-30T15:49:35.167Z] Checked if tokens are valid: true, expires at: 1777565332981
+[debug] [2026-04-30T15:49:35.169Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/votewise-dc42a/sites/votewise-dc42a [none]
