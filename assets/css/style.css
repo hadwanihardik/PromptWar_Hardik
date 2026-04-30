@@ -432,11 +432,14 @@ h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 700; line-h
   .navbar { padding: 12px 16px; }
   .navbar__nav { display: none; }
   .navbar__menu-toggle { display: block; }
-  .navbar__back-btn { display: none; } /* Shown dynamically via JS */
-  .lang-selector { display: none; } 
+  .navbar__back-btn { display: none; } 
+  .lang-selector { display: flex; transform: scale(0.85); transform-origin: right center; gap: 4px; }
+  .lang-btn { padding: 6px 10px; font-size: 0.75rem; }
   .main { padding: 20px 16px; }
   .hero { padding: 30px 0 20px; }
   .hero__title { font-size: 1.8rem; }
+  .navbar__controls { gap: 4px; }
+  .theme-toggle { padding: 4px; }
   .stats-bar { flex-wrap: wrap; gap: 20px; }
   .quiz-card { padding: 24px; }
   .journey-stepper { gap: 4px; }
