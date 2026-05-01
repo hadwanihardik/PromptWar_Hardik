@@ -130,7 +130,10 @@ const App = (() => {
         case 'leaders-tab': Leaders.switchTab(val); break;
         case 'leaders-toggle': Leaders.toggleCard(val); break;
         case 'share-app': Share.shareApp(); break;
-        case 'share-quiz': Share.shareQuiz(App.getState().totalXP || 0, App.getState().bestStreak || 0); break;
+        case 'share-quiz': 
+          const s = App.getState();
+          Share.shareQuiz(s.lastQuizScore || 0, s.lastQuizStreak || 0); 
+          break;
         case 'share-leader': 
           const l = target.dataset;
           Share.shareLeader(l.val, l.val2); 

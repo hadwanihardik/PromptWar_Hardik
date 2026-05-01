@@ -17,11 +17,33 @@ const Share = (() => {
   }
 
   async function shareQuiz(score, streak) {
+    const quizCard = document.querySelector('.quiz-complete');
+    let files = [];
+
+    if (quizCard && typeof html2canvas !== 'undefined') {
+      try {
+        const canvas = await html2canvas(quizCard, { 
+          backgroundColor: '#1e1b4b',
+          scale: 2,
+          logging: false
+        });
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+        const file = new File([blob], 'votewise-score.png', { type: 'image/png' });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          files = [file];
+        }
+      } catch (e) {
+        console.warn('Screenshot failed:', e);
+      }
+    }
+
     const data = {
       title: 'My VoteWise Quiz Score',
       text: `I just scored ${score} on VoteWise Election Quiz with a ${streak} streak! 🗳️ Can you beat me?`,
       url: APP_URL
     };
+    if (files.length > 0) data.files = files;
+
     await performShare(data);
   }
 

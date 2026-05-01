@@ -262,6 +262,8 @@ const Quiz = (() => {
     state.bestStreak = Math.max(state.bestStreak || 0, bestStreak);
     state.totalCorrect = (state.totalCorrect || 0) + Math.round(accuracy / 100 * TOTAL_QUESTIONS);
     state.totalQuestions = (state.totalQuestions || 0) + TOTAL_QUESTIONS;
+    state.lastQuizScore = score;
+    state.lastQuizStreak = bestStreak;
     App.saveState();
     App.updateUI();
   }
