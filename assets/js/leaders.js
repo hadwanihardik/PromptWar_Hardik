@@ -29,9 +29,11 @@ const Leaders = (() => {
     document.querySelectorAll('.leader-card').forEach(card => {
       const isExpanded = card.dataset.id === id && expandedCard === id;
       card.classList.toggle('leader-card--expanded', isExpanded);
+      card.setAttribute('aria-expanded', isExpanded);
       const details = card.querySelector('.leader-card__details');
       if (details) {
         details.style.maxHeight = isExpanded ? details.scrollHeight + 'px' : '0';
+        details.setAttribute('aria-hidden', !isExpanded);
       }
       const chevron = card.querySelector('.leader-card__chevron');
       if (chevron) chevron.textContent = isExpanded ? '▲' : '▼';
@@ -59,26 +61,31 @@ const Leaders = (() => {
       const constitutionalRole = I18n.num(leader[`constitutionalRole_${lang}`] || leader.constitutionalRole);
 
       return `
-      <div class="leader-card" data-id="${leader.id}" onclick="Leaders.toggleCard('${leader.id}')">
+      <div class="leader-card" data-id="${leader.id}" data-action="leaders-toggle" data-val="${leader.id}" role="button" aria-expanded="false" aria-controls="details-${leader.id}" tabindex="0">
         <div class="leader-card__header">
           <div class="leader-card__role-badge">
-            <span class="leader-role-icon">${leader.roleIcon}</span>
+            <span class="leader-role-icon" aria-hidden="true">${leader.roleIcon}</span>
             <span class="leader-role-text">${role}</span>
           </div>
-          <span class="leader-card__chevron">▼</span>
+          <span class="leader-card__chevron" aria-hidden="true">▼</span>
         </div>
         <div class="leader-card__identity">
-          <div class="leader-card__avatar" style="background-image: url('${leader.photo}'); background-size: cover; background-position: top center;"></div>
+          <div class="leader-card__avatar">
+            <img src="https://wsrv.nl/?url=${encodeURIComponent(leader.photo)}&w=200&h=200&fit=cover&a=top" 
+                 alt="${leader[`name_${lang}`] || leader.name}" 
+                 loading="lazy" 
+                 class="leader-card__avatar-img">
+          </div>
           <div class="leader-card__info">
             <h3 class="leader-card__name">${leader[`name_${lang}`] || leader.name}</h3>
             <div class="leader-card__meta">
-              <span class="leader-party-tag" style="${getPartyBadgeStyle(leader.partyColor)}">${I18n.getParty(leader.party)}</span>
-              ${constituency !== '—' ? `<span class="leader-constituency">📍 ${constituency}</span>` : ''}
+              <span class="leader-party-tag" style="border-left-color: ${leader.partyColor}">${I18n.getParty(leader.party)}</span>
+              ${constituency !== '—' ? `<span class="leader-constituency" aria-label="Constituency">📍 ${constituency}</span>` : ''}
             </div>
             <div class="leader-card__since">${leader.since !== '—' ? `${I18n.get('since')} ${I18n.num(leader.since)} · ${tenure}` : tenure}</div>
           </div>
         </div>
-        <div class="leader-card__details" style="max-height:0">
+        <div class="leader-card__details" id="details-${leader.id}" aria-hidden="true">
           <div class="leader-card__details-inner">
             <div class="leader-about">
               <h4>📋 ${I18n.get('about')}</h4>
@@ -99,6 +106,11 @@ const Leaders = (() => {
               <h4>🎓 ${I18n.get('education')}</h4>
               <p>${education}</p>
             </div>` : ''}
+            <div class="leader-card__share-row">
+              <button class="btn btn--secondary" data-action="share-leader" data-val="${leader[`name_${lang}`] || leader.name}" data-val2="${role}">
+                📤 ${I18n.get('share_info') || 'Share Info'}
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -120,11 +132,11 @@ const Leaders = (() => {
         <div class="house-info-banner" id="house-info-banner"></div>
 
         <div class="leaders-tabs">
-          <button class="leaders-tab-btn ${activeTab === 'lokSabha' ? 'leaders-tab-btn--active' : ''}" data-tab="lokSabha" onclick="Leaders.switchTab('lokSabha')">
+          <button class="leaders-tab-btn ${activeTab === 'lokSabha' ? 'leaders-tab-btn--active' : ''}" data-action="leaders-tab" data-val="lokSabha">
             🏛️ ${I18n.get('lok_sabha')}
             <span class="tab-subtitle" data-i18n="lower_house">${I18n.get('lower_house')}</span>
           </button>
-          <button class="leaders-tab-btn ${activeTab === 'rajyaSabha' ? 'leaders-tab-btn--active' : ''}" data-tab="rajyaSabha" onclick="Leaders.switchTab('rajyaSabha')">
+          <button class="leaders-tab-btn ${activeTab === 'rajyaSabha' ? 'leaders-tab-btn--active' : ''}" data-action="leaders-tab" data-val="rajyaSabha">
             🏛️ ${I18n.get('rajya_sabha')}
             <span class="tab-subtitle" data-i18n="upper_house">${I18n.get('upper_house')}</span>
           </button>

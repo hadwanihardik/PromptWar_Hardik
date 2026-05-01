@@ -7,6 +7,10 @@ const Theme = (() => {
 
   function init() {
     applyTheme();
+    const toggleBtn = document.getElementById('theme-toggle');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', toggle);
+    }
   }
 
   function toggle() {

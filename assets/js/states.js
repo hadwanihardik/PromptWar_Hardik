@@ -40,7 +40,7 @@ const States = (() => {
   }
 
   function drawRegionsMap() {
-    if (typeof google === 'undefined' || !google.visualization) {
+    if (typeof google === 'undefined' || !google.visualization || !google.visualization.DataTable) {
       google.charts.load('current', {
         'packages': ['geochart'],
         'mapsApiKey': '' // Add if needed for higher limits
@@ -116,7 +116,7 @@ const States = (() => {
     container.innerHTML = `
       <div class="state-cards-grid">
         ${sortedData.map(state => `
-          <div class="state-card" onclick="States.showMembers('${state.name}')" style="cursor:pointer;" title="Click to view members">
+          <div class="state-card" data-action="states-members" data-val="${state.name}" style="cursor:pointer;" title="Click to view members" role="button" aria-label="View members for ${state[`name_${lang}`] || state.name}" tabindex="0">
               <div class="state-card__header">
                 <span class="state-card__name">${state[`name_${lang}`] || state.name}</span>
                 <span class="state-card__type ${state.type === 'UT' ? 'state-card__type--ut' : 'state-card__type--state'}">${state.type === 'UT' ? I18n.get('ut') : I18n.get('state_label')}</span>
@@ -162,7 +162,9 @@ const States = (() => {
       <div class="members-grid">
         ${members.map(m => `
           <div class="member-card">
-            <div class="member-card__avatar" style="background-image: url('https://wsrv.nl/?url=${encodeURIComponent(m.photo || 'sansad.in/images/default_photo.jpg')}');"></div>
+            <div class="member-card__avatar">
+              <img src="https://wsrv.nl/?url=${encodeURIComponent(m.photo || 'sansad.in/images/default_photo.jpg')}" alt="${m[`name_${lang}`] || m.name}" loading="lazy" class="member-card__avatar-img">
+            </div>
             <div class="member-card__info">
               <div class="member-card__name">${m[`name_${lang}`] || m.name}</div>
               <div class="member-card__party">${I18n.getParty(m.party)}</div>
@@ -208,7 +210,7 @@ const States = (() => {
     const title = document.getElementById('members-modal-title');
     const content = document.getElementById('members-modal-content');
     const lang = I18n.currentLang();
-    title.innerHTML = `<button onclick="States.showMembers('${m.state}')" style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:1rem;margin-right:8px;">← ${I18n.get('btn_back')}</button> ${I18n.get('member_details')}`;
+    title.innerHTML = `<button data-action="states-members" data-val="${m.state}" style="background:none;border:none;color:var(--text-muted);cursor:pointer;font-size:1rem;margin-right:8px;">← ${I18n.get('btn_back')}</button> ${I18n.get('member_details')}`;
     
     let emailStr = (data.email || '').replace(/\[at\]/g, '@').replace(/\[dot\]/g, '.').replace(/<br>/g, ', ');
     
@@ -258,12 +260,12 @@ const States = (() => {
 
         <div class="states-controls">
           <div class="states-view-toggles">
-            <button class="states-view-btn ${currentView === 'map' ? 'states-view-btn--active' : ''}" data-view="map" onclick="States.setView('map')">🗺️ ${I18n.get('map')}</button>
-            <button class="states-view-btn ${currentView === 'cards' ? 'states-view-btn--active' : ''}" data-view="cards" onclick="States.setView('cards')">📇 ${I18n.get('cards')}</button>
+            <button class="states-view-btn ${currentView === 'map' ? 'states-view-btn--active' : ''}" data-action="states-view" data-val="map">🗺️ ${I18n.get('map')}</button>
+            <button class="states-view-btn ${currentView === 'cards' ? 'states-view-btn--active' : ''}" data-action="states-view" data-val="cards">📇 ${I18n.get('cards')}</button>
           </div>
           <div class="states-house-toggles">
-            <button class="states-house-btn ${activeHouse === 'lokSabha' ? 'states-house-btn--active' : ''}" data-house="lokSabha" onclick="States.setHouse('lokSabha')">${I18n.get('lok_sabha')}</button>
-            <button class="states-house-btn ${activeHouse === 'rajyaSabha' ? 'states-house-btn--active' : ''}" data-house="rajyaSabha" onclick="States.setHouse('rajyaSabha')">${I18n.get('rajya_sabha')}</button>
+            <button class="states-house-btn ${activeHouse === 'lokSabha' ? 'states-house-btn--active' : ''}" data-action="states-house" data-val="lokSabha">${I18n.get('lok_sabha')}</button>
+            <button class="states-house-btn ${activeHouse === 'rajyaSabha' ? 'states-house-btn--active' : ''}" data-action="states-house" data-val="rajyaSabha">${I18n.get('rajya_sabha')}</button>
           </div>
         </div>
 

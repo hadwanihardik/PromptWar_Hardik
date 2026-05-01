@@ -52,6 +52,7 @@ const Quiz = (() => {
     currentQuestions = selectQuestions();
     markUsed(currentQuestions);
     renderQuestion();
+    if (typeof App !== 'undefined') App.trackEvent('quiz_start');
   }
 
   function selectQuestions() {
@@ -106,12 +107,18 @@ const Quiz = (() => {
 
     // Update progress
     const pct = ((currentIndex) / TOTAL_QUESTIONS) * 100;
-    document.getElementById('quiz-progress-fill').style.width = pct + '%';
+    const progressFill = document.getElementById('quiz-progress-fill');
+    progressFill.style.width = pct + '%';
+    progressFill.setAttribute('role', 'progressbar');
+    progressFill.setAttribute('aria-valuemin', '0');
+    progressFill.setAttribute('aria-valuemax', '100');
+    progressFill.setAttribute('aria-valuenow', Math.round(pct));
     
     const qLabel = I18n.get('quiz_question_label') || 'Question';
     const ofLabel = I18n.get('quiz_of_label') || 'of';
     document.getElementById('quiz-progress-text').textContent = `${qLabel} ${I18n.num(currentIndex + 1)} ${ofLabel} ${I18n.num(TOTAL_QUESTIONS)}`;
     document.getElementById('quiz-score-display').textContent = `⭐ ${I18n.num(score)} ${I18n.get('score')}`;
+    document.getElementById('quiz-score-display').setAttribute('aria-live', 'polite');
 
     let letters = ['A', 'B', 'C', 'D'];
     if (lang === 'hi' || lang === 'mr') {
@@ -126,7 +133,7 @@ const Quiz = (() => {
         <div class="quiz-card__question">${questionText}</div>
         <div class="quiz-options">
           ${optionsText.map((opt, i) => `
-            <button class="quiz-option" id="quiz-opt-${i}" onclick="Quiz.answer(${i})">
+            <button class="quiz-option" id="quiz-opt-${i}" data-action="quiz-answer" data-val="${i}">
               <span class="quiz-option__letter">${letters[i]}</span>
               <span>${opt}</span>
             </button>
@@ -159,10 +166,19 @@ const Quiz = (() => {
 
     document.getElementById('quiz-score-display').textContent = `⭐ ${I18n.num(score)} ${I18n.get('score')}`;
     adaptDifficulty(isCorrect);
+    
+    if (typeof App !== 'undefined') {
+      App.trackEvent('quiz_answer', { 
+        correct: isCorrect, 
+        difficulty: q.difficulty,
+        question_id: q.id
+      });
+    }
 
     const card = document.querySelector('.quiz-card');
     const explanationDiv = document.createElement('div');
     explanationDiv.className = 'quiz-explanation';
+    explanationDiv.setAttribute('aria-live', 'assertive');
     
     const statusText = isCorrect ? I18n.get('correct') : I18n.get('wrong');
     explanationDiv.innerHTML = `<strong>${statusText}!</strong> ${explanationText}`;
@@ -171,7 +187,7 @@ const Quiz = (() => {
     const nextBtn = document.createElement('button');
     nextBtn.className = 'quiz-next-btn';
     nextBtn.innerHTML = currentIndex < TOTAL_QUESTIONS - 1 ? `${I18n.get('btn_next')} →` : `${I18n.get('btn_finish')} 🏆`;
-    nextBtn.onclick = () => { currentIndex++; renderQuestion(); };
+    nextBtn.dataset.action = 'quiz-next';
     card.appendChild(nextBtn);
   }
 
@@ -220,15 +236,23 @@ const Quiz = (() => {
         <div class="quiz-complete__score">${I18n.num(score)} ${I18n.get('score')}</div>
         <p class="quiz-complete__message">${message}<br>${I18n.get('best_streak')}: ${I18n.num(bestStreak)} 🔥</p>
         <div style="display:flex; gap:12px; justify-content:center; flex-wrap:wrap;">
-          <button class="btn btn--primary" onclick="Quiz.start()">${I18n.get('btn_retry')} 🔄</button>
-          <button class="btn btn--secondary" onclick="App.navigate('journey')">${I18n.get('nav_journey')}</button>
-          <button class="btn btn--secondary" onclick="App.navigate('dashboard')">${I18n.get('nav_dashboard')}</button>
+          <button class="btn btn--primary" data-action="quiz-start">${I18n.get('btn_retry')} 🔄</button>
+          <button class="btn btn--accent" data-action="share-quiz">📤 ${I18n.get('share_score') || 'Share Score'}</button>
+          <button class="btn btn--secondary" data-action="navigate" data-val="journey">${I18n.get('nav_journey')}</button>
         </div>
       </div>
     `;
 
     saveStats(accuracy);
     if (pct >= 60) fireConfetti();
+
+    if (typeof App !== 'undefined') {
+      App.trackEvent('quiz_complete', { 
+        score: score, 
+        accuracy: accuracy,
+        streak: bestStreak
+      });
+    }
   }
 
   function saveStats(accuracy) {
@@ -265,5 +289,5 @@ const Quiz = (() => {
     }
   });
 
-  return { start, answer };
+  return { start, answer, next: () => { currentIndex++; renderQuestion(); } };
 })();

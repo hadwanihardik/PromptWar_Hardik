@@ -629,7 +629,9 @@ h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 700; line-h
 /* ─── Expandable Details ─── */
 .leader-card__details {
   overflow: hidden; transition: max-height 0.45s cubic-bezier(0.4,0,0.2,1);
+  max-height: 0;
 }
+.leader-card__details[aria-hidden="false"] { max-height: 1000px; }
 .leader-card__details-inner {
   padding: 0 20px 20px;
   border-top: 1px solid var(--border);
@@ -687,11 +689,29 @@ h1, h2, h3, h4, h5 { font-family: 'Outfit', sans-serif; font-weight: 700; line-h
   color: var(--text-secondary); font-size: 0.9rem; font-weight: 600; cursor: pointer; transition: var(--transition);
 }
 .states-house-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-primary); }
+
+/* Avatar and dynamic style helpers */
+.leader-card__avatar-img, .member-card__avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+.member-card__avatar-img { border-radius: 50%; }
+
+.leader-card__share-row {
+  margin-top: 20px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
 .states-house-btn--active[data-house="lokSabha"] {
-  background: rgba(99,102,241,0.15); border-color: var(--accent); color: var(--accent-light);
+  background: var(--accent); border-color: var(--accent); color: #fff;
 }
 .states-house-btn--active[data-house="rajyaSabha"] {
-  background: rgba(16,185,129,0.15); border-color: var(--green); color: var(--green-light);
+  background: var(--green); border-color: var(--green); color: #fff;
 }
 
 .states-view-toggles { display: flex; gap: 4px; background: rgba(0,0,0,0.2); padding: 4px; border-radius: var(--radius-full); }

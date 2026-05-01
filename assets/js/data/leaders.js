@@ -272,7 +272,7 @@ const LEADERS_DATA = {
         constitutionalRole_hi: 'अनुच्छेद 93 — निर्वाचित होना चाहिए, अध्यक्ष की अनुपस्थिति में अध्यक्षता करता है',
         constitutionalRole_gu: 'કલમ 93 — ચૂંટાયેલા હોવા જોઈએ, અધ્યક્ષની ગેરહાજરીમાં અધ્યક્ષપદ સંભાળે છે',
         constitutionalRole_mr: 'कलम ९३ — निवडले जाणे आवश्यक आहे, अध्यक्षांच्या अनुपस्थितीत अध्यक्षपद भूषवतात',
-        photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/No_image_available.svg/2048px-No_image_available.svg.png'
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/User-avatar.svg/500px-User-avatar.svg.png'
       }
     ]
   },
@@ -362,7 +362,7 @@ const LEADERS_DATA = {
         constitutionalRole_hi: 'अनुच्छेद 89 — उपराष्ट्रपति पदेन सभापति होता है',
         constitutionalRole_gu: 'કલમ 89 — ઉપરાષ્ટ્રપતિ હોદ્દાની રૂએ અધ્યક્ષ છે',
         constitutionalRole_mr: 'कलम ८९ — उपराष्ट्रपती हे पदसिद्ध सभापती असतात',
-        photo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Jagdeep_Dhankhar_official_portrait.jpg/500px-Jagdeep_Dhankhar_official_portrait.jpg'
+        photo: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Jagdeep_Dhankhar_official_portrait.jpg'
       },
       {
         id: 'rs-deputy-chairman',

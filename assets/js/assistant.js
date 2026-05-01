@@ -33,7 +33,9 @@ const Assistant = (() => {
   }
 
   async function processQuery(text) {
+    const chatContainer = document.getElementById('chat-container');
     isProcessing = true;
+    if (chatContainer) chatContainer.setAttribute('aria-busy', 'true');
     showTyping();
 
     conversationHistory.push({ role: 'user', text });
@@ -44,18 +46,29 @@ const Assistant = (() => {
       addBotMessage(response);
       conversationHistory.push({ role: 'assistant', text: response });
 
-      // XP for asking questions
-      const state = App.getState();
-      state.totalXP = (state.totalXP || 0) + 5;
-      state.questionsAsked = (state.questionsAsked || 0) + 1;
-      App.saveState();
-      App.updateUI();
+      // XP and Stats update - wrap in separate try to not break UI if App fails
+      try {
+        if (typeof App !== 'undefined') {
+          const state = App.getState();
+          if (state) {
+            state.totalXP = (state.totalXP || 0) + 5;
+            state.questionsAsked = (state.questionsAsked || 0) + 1;
+            App.saveState();
+            App.updateUI();
+          }
+          App.trackEvent('assistant_query', { query: text });
+        }
+      } catch (appErr) {
+        console.warn('App stats update failed:', appErr);
+      }
     } catch (err) {
+      console.error('Assistant processQuery error:', err);
       hideTyping();
       addBotMessage(I18n.get('assistant_error'));
     }
 
     isProcessing = false;
+    if (chatContainer) chatContainer.setAttribute('aria-busy', 'false');
   }
 
   function addUserMessage(text) {

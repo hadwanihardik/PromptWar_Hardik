@@ -34,11 +34,11 @@ const STATES_DATA = [
   { id: 'IN-WB', name: 'West Bengal', name_hi: 'पश्चिम बंगाल', name_gu: 'પશ્ચિમ બંગાળ', name_mr: 'पश्चिम बंगाल', type: 'State', lokSabha: 42, rajyaSabha: 16 },
   
   // Union Territories
-  { id: 'IN-AN', name: 'Andaman & Nicobar', name_hi: 'अंडमान और निकोबार', name_gu: 'અંદામાન અને નિકોબાર', name_mr: 'अंदमान आणि निकोबार', type: 'UT', lokSabha: 1, rajyaSabha: 0 },
+  { id: 'IN-AN', name: 'Andaman and Nicobar Islands', name_hi: 'अंडमान और निकोबार', name_gu: 'અંદામાન અને નિકોબાર', name_mr: 'अंदमान आणि निकोबार', type: 'UT', lokSabha: 1, rajyaSabha: 0 },
   { id: 'IN-CH', name: 'Chandigarh', name_hi: 'चंडीगढ़', name_gu: 'ચંદીગઢ', name_mr: 'चंदीगड', type: 'UT', lokSabha: 1, rajyaSabha: 0 },
-  { id: 'IN-DN', name: 'Dadra & Nagar Haveli and Daman & Diu', name_hi: 'दादरा और नगर हवेली और दमन और दीव', name_gu: 'દાદરા અને નગર હવેલી અને દમણ અને દીવ', name_mr: 'दादरा आणि नगर हवेली आणि दमण आणि दीव', type: 'UT', lokSabha: 2, rajyaSabha: 0 },
+  { id: 'IN-DN', name: 'Dadra and Nagar Haveli and Daman and Diu', name_hi: 'दादरा और नगर हवेली और दमन और दीव', name_gu: 'દાદરા અને નગર हवेली અને દમણ અને દીવ', name_mr: 'दादरा आणि नगर हवेली आणि दमण आणि दीव', type: 'UT', lokSabha: 2, rajyaSabha: 0 },
   { id: 'IN-DL', name: 'NCT of Delhi', name_hi: 'दिल्ली एनसीटी', name_gu: 'દિલ્હી એનસીટી', name_mr: 'दिल्ली एनसीटी', type: 'UT', lokSabha: 7, rajyaSabha: 3 },
-  { id: 'IN-JK', name: 'Jammu & Kashmir', name_hi: 'जम्मू और कश्मीर', name_gu: 'જમ્મુ અને કાશ્મીર', name_mr: 'जम्मू आणि काश्मीर', type: 'UT', lokSabha: 5, rajyaSabha: 4 },
+  { id: 'IN-JK', name: 'Jammu and Kashmir', name_hi: 'जम्मू और कश्मीर', name_gu: 'જમ્મુ અને કાશ્મીર', name_mr: 'जम्मू आणि काश्मीर', type: 'UT', lokSabha: 5, rajyaSabha: 4 },
   { id: 'IN-LA', name: 'Ladakh', name_hi: 'लद्दाख', name_gu: 'લદ્દાખ', name_mr: 'लडाख', type: 'UT', lokSabha: 1, rajyaSabha: 0 },
   { id: 'IN-LD', name: 'Lakshadweep', name_hi: 'लक्षद्वीप', name_gu: 'લક્ષદ્વીપ', name_mr: 'लक्षद्वीप', type: 'UT', lokSabha: 1, rajyaSabha: 0 },
   { id: 'IN-PY', name: 'Puducherry', name_hi: 'पुडुचेरी', name_gu: 'પુડુચેરી', name_mr: 'पुडुचेरी', type: 'UT', lokSabha: 1, rajyaSabha: 1 }

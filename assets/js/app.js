@@ -19,9 +19,17 @@ const App = (() => {
   let state = {};
 
   function init() {
+    // Handle image errors globally (satisfies CSP by avoiding inline onerror)
+    window.addEventListener('error', (e) => {
+      if (e.target.tagName === 'IMG') {
+        e.target.src = 'data:image/svg+xml;charset=UTF-8,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' viewBox=\'0 0 24 24\' fill=\'%2364748b\'%3E%3Cpath d=\'M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z\'/%3E%3C/svg%3E';
+      }
+    }, true);
+
     state = loadState();
     Theme.init();
     I18n.init();
+    initFirebase();
     updateUI();
     
     // Check if URL has a page hash
@@ -29,7 +37,108 @@ const App = (() => {
     if (hash) navigate(hash);
     else navigate('home');
     
+    bindEvents();
+    trackEvent('app_load');
     console.log('🗳️ VoteWise Election Education Assistant loaded!');
+  }
+
+  function initFirebase() {
+    if (typeof firebase === 'undefined') return;
+    
+    const firebaseConfig = {
+      projectId: "votewise-dc42a",
+      authDomain: "votewise-dc42a.firebaseapp.com",
+      storageBucket: "votewise-dc42a.appspot.com",
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    console.log('🔥 Firebase Initialized');
+  }
+
+  function trackEvent(name, params = {}) {
+    if (typeof gtag !== 'undefined') {
+      gtag('event', name, params);
+    }
+  }
+  
+  function bindEvents() {
+    // Nav links
+    document.querySelectorAll('.navbar__link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        const page = e.currentTarget.dataset.page;
+        if (page) navigate(page);
+      });
+    });
+
+    // Logo & Back buttons
+    document.querySelectorAll('[data-nav]').forEach(el => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        const page = e.currentTarget.dataset.nav;
+        if (page) navigate(page);
+      });
+    });
+
+    // Language selector
+    document.querySelectorAll('[data-set-lang]').forEach(el => {
+      el.addEventListener('click', (e) => {
+        const lang = e.currentTarget.dataset.setLang;
+        if (lang && typeof I18n !== 'undefined') I18n.setLanguage(lang);
+      });
+    });
+
+    // Menu toggle
+    const menuToggle = document.getElementById('menu-toggle');
+    if (menuToggle && typeof Sidebar !== 'undefined') {
+      menuToggle.addEventListener('click', Sidebar.toggle);
+    }
+
+    // Chat send
+    const chatSend = document.getElementById('chat-send-btn');
+    if (chatSend && typeof Assistant !== 'undefined') {
+      chatSend.addEventListener('click', Assistant.send);
+    }
+
+    const chatInput = document.getElementById('chat-input');
+    if (chatInput && typeof Assistant !== 'undefined') {
+      chatInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') Assistant.send();
+      });
+    }
+
+    // Global delegation for dynamic content
+    document.body.addEventListener('click', (e) => {
+      const target = e.target.closest('[data-action]');
+      if (!target) return;
+
+      const action = target.dataset.action;
+      const val = target.dataset.val;
+      const val2 = target.dataset.val2;
+
+      switch(action) {
+        case 'navigate': App.navigate(val); break;
+        case 'quiz-start': Quiz.start(); break;
+        case 'quiz-answer': Quiz.answer(parseInt(val)); break;
+        case 'quiz-next': Quiz.next(); break; // Need to add Quiz.next
+        case 'sidebar-navigate': Sidebar.navigate(val); break;
+        case 'sidebar-close': Sidebar.close(); break;
+        case 'assistant-chip': Assistant.sendChip(target); break;
+        case 'states-view': States.setView(val); break;
+        case 'states-house': States.setHouse(val); break;
+        case 'states-close': States.closeMembers(); break;
+        case 'states-members': States.showMembers(val); break;
+        case 'leaders-tab': Leaders.switchTab(val); break;
+        case 'leaders-toggle': Leaders.toggleCard(val); break;
+        case 'share-app': Share.shareApp(); break;
+        case 'share-quiz': Share.shareQuiz(App.getState().totalXP || 0, App.getState().bestStreak || 0); break;
+        case 'share-leader': 
+          const l = target.dataset;
+          Share.shareLeader(l.val, l.val2); 
+          break;
+        case 'journey-action': Journey.handleAction(val, val2); break;
+        case 'calendar-reminder': Calendar.addReminder(); break;
+      }
+    });
   }
 
   function loadState() {
@@ -88,6 +197,8 @@ const App = (() => {
       case 'dashboard': renderDashboard(); break;
       case 'home': updateUI(); break;
     }
+
+    trackEvent('page_view', { page_title: page, page_path: '#' + page });
 
     // Scroll to top
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -166,5 +277,5 @@ const App = (() => {
   // Initialize on DOM ready
   document.addEventListener('DOMContentLoaded', init);
 
-  return { navigate, getState, saveState, updateUI };
+  return { navigate, getState, saveState, updateUI, trackEvent };
 })();

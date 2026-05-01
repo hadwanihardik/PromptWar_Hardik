@@ -56,9 +56,9 @@ const Journey = (() => {
       <div class="journey__header" style="text-align:center; margin-bottom:40px;">
         <h2 class="journey__title" data-i18n="journey_title" style="margin-bottom:24px;">Interactive Voter Journey</h2>
         <p style="color: var(--text-muted); margin-bottom:32px;" data-i18n="journey_subtitle_page">Follow these steps to become a confident voter</p>
-        <div class="journey-stepper">
+        <div class="journey-stepper" role="progressbar" aria-valuemin="1" aria-valuemax="${STEPS.length}" aria-valuenow="${currentStep + 1}">
           ${STEPS.map((_, i) => `
-            <div class="journey-step-indicator">
+            <div class="journey-step-indicator" aria-hidden="true">
               <div class="journey-step-dot ${i === currentStep ? 'journey-step-dot--active' : i < currentStep ? 'journey-step-dot--done' : ''}">${I18n.num(i + 1)}</div>
               ${i < STEPS.length - 1 ? `<div class="journey-step-line ${i < currentStep ? 'journey-step-line--done' : ''}"></div>` : ''}
             </div>
@@ -79,17 +79,17 @@ const Journey = (() => {
     const content = I18n.get(`${step.key}_content`);
 
     container.innerHTML = `
-      <div class="journey-content">
+      <div class="journey-content" aria-live="polite">
         <div class="journey-content__step-label">${I18n.get('journey_step_label')} ${I18n.num(currentStep + 1)}</div>
         <div style="display:flex; align-items:center; gap:16px; margin-bottom:16px;">
-          <span style="font-size:2.5rem">${step.icon}</span>
+          <span style="font-size:2.5rem" aria-hidden="true">${step.icon}</span>
           <h3 class="journey-content__title" style="margin:0">${title}</h3>
         </div>
         <div class="journey-content__body">${content}</div>
         <div class="journey-actions">
           ${step.actions.map(action => `
             <button class="btn ${action.type === 'next' ? 'btn--primary' : 'btn--secondary'}" 
-              onclick="Journey.handleAction('${action.type}', '${action.url || ''}')">
+              data-action="journey-action" data-val="${action.type}" data-val2="${action.url || ''}">
               ${I18n.get(action.label)}
             </button>
           `).join('')}
