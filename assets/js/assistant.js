@@ -125,10 +125,14 @@ const Assistant = (() => {
   }
 
   function formatMarkdown(text) {
-    // Basic markdown: bold, bullet points, links
-    return text
+    // Escape HTML first for security
+    let safeText = escapeHtml(text);
+    
+    // Basic markdown: bold, bullet points, line breaks
+    return safeText
       .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       .replace(/\*(.*?)\*/g, '<em>$1</em>')
+      .replace(/^&bull; /gm, '• ') // Handle already escaped bull
       .replace(/^• /gm, '&bull; ')
       .replace(/\n/g, '<br>');
   }

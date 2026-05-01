@@ -28,6 +28,22 @@
   --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
 }
 
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #A855F7; /* Purple accent */
+  color: white;
+  padding: 12px 24px;
+  z-index: 9999;
+  border-radius: 0 0 8px 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: top 0.3s ease;
+}
+.skip-link:focus { top: 0; }
+
 [data-theme="light"] {
   --bg-primary: #F8FAFC;
   --bg-secondary: #F1F5F9;

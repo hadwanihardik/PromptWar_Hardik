@@ -13,6 +13,7 @@ const Quiz = (() => {
   let streak = 0;
   let bestStreak = 0;
   let answered = false;
+  let correctCount = 0;
   let difficultyLevel = 'easy'; // easy, medium, hard
 
   // ── Repetition Prevention ──
@@ -43,11 +44,16 @@ const Quiz = (() => {
     saveRecentIds(arr.length > 40 ? arr.slice(arr.length - 40) : arr);
   }
 
+  /**
+   * Initializes and starts a new quiz session.
+   * Resets scores, streaks, and difficulty.
+   */
   function start() {
     currentIndex = 0;
     score = 0;
     streak = 0;
     answered = false;
+    correctCount = 0;
     difficultyLevel = 'easy';
     currentQuestions = selectQuestions();
     markUsed(currentQuestions);
@@ -127,20 +133,45 @@ const Quiz = (() => {
       letters = ['અ', 'બ', 'ક', 'ડ'];
     }
     const container = document.getElementById('quiz-container');
-    container.innerHTML = `
-      <div class="quiz-card">
-        <span class="quiz-card__difficulty quiz-card__difficulty--${q.difficulty}">${I18n.get(q.difficulty)}</span>
-        <div class="quiz-card__question">${questionText}</div>
-        <div class="quiz-options">
-          ${optionsText.map((opt, i) => `
-            <button class="quiz-option" id="quiz-opt-${i}" data-action="quiz-answer" data-val="${i}">
-              <span class="quiz-option__letter">${letters[i]}</span>
-              <span>${opt}</span>
-            </button>
-          `).join('')}
-        </div>
-      </div>
-    `;
+    container.innerHTML = '';
+    
+    const card = document.createElement('div');
+    card.className = 'quiz-card';
+    
+    const diffBadge = document.createElement('span');
+    diffBadge.className = `quiz-card__difficulty quiz-card__difficulty--${q.difficulty}`;
+    diffBadge.textContent = I18n.get(q.difficulty);
+    card.appendChild(diffBadge);
+    
+    const qText = document.createElement('div');
+    qText.className = 'quiz-card__question';
+    qText.textContent = questionText;
+    card.appendChild(qText);
+    
+    const optionsGrid = document.createElement('div');
+    optionsGrid.className = 'quiz-options';
+    
+    optionsText.forEach((opt, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'quiz-option';
+      btn.id = `quiz-opt-${i}`;
+      btn.dataset.action = 'quiz-answer';
+      btn.dataset.val = i;
+      
+      const letter = document.createElement('span');
+      letter.className = 'quiz-option__letter';
+      letter.textContent = letters[i];
+      btn.appendChild(letter);
+      
+      const label = document.createElement('span');
+      label.textContent = opt;
+      btn.appendChild(label);
+      
+      optionsGrid.appendChild(btn);
+    });
+    
+    card.appendChild(optionsGrid);
+    container.appendChild(card);
   }
 
   function answer(selectedIndex) {
@@ -158,6 +189,7 @@ const Quiz = (() => {
       document.getElementById(`quiz-opt-${selectedIndex}`).classList.add('quiz-option--wrong');
       streak = 0;
     } else {
+      correctCount++;
       score += q.difficulty === 'easy' ? 10 : q.difficulty === 'medium' ? 20 : 30;
       streak++;
       if (streak > bestStreak) bestStreak = streak;
@@ -221,7 +253,7 @@ const Quiz = (() => {
   function renderComplete() {
     const maxScore = TOTAL_QUESTIONS * 20;
     const pct = Math.min(Math.round((score / maxScore) * 100), 100);
-    const accuracy = Math.round((score / (TOTAL_QUESTIONS * 30)) * 100);
+    const accuracy = Math.round((correctCount / TOTAL_QUESTIONS) * 100);
 
     document.getElementById('quiz-progress-fill').style.width = '100%';
     document.getElementById('quiz-progress-text').textContent = I18n.get('btn_finish');
@@ -284,6 +316,19 @@ const Quiz = (() => {
     }
   }
 
+  /**
+   * Advances to the next question or finishes the quiz.
+   */
+  function next() {
+    if (!answered) return;
+    currentIndex++;
+    if (currentIndex < TOTAL_QUESTIONS) {
+      renderQuestion();
+    } else {
+      renderComplete();
+    }
+  }
+
   window.addEventListener('langChanged', () => {
     if (document.getElementById('page-quiz')?.classList.contains('page--active')) {
       if (currentIndex < currentQuestions.length) renderQuestion();
@@ -291,5 +336,5 @@ const Quiz = (() => {
     }
   });
 
-  return { start, answer, next: () => { currentIndex++; renderQuestion(); } };
+  return { start, answer, next };
 })();
