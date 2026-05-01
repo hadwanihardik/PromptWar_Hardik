@@ -8,35 +8,28 @@ const Journey = (() => {
   const STEPS = [
     {
       key: 'journey_step_0',
-      icon: '✅',
-      actions: [
-        { label: 'btn_next', type: 'next' }
-      ]
-    },
-    {
-      key: 'journey_step_1',
       icon: '📋',
       actions: [
         { label: 'btn_next', type: 'next' }
       ]
     },
     {
+      key: 'journey_step_1',
+      icon: '📍',
+      actions: [
+        { label: 'btn_next', type: 'next' }
+      ]
+    },
+    {
       key: 'journey_step_2',
-      icon: '🔍',
+      icon: '📠',
       actions: [
         { label: 'btn_next', type: 'next' }
       ]
     },
     {
       key: 'journey_step_3',
-      icon: '🛡️',
-      actions: [
-        { label: 'btn_next', type: 'next' }
-      ]
-    },
-    {
-      key: 'journey_step_4',
-      icon: '📠',
+      icon: '🪪',
       actions: [
         { label: 'btn_finish', type: 'next' }
       ]

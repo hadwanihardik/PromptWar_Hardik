@@ -8,7 +8,7 @@
     content="AI-powered interactive election process education assistant. Learn about voting, registration, and civic participation through quizzes and guided journeys.">
   <meta name="referrer" content="no-referrer">
   <title>🗳️ Election Process Education Assistant</title>
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://*.gstatic.com https://*.google.com https://*.googletagmanager.com https://*.googleapis.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.gstatic.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.wikimedia.org https://*.gstatic.com https://*.google.com https://wsrv.nl https://*.wsrv.nl; connect-src 'self' https://generativelanguage.googleapis.com https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com https://*.gstatic.com https://sansad.in https://api.allorigins.win;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-eval' https://*.gstatic.com https://*.google.com https://*.googletagmanager.com https://*.googleapis.com https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://*.gstatic.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.wikimedia.org https://*.gstatic.com https://*.google.com https://wsrv.nl https://*.wsrv.nl; connect-src 'self' https://generativelanguage.googleapis.com https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com https://*.gstatic.com https://sansad.in https://api.allorigins.win; frame-src 'self' https://www.youtube.com https://www.youtube-nocookie.com;">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <!-- Google Charts API (Loaded dynamically in states.js, but preconnect to domain) -->
   <link rel="preconnect" href="https://www.gstatic.com">
@@ -62,6 +62,10 @@
           data-i18n="nav_leaders">Leaders</button>
         <button class="navbar__link" data-page="states" id="nav-states"
           data-i18n="nav_states">States Map</button>
+        <button class="navbar__link" data-page="services" id="nav-services"
+          data-i18n="nav_services">Services</button>
+        <button class="navbar__link" data-page="updates" id="nav-updates"
+          data-i18n="nav_updates">Updates</button>
         <button class="navbar__link" data-page="assistant" id="nav-assistant"
           data-i18n="nav_assistant">Assistant</button>
         <button class="navbar__link" data-page="dashboard" id="nav-dashboard"
@@ -85,6 +89,9 @@
         <button class="sidebar__link" data-action="sidebar-navigate" data-val="journey" data-i18n="nav_journey">Journey</button>
         <button class="sidebar__link" data-action="sidebar-navigate" data-val="leaders" data-i18n="nav_leaders">Leaders</button>
         <button class="sidebar__link" data-action="sidebar-navigate" data-val="states" data-i18n="nav_states">States Map</button>
+        <button class="sidebar__link" data-action="sidebar-navigate" data-val="services" data-i18n="nav_services">Services</button>
+        <button class="sidebar__link" data-action="sidebar-navigate" data-val="updates" data-i18n="nav_updates">Updates</button>
+        <button class="sidebar__link" data-action="sidebar-navigate" data-val="videos" data-i18n="nav_videos">Videos</button>
         <button class="sidebar__link" data-action="sidebar-navigate" data-val="assistant"
           data-i18n="nav_assistant">Assistant</button>
         <button class="sidebar__link" data-action="sidebar-navigate" data-val="dashboard"
@@ -108,28 +115,43 @@
               data-i18n-html="hero_title_span">Election Process</span></h1>
           <p class="hero__subtitle" data-i18n="hero_subtitle">Your interactive roadmap to becoming an informed voter.
             Learn every step from registration to the polling booth.</p>
+          <div class="hero__ctas" style="margin-top: 24px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+            <button class="btn btn--accent" data-action="navigate" data-val="journey" data-i18n="home_cta_learn">Learn About Elections</button>
+            <button class="btn btn--primary" data-action="navigate" data-val="services" data-i18n="home_cta_status">Check Voter Status</button>
+            <button class="btn btn--secondary" data-action="navigate" data-val="updates" data-i18n="home_cta_updates">Latest Updates</button>
+          </div>
         </div>
 
-        <!-- NEW: Quick Process Overview -->
-        <div class="roadmap-overview">
-          <div class="roadmap-step">
-            <span class="roadmap-step__num" data-i18n-num="1">1</span>
-            <span class="roadmap-step__label" data-i18n="roadmap_register">Register</span>
+        <div class="home-sections" style="margin-top: 40px; margin-bottom: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px;">
+          <!-- Featured Video -->
+          <div class="dash-card">
+            <h3 style="margin-bottom: 16px;">
+              <span data-i18n="home_featured_video">Featured Video</span>
+            </h3>
+            <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 8px;">
+              <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/XGJQNKFYqYI" title="ECI : Process of Voting, Virtual Demo, Mx Democracy Gameplay, Lok Sabha Elections 2019" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <p style="margin-top: 12px; color: var(--text-secondary); font-size: 0.9rem;" data-i18n="home_video_desc">Understanding the Indian Election Process by ECI.</p>
           </div>
-          <div class="roadmap-step__arrow" aria-hidden="true">→</div>
-          <div class="roadmap-step">
-            <span class="roadmap-step__num" data-i18n-num="2">2</span>
-            <span class="roadmap-step__label" data-i18n="roadmap_verify">Verify</span>
-          </div>
-          <div class="roadmap-step__arrow" aria-hidden="true">→</div>
-          <div class="roadmap-step">
-            <span class="roadmap-step__num" data-i18n-num="3">3</span>
-            <span class="roadmap-step__label" data-i18n="roadmap_learn">Learn</span>
-          </div>
-          <div class="roadmap-step__arrow" aria-hidden="true">→</div>
-          <div class="roadmap-step">
-            <span class="roadmap-step__num" data-i18n-num="4">4</span>
-            <span class="roadmap-step__label" data-i18n="roadmap_vote">Vote</span>
+
+          <!-- Latest Updates -->
+          <div class="dash-card">
+            <h3 style="margin-bottom: 16px;" data-i18n="home_latest_news">Latest Election News</h3>
+            <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+              <li style="border-bottom: 1px solid var(--border); padding-bottom: 8px;">
+                <span style="font-size: 0.8rem; color: var(--accent);" data-i18n="home_news_1_date">Press Release • Today</span>
+                <div style="font-weight: 500;" data-i18n="home_news_1_title">ECI announces dates for upcoming assembly elections</div>
+              </li>
+              <li style="border-bottom: 1px solid var(--border); padding-bottom: 8px;">
+                <span style="font-size: 0.8rem; color: var(--accent);" data-i18n="home_news_2_date">Current Issue • Yesterday</span>
+                <div style="font-weight: 500;" data-i18n="home_news_2_title">New guidelines for postal ballots issued</div>
+              </li>
+              <li>
+                <span style="font-size: 0.8rem; color: var(--accent);" data-i18n="home_news_3_date">Voter Ed • 3 days ago</span>
+                <div style="font-weight: 500;" data-i18n="home_news_3_title">Launch of nationwide voter awareness campaign</div>
+              </li>
+            </ul>
+            <button class="btn btn--secondary" style="margin-top: 16px; width: 100%;" data-action="navigate" data-val="updates" data-i18n="home_view_all_updates">View All Updates</button>
           </div>
         </div>
         <div class="mode-grid">
@@ -200,9 +222,6 @@
 
       <section class="page" id="page-journey">
         <div class="container">
-          <div style="margin-bottom:24px;">
-            <button class="btn btn--secondary" data-action="navigate" data-val="home" data-i18n="btn_back">← Back</button>
-          </div>
           <div id="journey-header"></div>
           <div id="journey-container"></div>
         </div>
@@ -233,6 +252,21 @@
             <button class="chat__send" id="chat-send-btn" aria-label="Send message">➤</button>
           </div>
         </div>
+      </section>
+
+      <!-- SERVICES PAGE -->
+      <section class="page" id="page-services">
+        <!-- Dynamically filled by services.js -->
+      </section>
+
+      <!-- UPDATES PAGE -->
+      <section class="page" id="page-updates">
+        <!-- Dynamically filled by updates.js -->
+      </section>
+
+      <!-- VIDEOS PAGE -->
+      <section class="page" id="page-videos">
+        <!-- Dynamically filled by videos.js -->
       </section>
 
       <!-- DASHBOARD PAGE -->
@@ -267,7 +301,7 @@
           <!-- Dynamically filled -->
         </div>
         <div style="text-align:center; margin-top:40px;">
-          <button class="btn btn--secondary" data-action="calendar-reminder">📅 Add Election Reminder to Google Calendar</button>
+          <button class="btn btn--secondary" data-action="calendar-reminder" data-i18n="add_reminder">📅 Add Election Reminder to Google Calendar</button>
         </div>
       </section>
 
@@ -316,6 +350,9 @@
   <script src="assets/js/share.js"></script>
   <script src="assets/js/quiz.js"></script>
   <script src="assets/js/journey.js"></script>
+  <script src="assets/js/services.js"></script>
+  <script src="assets/js/updates.js"></script>
+  <script src="assets/js/videos.js"></script>
   <script src="assets/js/leaders.js"></script>
   <script src="assets/js/states.js"></script>
   <script src="assets/js/assistant.js"></script>

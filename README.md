@@ -34,6 +34,13 @@ This leads to:
 
 ---
 
+## 📖 Project Documentation
+- [README.md](README.md) — Main project documentation and features
+- [CODE_QUALITY.md](CODE_QUALITY.md) — Standards for code quality, accessibility, and security
+- [assets/js/i18n.js](assets/js/i18n.js) — Internationalization dictionary and logic
+
+---
+
 ## 🎯 Key Features
 
 ### 1. Interactive Quiz Mode

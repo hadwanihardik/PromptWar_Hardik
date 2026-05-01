@@ -119,7 +119,7 @@ const App = (() => {
         case 'navigate': App.navigate(val); break;
         case 'quiz-start': Quiz.start(); break;
         case 'quiz-answer': Quiz.answer(parseInt(val)); break;
-        case 'quiz-next': Quiz.next(); break; // Need to add Quiz.next
+        case 'quiz-next': Quiz.next(); break;
         case 'sidebar-navigate': Sidebar.navigate(val); break;
         case 'sidebar-close': Sidebar.close(); break;
         case 'assistant-chip': Assistant.sendChip(target); break;
@@ -140,6 +140,20 @@ const App = (() => {
           break;
         case 'journey-action': Journey.handleAction(val, val2); break;
         case 'calendar-reminder': Calendar.addReminder(); break;
+      }
+    });
+
+    // Keyboard accessibility for action elements
+    document.body.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        const target = e.target.closest('[data-action]');
+        if (target) {
+          // Only prevent default for buttons/role=button to allow normal scrolling with space
+          if (target.tagName === 'BUTTON' || target.getAttribute('role') === 'button') {
+            e.preventDefault();
+            target.click();
+          }
+        }
       }
     });
   }
@@ -197,9 +211,14 @@ const App = (() => {
       case 'leaders': Leaders.init(); break;
       case 'states': States.init(); break;
       case 'assistant': Assistant.init(); break;
+      case 'services': Services.init(); break;
+      case 'updates': Updates.init(); break;
+      case 'videos': if (typeof Videos !== 'undefined') Videos.init(); break;
       case 'dashboard': renderDashboard(); break;
       case 'home': updateUI(); break;
     }
+
+    if (typeof I18n !== 'undefined') I18n.updateUI();
 
     trackEvent('page_view', { page_title: page, page_path: '#' + page });
 
